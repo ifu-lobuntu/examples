@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VDML:ValueDeliveryModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" name="scrum.MyOrgUnitValueDelivyModel">
+  <collaboration xsi:type="VDML:OrgUnit" name="scrum.MyOrgUnit" id="scrum.MyOrgUnit">
+    <ownedStore xsi:type="VDML:Store" name="MyStore" id="_74D76AAF-C2FE-4D02-AA7B-677AE9CCBBD8"/>
+    <ownedStore xsi:type="VDML:Pool" name="MyPool" id="_ABF544A8-7B92-4EDD-AE9A-C7B1BD854FDD"/>
+  </collaboration>
+</VDML:ValueDeliveryModel>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VDML:ValueDeliveryModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DC="http://www.omg.org/spec/DD/20131001/DC" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" xmlns:vdmldi="http://www.omg.org/spec/VDML/20131201/DI">
+  <diagram xsi:type="vdmldi:VDMLDiagram" id="_vTdAUOQyEeS4HskRqikVKw">
+    <localStyle xsi:type="vdmldi:VDMLStyle"/>
+    <vdmlElement xsi:type="VDML:CapabilityMethod" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#agriculture.BuyFreshProduce"/>
+    <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_xIdvQOQ0EeS4HskRqikVKw">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="30.0" y="5.0" width="585.0" height="166.0"/>
+      <vdmlElement xsi:type="VDML:Performer" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#_04B699FF-7051-4F1B-9F83-E5423822144D"/>
+      <ownedShape xsi:type="vdmldi:VDMLShape" id="_6oM4wOQ3EeS4HskRqikVKw" boundaryShapes="_6oNf0eQ3EeS4HskRqikVKw _6oM4weQ3EeS4HskRqikVKw">
+        <localStyle xsi:type="vdmldi:VDMLStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="197.26028754287233" y="64.87865711419816" width="100.0" height="80.00000000000001"/>
+        <vdmlElement xsi:type="VDML:Activity" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#_7983B1AE-7043-47BD-B2B2-B282924FF1BA"/>
+      </ownedShape>
+      <ownedShape xsi:type="vdmldi:VDMLShape" id="_6oNf0OQ3EeS4HskRqikVKw">
+        <localStyle xsi:type="vdmldi:VDMLStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="60.0" y="69.36405029462271" width="41.0" height="29.0"/>
+        <vdmlElement xsi:type="VDML:InputPort" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#_CC8EF52E-E9C7-4A66-9274-D59362C5626B"/>
+      </ownedShape>
+      <ownedShape xsi:type="vdmldi:VDMLShape" id="_6oNf0eQ3EeS4HskRqikVKw">
+        <localStyle xsi:type="vdmldi:VDMLStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="187.18417431979324" y="75.9847526124537" width="20.0" height="21.0"/>
+        <vdmlElement xsi:type="VDML:InputPort" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#_32144B5B-3AD3-409F-B9D3-9A32AD3D1055"/>
+      </ownedShape>
+      <ownedShape xsi:type="vdmldi:VDMLShape" id="_6oNf0uQ3EeS4HskRqikVKw">
+        <localStyle xsi:type="vdmldi:VDMLStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="420.0" y="100.5" width="41.0" height="29.0"/>
+        <vdmlElement xsi:type="VDML:OutputPort" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#_4CE8DD58-4C42-4A31-9659-0C878AC8578F"/>
+      </ownedShape>
+      <ownedShape xsi:type="vdmldi:VDMLShape" id="_6oM4weQ3EeS4HskRqikVKw" isExpanded="true" previousWidth="14.0" previousHeight="25.0">
+        <localStyle xsi:type="vdmldi:VDMLStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="291.2528765803397" y="98.62151955686052" width="199.99999999999994" height="66.99999999999999"/>
+        <vdmlElement xsi:type="VDML:OutputPort" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#_52BF64F6-0439-4054-8D26-F28C0929866D"/>
+        <ownedShape xsi:type="vdmldi:VDMLShape" id="_6oM4wuQ3EeS4HskRqikVKw">
+          <localStyle xsi:type="vdmldi:VDMLStyle">
+            <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+            <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+            <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          </localStyle>
+          <bounds xsi:type="DC:Bounds" x="1.0" y="15.0" width="196.99999999999994" height="20.0"/>
+          <vdmlElement xsi:type="VDML:ValueAdd" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#_72219F41-A02C-4D36-A5A5-C37D038DE125"/>
+        </ownedShape>
+        <ownedShape xsi:type="vdmldi:VDMLShape" id="_GqvLoOQ6EeS4HskRqikVKw">
+          <localStyle xsi:type="vdmldi:VDMLStyle">
+            <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+            <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+            <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          </localStyle>
+          <bounds xsi:type="DC:Bounds" x="1.0" y="36.0" width="196.99999999999994" height="20.0"/>
+          <vdmlElement xsi:type="VDML:ValueAdd" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#_B88EA3A8-74CD-48F9-AEC1-35B60C1984B7"/>
+        </ownedShape>
+      </ownedShape>
+    </ownedVdmlDiagramElement>
+    <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_xIeWUOQ0EeS4HskRqikVKw">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="30.0" y="176.0" width="574.0" height="206.0"/>
+      <vdmlElement xsi:type="VDML:Performer" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5"/>
+      <ownedShape xsi:type="vdmldi:VDMLShape" id="_xIs_0OQ0EeS4HskRqikVKw" boundaryShapes="_HzVIMOQ2EeS4HskRqikVKw">
+        <localStyle xsi:type="vdmldi:VDMLStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="178.0" y="55.0" width="69.0" height="86.0"/>
+        <vdmlElement xsi:type="VDML:Store" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#_6F458540-89FD-4B31-BE93-FE2A63A9AB77"/>
+      </ownedShape>
+      <ownedShape xsi:type="vdmldi:VDMLShape" id="_HzSr8OQ2EeS4HskRqikVKw">
+        <localStyle xsi:type="vdmldi:VDMLStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="345.0" y="100.0" width="58.0" height="73.0"/>
+        <vdmlElement xsi:type="VDML:Pool" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#_728FC325-DFE2-4C66-9275-8267A00BBFB8"/>
+      </ownedShape>
+      <ownedShape xsi:type="vdmldi:VDMLShape" id="_HzVIMOQ2EeS4HskRqikVKw">
+        <localStyle xsi:type="vdmldi:VDMLStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="240.26028754287233" y="47.30135280324623" width="14.0" height="14.0"/>
+        <vdmlElement xsi:type="VDML:InputPort" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#_7DE6EBA6-4DB5-4865-8743-AE3A4846172D"/>
+      </ownedShape>
+    </ownedVdmlDiagramElement>
+    <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLEdge" id="_6ocJUOQ3EeS4HskRqikVKw" sourceShape="_6oM4weQ3EeS4HskRqikVKw" targetShape="_HzVIMOQ2EeS4HskRqikVKw">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <waypoint xsi:type="DC:Point" x="391.2528765803397" y="132.1215195568605"/>
+      <waypoint xsi:type="DC:Point" x="328.2528765803397" y="230.30135280324623"/>
+      <waypoint xsi:type="DC:Point" x="247.26028754287233" y="54.30135280324623"/>
+      <vdmlElement xsi:type="VDML:DeliverableFlow" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#_34E6ED31-507A-497A-867D-A8E03C3CBDF6"/>
+    </ownedVdmlDiagramElement>
+    <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLEdge" id="_6ocJUeQ3EeS4HskRqikVKw" sourceShape="_6oNf0OQ3EeS4HskRqikVKw" targetShape="_6oNf0eQ3EeS4HskRqikVKw">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <waypoint xsi:type="DC:Point" x="80.5" y="83.86405029462271"/>
+      <waypoint xsi:type="DC:Point" x="175.28900025371286" y="88.86405029462271"/>
+      <waypoint xsi:type="DC:Point" x="175.28900025371286" y="92.36405029462271"/>
+      <waypoint xsi:type="DC:Point" x="197.18417431979324" y="86.4847526124537"/>
+      <vdmlElement xsi:type="VDML:InputDelegation" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#_E9DE8CD5-739D-4F5D-B19B-94D5A6ADC5D1"/>
+    </ownedVdmlDiagramElement>
+    <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLEdge" id="_Gq_DQOQ6EeS4HskRqikVKw" sourceShape="_6oNf0eQ3EeS4HskRqikVKw" targetShape="_6oM4weQ3EeS4HskRqikVKw">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <waypoint xsi:type="DC:Point" x="197.18417431979324" y="86.4847526124537"/>
+      <waypoint xsi:type="DC:Point" x="229.5780005074257" y="116.1215195568605"/>
+      <waypoint xsi:type="DC:Point" x="391.2528765803397" y="132.1215195568605"/>
+      <vdmlElement xsi:type="VDML:ResourceUse" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#_4054502D-9591-492F-8805-93C621AD8203"/>
+    </ownedVdmlDiagramElement>
+  </diagram>
+</VDML:ValueDeliveryModel>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SMM="http://www.omg.org/spec/SMM/20150201/SMM.cmof" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML">
+  <VDML:ValueDeliveryModel name="ConstructionNetworkValueDeliveryModel">
+    <capabilitylibrary xsi:type="VDML:CapabilityLibrary" name="constructionnetwork" id="_wHcdIOjUEeSWfZ_4xae2EQcl"/>
+    <businessItemLibrary xsi:type="VDML:BusinessItemLibrary" name="constructionnetwork" id="_wHcdIOjUEeSWfZ_4xae2EQbil">
+      <businessItemLibraryElement xsi:type="VDML:BusinessItemDefinition" name="BrickWall" id="_AvIoK-jVEeSWfZ_4xae2EQbid">
+        <characteristicDefinition xsi:type="SMM:Characteristic" href="platform:/resource/mebx/src/main/resources/ConstructionMeasures.meas#_1D87B4A4-D7E1-44A0-91A0-8ABE10A95A18trait"/>
+        <characteristicDefinition xsi:type="SMM:Characteristic" href="platform:/resource/mebx/src/main/resources/ConstructionMeasures.meas#_DA335DC2-92B7-421A-92DB-373EAE3DDBF2trait"/>
+      </businessItemLibraryElement>
+      <businessItemLibraryElement xsi:type="VDML:BusinessItemDefinition" name="PlasteredWall" id="_AvIoLOjVEeSWfZ_4xae2EQbid"/>
+      <businessItemLibraryElement xsi:type="VDML:BusinessItemDefinition" name="House" id="_DpziJ-jYEeSWfZ_4xae2EQbid"/>
+    </businessItemLibrary>
+    <collaboration xsi:type="VDML:BusinessNetwork" name="ConstructionNetwork" id="ConstructionNetwork">
+      <activity xsi:type="VDML:Activity" name="BrickLayerDefaultActivity" id="_AvIoIujVEeSWfZ_4xae2EQ" performingRole="_13AD339D-1819-4B85-ADF4-B7D0DC95DBC6">
+        <containedPort xsi:type="VDML:OutputPort" name="tiBrickLayer" id="_AvIoI-jVEeSWfZ_4xae2EQ" output="_A2FF4B17-B7BF-4F60-97EF-17350618B8DE"/>
+      </activity>
+      <activity xsi:type="VDML:Activity" name="PlastererDefaultActivity" id="_AvIoJOjVEeSWfZ_4xae2EQ" performingRole="_7FDC4A3F-D942-4BF5-9BCD-CA8957A30A0E">
+        <containedPort xsi:type="VDML:OutputPort" name="tiPlasterer" id="_AvIoJejVEeSWfZ_4xae2EQ" output="_0A6489CE-4D17-4E66-82A1-4D9F48F57331"/>
+        <containedPort xsi:type="VDML:InputPort" name="fromBrickWall" id="_AvIoJujVEeSWfZ_4xae2EQ" input="_A2FF4B17-B7BF-4F60-97EF-17350618B8DE"/>
+      </activity>
+      <activity xsi:type="VDML:Activity" name="CustomerDefaultActivity" id="_AvIoJ-jVEeSWfZ_4xae2EQ" performingRole="_594C7D42-0B27-44DB-A763-CCFFAE23B857">
+        <containedPort xsi:type="VDML:InputPort" name="fromPlasteredWall" id="_AvIoKOjVEeSWfZ_4xae2EQ" input="_0A6489CE-4D17-4E66-82A1-4D9F48F57331"/>
+      </activity>
+      <flow xsi:type="VDML:DeliverableFlow" name="BrickWall" id="_A2FF4B17-B7BF-4F60-97EF-17350618B8DE" recipient="_AvIoJujVEeSWfZ_4xae2EQ" provider="_AvIoI-jVEeSWfZ_4xae2EQ"/>
+      <flow xsi:type="VDML:DeliverableFlow" name="PlasteredWall" id="_0A6489CE-4D17-4E66-82A1-4D9F48F57331" recipient="_AvIoKOjVEeSWfZ_4xae2EQ" provider="_AvIoJejVEeSWfZ_4xae2EQ"/>
+      <businessItem xsi:type="VDML:BusinessItem" name="BrickWall" id="_AvIoKejVEeSWfZ_4xae2EQ" definition="_AvIoK-jVEeSWfZ_4xae2EQbid"/>
+      <businessItem xsi:type="VDML:BusinessItem" name="PlasteredWall" id="_AvIoKujVEeSWfZ_4xae2EQ" definition="_AvIoLOjVEeSWfZ_4xae2EQbid"/>
+      <party xsi:type="VDML:Party" name="ProjectManager" id="_DD8BE628-389F-48B7-AC6C-6BFFBA260C47"/>
+      <party xsi:type="VDML:Party" name="BrickLayer" id="_13AD339D-1819-4B85-ADF4-B7D0DC95DBC6" performedWork="_AvIoIujVEeSWfZ_4xae2EQ" receivedProposition="_CA7EE013-FFAC-4514-94F6-D80CC731D12B">
+        <providedProposition xsi:type="VDML:ValueProposition" name="BrickLayerToPlaster" id="_ADCFBF67-3A46-4432-9089-80E12E47268C" recipient="_7FDC4A3F-D942-4BF5-9BCD-CA8957A30A0E">
+          <component xsi:type="VDML:ValuePropositionComponent" name="StraightWalls" id="_69AED8D5-9C6D-43A6-98BF-24B5C1BDF7D1">
+            <aggregatedFrom xsi:type="VDML:ValueAdd" href="platform:/resource/mebx/src/main/resources/ConstructionProject.vdcol#_4305EE24-1AA2-46C7-B344-A59C3DA9926D"/>
+          </component>
+          <component xsi:type="VDML:ValuePropositionComponent" name="PropositionComponent2" id="_9B7F5FB1-4022-42CC-8F24-1BE7D5F51D32"/>
+        </providedProposition>
+      </party>
+      <party xsi:type="VDML:Party" name="Plasterer" id="_7FDC4A3F-D942-4BF5-9BCD-CA8957A30A0E" performedWork="_AvIoJOjVEeSWfZ_4xae2EQ" receivedProposition="_ADCFBF67-3A46-4432-9089-80E12E47268C">
+        <providedProposition xsi:type="VDML:ValueProposition" name="PlastererToBrickLayer" id="_CA7EE013-FFAC-4514-94F6-D80CC731D12B" recipient="_13AD339D-1819-4B85-ADF4-B7D0DC95DBC6">
+          <component xsi:type="VDML:ValuePropositionComponent" name="PropositionComponent1" id="_9340C320-9C6B-4185-B391-79D2D753646D"/>
+          <component xsi:type="VDML:ValuePropositionComponent" name="PropositionComponent2" id="_6A4FFFB0-88C5-4A7C-B73A-EA9CB24D317A"/>
+        </providedProposition>
+      </party>
+      <party xsi:type="VDML:Party" name="Customer" id="_594C7D42-0B27-44DB-A763-CCFFAE23B857" performedWork="_AvIoJ-jVEeSWfZ_4xae2EQ"/>
+    </collaboration>
+  </VDML:ValueDeliveryModel>
+  <uml:Package xmi:id="_wHcdIOjUEeSWfZ_4xae2EQ" name="constructionnetwork">
+    <packagedElement xsi:type="uml:Class" xmi:id="_AvIoK-jVEeSWfZ_4xae2EQ" name="BrickWall">
+      <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_AvIoK-jVEeSWfZ_4xae2EQbid"/>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_DpziIOjYEeSWfZ_4xae2EQ" name="StraightnessOfWall">
+        <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib">
+          <references xsi:type="SMM:Characteristic" href="platform:/resource/mebx/src/main/resources/ConstructionMeasures.meas#_DA335DC2-92B7-421A-92DB-373EAE3DDBF2trait"/>
+        </eAnnotations>
+        <type xsi:type="uml:Enumeration" href="platform:/resource/mebx/src/main/resources/ConstructionMeasures.meas#_DA335DC2-92B7-421A-92DB-373EAE3DDBF2MEAS"/>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_DpziIejYEeSWfZ_4xae2EQ" name="NumberOfWalls">
+        <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib">
+          <references xsi:type="SMM:Characteristic" href="platform:/resource/mebx/src/main/resources/ConstructionMeasures.meas#_1D87B4A4-D7E1-44A0-91A0-8ABE10A95A18trait"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://jbpm-cmmn/libraries/cmmntypes.uml#_Lr8ZIMGzEeSOM_pby657_g"/>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_DpziIujYEeSWfZ_4xae2EQ" name="plasteredWall" type="_AvIoLOjVEeSWfZ_4xae2EQ" association="_DpziLOjYEeSWfZ_4xae2EQ"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_AvIoLOjVEeSWfZ_4xae2EQ" name="PlasteredWall">
+      <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_AvIoLOjVEeSWfZ_4xae2EQbid"/>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_DpziI-jYEeSWfZ_4xae2EQ" name="theWall" type="_AvIoK-jVEeSWfZ_4xae2EQ" aggregation="composite" association="_DpziLOjYEeSWfZ_4xae2EQ">
+        <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_DpziJOjYEeSWfZ_4xae2EQ" value="1"/>
+        <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_DpziJejYEeSWfZ_4xae2EQ" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_DpziJujYEeSWfZ_4xae2EQ" name="house" type="_DpziJ-jYEeSWfZ_4xae2EQ" association="_DpziK-jYEeSWfZ_4xae2EQ"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_DpziJ-jYEeSWfZ_4xae2EQ" name="House">
+      <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_DpziJ-jYEeSWfZ_4xae2EQbid"/>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_DpziKOjYEeSWfZ_4xae2EQ" name="walls" type="_AvIoLOjVEeSWfZ_4xae2EQ" aggregation="composite" association="_DpziK-jYEeSWfZ_4xae2EQ">
+        <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_DpziKejYEeSWfZ_4xae2EQ" value="*"/>
+        <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_DpziKujYEeSWfZ_4xae2EQ" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Association" xmi:id="_DpziK-jYEeSWfZ_4xae2EQ" memberEnd="_DpziJujYEeSWfZ_4xae2EQ _DpziKOjYEeSWfZ_4xae2EQ">
+      <name xsi:nil="true"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Association" xmi:id="_DpziLOjYEeSWfZ_4xae2EQ" memberEnd="_DpziIujYEeSWfZ_4xae2EQ _DpziI-jYEeSWfZ_4xae2EQ">
+      <name xsi:nil="true"/>
+    </packagedElement>
+  </uml:Package>
+</xmi:XMI>

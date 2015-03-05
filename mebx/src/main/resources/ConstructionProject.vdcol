@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SMM="http://www.omg.org/spec/SMM/20150201/SMM.cmof" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML">
+  <VDML:ValueDeliveryModel name="ConstructionProjectValueDeliveryModel">
+    <collaboration xsi:type="VDML:CapabilityMethod" name="ConstructionProject" id="ConstructionProject">
+      <activity xsi:type="VDML:Activity" name="BuildWall" id="_A940159B-7C9C-4D35-BC3F-E8ED2A8B57BF" performingRole="_7DCA62BC-AF6F-4AC7-BCA3-BFDDF9EAA78B">
+        <containedPort xsi:type="VDML:OutputPort" name="wall" id="_C1FE8FDD-1394-422D-BAE0-976DB96C679C" output="_E5B37324-56EF-4E94-8622-701772C0967B">
+          <batchSize xsi:type="VDML:MeasuredCharacteristic">
+            <characteristicDefinition xsi:type="SMM:Characteristic" href="platform:/resource/mebx/src/main/resources/ConstructionMeasures.meas#_1D87B4A4-D7E1-44A0-91A0-8ABE10A95A18trait"/>
+          </batchSize>
+          <valueAdd xsi:type="VDML:ValueAdd" name="StraightWall" id="_4305EE24-1AA2-46C7-B344-A59C3DA9926D">
+            <valueMeasurement xsi:type="VDML:MeasuredCharacteristic">
+              <characteristicDefinition xsi:type="SMM:Characteristic" href="platform:/resource/mebx/src/main/resources/ConstructionMeasures.meas#_DA335DC2-92B7-421A-92DB-373EAE3DDBF2trait"/>
+            </valueMeasurement>
+            <aggregatedTo xsi:type="VDML:ValuePropositionComponent" href="platform:/resource/mebx/src/main/resources/ConstructionNetwork.vdcol#_9B7F5FB1-4022-42CC-8F24-1BE7D5F51D32"/>
+          </valueAdd>
+        </containedPort>
+        <duration xsi:type="VDML:MeasuredCharacteristic">
+          <characteristicDefinition xsi:type="SMM:Characteristic" href="platform:/resource/mebx/src/main/resources/CommonMeasures.meas#_2270370A-9F03-4D39-95BC-BD32EE0684E4trait"/>
+        </duration>
+      </activity>
+      <activity xsi:type="VDML:Activity" name="PlasterWall" id="_0B8F47C1-EA23-4B29-954F-0138C8FB638E" performingRole="_76246202-385B-471B-AB70-0595DE3DD07C">
+        <containedPort xsi:type="VDML:InputPort" name="wall" id="_ADB4B7CF-8651-4C79-9FAC-E9DE77B1E2F4" input="_E5B37324-56EF-4E94-8622-701772C0967B"/>
+      </activity>
+      <flow xsi:type="VDML:DeliverableFlow" name="BrickWall" id="_E5B37324-56EF-4E94-8622-701772C0967B" recipient="_ADB4B7CF-8651-4C79-9FAC-E9DE77B1E2F4" deliverable="_7mFOMOjVEeSWfZ_4xae2EQ" provider="_C1FE8FDD-1394-422D-BAE0-976DB96C679C"/>
+      <businessItem xsi:type="VDML:BusinessItem" name="BrickWall" id="_7mFOMOjVEeSWfZ_4xae2EQ" flow="_E5B37324-56EF-4E94-8622-701772C0967B">
+        <definition xsi:type="VDML:BusinessItemDefinition" href="platform:/resource/mebx/src/main/resources/ConstructionNetwork.vdcol#_AvIoIOjVEeSWfZ_4xae2EQ"/>
+      </businessItem>
+      <ownedAssignment xsi:type="VDML:Assignment" id="_pbxEgOlyEeSV9rF8V4ExFA" assignedRole="_7DCA62BC-AF6F-4AC7-BCA3-BFDDF9EAA78B">
+        <participant xsi:type="VDML:Party" href="platform:/resource/mebx/src/main/resources/ConstructionNetwork.vdcol#_13AD339D-1819-4B85-ADF4-B7D0DC95DBC6"/>
+      </ownedAssignment>
+      <performer xsi:type="VDML:Performer" name="BrickLayer" id="_7DCA62BC-AF6F-4AC7-BCA3-BFDDF9EAA78B" performedWork="_A940159B-7C9C-4D35-BC3F-E8ED2A8B57BF" roleAssignment="_pbxEgOlyEeSV9rF8V4ExFA"/>
+      <performer xsi:type="VDML:Performer" name="Plasterer" id="_76246202-385B-471B-AB70-0595DE3DD07C" performedWork="_0B8F47C1-EA23-4B29-954F-0138C8FB638E"/>
+    </collaboration>
+  </VDML:ValueDeliveryModel>
+  <uml:Package xmi:id="_l9ZOgOjVEeSWfZ_4xae2EQ" name="constructionproject"/>
+</xmi:XMI>

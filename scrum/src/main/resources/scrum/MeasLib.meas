@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SMM:MeasureLibrary xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DC="http://www.omg.org/spec/DD/20131001/DC" xmlns:SMM="http://www.omg.org/spec/SMM/20150201/SMM.cmof" xmlns:smmdi="http://www.omg.org/spec/SMM/20150201/DI" xmi:id="scrum.MeasLib" name="scrum.MeasLib">
+  <measureElements xsi:type="SMM:Characteristic" xmi:id="_RJto8d95EeSuE5GbYXez2g" name="DIrectMeasure1" measure="_9E2E129C-2818-4075-869B-E2D5F26A89D5"/>
+  <measureElements xsi:type="SMM:DirectMeasure" xmi:id="_9E2E129C-2818-4075-869B-E2D5F26A89D5" name="DIrectMeasure1" trait="_RJto8d95EeSuE5GbYXez2g" unit="_60B1F142-BDC4-4B62-8816-79B57670F2E6"/>
+  <measureElements xsi:type="SMM:UnitOfMeasure" xmi:id="_60B1F142-BDC4-4B62-8816-79B57670F2E6" name="StuffsPerKonks"/>
+  <ownedDiagram xsi:type="smmdi:SMMDiagram" xmi:id="_Q81SQN9zEeSyH_2e5DWp0g" smmElement="scrum.MeasLib">
+    <ownedSmmDiagramElement xsi:type="smmdi:SMMShape" xmi:id="_WO5o0N9zEeSyH_2e5DWp0g" smmElement="_9E2E129C-2818-4075-869B-E2D5F26A89D5">
+      <localStyle xsi:type="smmdi:SMMStyle" xmi:id="_RJto8995EeSuE5GbYXez2g">
+        <fillColor xsi:type="DC:Color" xmi:id="_RJto9995EeSuE5GbYXez2g" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_RJto9d95EeSuE5GbYXez2g" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_RJto9t95EeSuE5GbYXez2g" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" xmi:id="_RJto9N95EeSuE5GbYXez2g" x="528.0" y="113.0" width="100.0" height="80.0"/>
+    </ownedSmmDiagramElement>
+    <ownedSmmDiagramElement xsi:type="smmdi:SMMShape" xmi:id="_YdX2E990EeSyH_2e5DWp0g" smmElement="_60B1F142-BDC4-4B62-8816-79B57670F2E6">
+      <localStyle xsi:type="smmdi:SMMStyle" xmi:id="_RJto-d95EeSuE5GbYXez2g">
+        <fillColor xsi:type="DC:Color" xmi:id="_RJto_d95EeSuE5GbYXez2g" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_RJto-995EeSuE5GbYXez2g" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_RJto_N95EeSuE5GbYXez2g" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" xmi:id="_RJto-t95EeSuE5GbYXez2g" x="750.0" y="90.0" width="100.0" height="80.0"/>
+    </ownedSmmDiagramElement>
+    <ownedSmmDiagramElement xsi:type="smmdi:SMMEdge" xmi:id="_RJuQAt95EeSuE5GbYXez2g" sourceShape="_WO5o0N9zEeSyH_2e5DWp0g" targetShape="_YdX2E990EeSyH_2e5DWp0g">
+      <localStyle xsi:type="smmdi:SMMStyle" xmi:id="_RJuQAd95EeSuE5GbYXez2g">
+        <fillColor xsi:type="DC:Color" xmi:id="_RJu3EN95EeSuE5GbYXez2g" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_RJuQA995EeSuE5GbYXez2g" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_RJuQBN95EeSuE5GbYXez2g" red="0" green="0" blue="0"/>
+      </localStyle>
+      <waypoint xsi:type="DC:Point" xmi:id="_RJu3Ed95EeSuE5GbYXez2g" x="578.0" y="153.0"/>
+      <waypoint xsi:type="DC:Point" xmi:id="_RJu3Et95EeSuE5GbYXez2g" x="426.5" y="153.0"/>
+      <waypoint xsi:type="DC:Point" xmi:id="_RJu3E995EeSuE5GbYXez2g" x="426.5" y="130.0"/>
+      <waypoint xsi:type="DC:Point" xmi:id="_RJu3FN95EeSuE5GbYXez2g" x="800.0" y="130.0"/>
+    </ownedSmmDiagramElement>
+  </ownedDiagram>
+</SMM:MeasureLibrary>

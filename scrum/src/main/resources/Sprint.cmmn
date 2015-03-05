@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmmn:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DC="http://www.omg.org/spec/DD/20131001/DC" xmlns:ScrumClassDiagram.ucd="platform:/resource/scrum/src/main/resources/ScrumClassDiagram.ucd" xmlns:cmmn="http://www.omg.org/spec/CMMN/20131201/MODEL" xmlns:cmmndi="http://www.omg.org/spec/CMMN/20131201/DI" xsi:type="cmmn:tDefinitions" id="_aN7uEchlEeSga4V0asdfUg">
+  <diagram xsi:type="cmmndi:CMMNDiagram" id="_aN7uEchlEeSga4V0mo0_Ug" cmmnElement="#_aN7uEchlEeSga4V0asdfUg">
+    <localStyle xsi:type="cmmndi:CMMNStyle"/>
+    <ownedCmmnDiagramElement xsi:type="cmmndi:CMMNShape" id="_d8FkYMhxEeSjya36Ic_guA" cmmnElement="#scrum.Sprint">
+      <localStyle xsi:type="cmmndi:CMMNStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="10.0" y="10.0" width="1075.0" height="956.0"/>
+      <ownedShape xsi:type="cmmndi:CMMNShape" id="_t0aZ4MhvEeSjya36Ic_guA" cmmnElement="#_D626EF3B-684B-4C89-85D3-435477A359BE">
+        <localStyle xsi:type="cmmndi:CMMNStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="30.0" y="30.0" width="120.0" height="100.0"/>
+      </ownedShape>
+      <ownedShape xsi:type="cmmndi:CMMNShape" id="_t09zgMhvEeSjya36Ic_guA" cmmnElement="#_750BCC86-85C0-4596-B8EB-0F033EC96D19">
+        <localStyle xsi:type="cmmndi:CMMNStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="30.0" y="248.2939609732831" width="120.0" height="100.0"/>
+      </ownedShape>
+      <ownedShape xsi:type="cmmndi:CMMNShape" id="_t0-akMhvEeSjya36Ic_guA" isPlanningTableExpanded="true" cmmnElement="#_1071F431-93BE-4478-B80D-3498E39E5AE0">
+        <localStyle xsi:type="cmmndi:CMMNStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="165.0" y="120.0" width="100.0" height="80.0"/>
+      </ownedShape>
+      <ownedShape xsi:type="cmmndi:CMMNShape" id="_t0-akchvEeSjya36Ic_guA" boundaryShapes="#_t1ZRUMhvEeSjya36Ic_guA" cmmnElement="#_1FDEE972-62D1-4B4E-80D8-373B12BC69FC">
+        <localStyle xsi:type="cmmndi:CMMNStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="345.0" y="180.0" width="100.0" height="80.0"/>
+      </ownedShape>
+      <ownedShape xsi:type="cmmndi:CMMNShape" id="_t1ZRUMhvEeSjya36Ic_guA" cmmnElement="#_791B39EB-1E95-4879-9EA9-B0F0E03527F4">
+        <localStyle xsi:type="cmmndi:CMMNStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="339.4925984096592" y="215.2939609732831" width="12.0" height="20.0"/>
+      </ownedShape>
+      <ownedShape xsi:type="cmmndi:CMMNShape" id="_t1Z4YMhvEeSjya36Ic_guA" boundaryShapes="#_t1Z4Y8hvEeSjya36Ic_guA #_t1btkchvEeSjya36Ic_guA" isPlanningTableExpanded="true" cmmnElement="#_65D05A36-53D4-4898-88BC-5F55AA789248">
+        <localStyle xsi:type="cmmndi:CMMNStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="555.0" y="180.0" width="100.0" height="80.0"/>
+      </ownedShape>
+      <ownedShape xsi:type="cmmndi:CMMNShape" id="_t1Z4YchvEeSjya36Ic_guA" boundaryShapes="#_t1Z4ZMhvEeSjya36Ic_guA" isPlanningTableExpanded="true" cmmnElement="#_63F6A3F5-7FF3-4BE5-94C0-7D154C007C17">
+        <localStyle xsi:type="cmmndi:CMMNStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="810.0" y="180.0" width="100.0" height="80.0"/>
+      </ownedShape>
+      <ownedShape xsi:type="cmmndi:CMMNShape" id="_t1Z4Y8hvEeSjya36Ic_guA" cmmnElement="#_5D6F90F6-C9E0-4A33-9147-BADD7F2690D6">
+        <localStyle xsi:type="cmmndi:CMMNStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="549.438720703125" y="212.0" width="12.0" height="20.0"/>
+      </ownedShape>
+      <ownedShape xsi:type="cmmndi:CMMNShape" id="_t1Z4ZMhvEeSjya36Ic_guA" cmmnElement="#_64A0AB17-A480-4C99-824F-EE5B69E4C024">
+        <localStyle xsi:type="cmmndi:CMMNStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="804.2557186526146" y="203.33634220898296" width="12.0" height="20.0"/>
+      </ownedShape>
+      <ownedShape xsi:type="cmmndi:CMMNShape" id="_t1afcMhvEeSjya36Ic_guA" cmmnElement="#_F71F3919-C843-45B4-8500-633BC829D510">
+        <localStyle xsi:type="cmmndi:CMMNStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="30.0" y="375.0" width="120.0" height="100.0"/>
+      </ownedShape>
+      <ownedShape xsi:type="cmmndi:CMMNShape" id="_t1btkMhvEeSjya36Ic_guA" cmmnElement="#_29D010C8-81C5-4775-81FE-882E698EAAC5">
+        <localStyle xsi:type="cmmndi:CMMNStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="495.0" y="410.0" width="30.0" height="30.0"/>
+      </ownedShape>
+      <ownedShape xsi:type="cmmndi:CMMNShape" id="_t1btkchvEeSjya36Ic_guA" cmmnElement="#_9F4FA2B4-E80F-4619-BB03-5A05E6C8B813">
+        <localStyle xsi:type="cmmndi:CMMNStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="549.6118540060525" y="239.38486195323236" width="12.0" height="20.0"/>
+      </ownedShape>
+    </ownedCmmnDiagramElement>
+    <ownedCmmnDiagramElement xsi:type="cmmndi:CMMNEdge" id="_t1btkshvEeSjya36Ic_guA" sourceShape="#_t1btkMhvEeSjya36Ic_guA" targetShape="#_t1btkchvEeSjya36Ic_guA" cmmnElement="#_6E1A8946-8634-49C6-99F2-B513D8A24CE5">
+      <localStyle xsi:type="cmmndi:CMMNStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <waypoint xsi:type="DC:Point" x="510.0" y="425.0"/>
+      <waypoint xsi:type="DC:Point" x="565.6118540060525" y="435.0"/>
+      <waypoint xsi:type="DC:Point" x="555.6118540060525" y="249.38486195323236"/>
+    </ownedCmmnDiagramElement>
+    <ownedCmmnDiagramElement xsi:type="cmmndi:CMMNEdge" id="_t1Z4ZchvEeSjya36Ic_guA" sourceShape="#_t1Z4YMhvEeSjya36Ic_guA" targetShape="#_t1Z4ZMhvEeSjya36Ic_guA" cmmnElement="#_6E050061-8BC7-462B-A0E4-5A6983F977E2">
+      <localStyle xsi:type="cmmndi:CMMNStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <waypoint xsi:type="DC:Point" x="605.0" y="220.0"/>
+      <waypoint xsi:type="DC:Point" x="739.6278593263073" y="230.0"/>
+      <waypoint xsi:type="DC:Point" x="739.6278593263073" y="223.33634220898296"/>
+      <waypoint xsi:type="DC:Point" x="810.2557186526146" y="213.33634220898296"/>
+    </ownedCmmnDiagramElement>
+    <ownedCmmnDiagramElement xsi:type="cmmndi:CMMNEdge" id="_t1Z4YshvEeSjya36Ic_guA" sourceShape="#_t0-akchvEeSjya36Ic_guA" targetShape="#_t1Z4Y8hvEeSjya36Ic_guA" cmmnElement="#_BB8E396A-7176-4299-88E7-321FE25B8EEC">
+      <localStyle xsi:type="cmmndi:CMMNStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <waypoint xsi:type="DC:Point" x="395.0" y="220.0"/>
+      <waypoint xsi:type="DC:Point" x="507.2193603515625" y="230.0"/>
+      <waypoint xsi:type="DC:Point" x="507.2193603515625" y="232.0"/>
+      <waypoint xsi:type="DC:Point" x="555.438720703125" y="222.0"/>
+    </ownedCmmnDiagramElement>
+    <ownedCmmnDiagramElement xsi:type="cmmndi:CMMNEdge" id="_t1ZRUchvEeSjya36Ic_guA" sourceShape="#_t09zgMhvEeSjya36Ic_guA" targetShape="#_t1ZRUMhvEeSjya36Ic_guA" cmmnElement="#_8E0F37EC-17CD-4800-BB39-AE719CBA6302">
+      <localStyle xsi:type="cmmndi:CMMNStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <waypoint xsi:type="DC:Point" x="90.0" y="298.2939609732831"/>
+      <waypoint xsi:type="DC:Point" x="355.4925984096592" y="308.2939609732831"/>
+      <waypoint xsi:type="DC:Point" x="345.4925984096592" y="225.2939609732831"/>
+    </ownedCmmnDiagramElement>
+    <ownedCmmnDiagramElement xsi:type="cmmndi:CMMNEdge" id="_t1ZRUshvEeSjya36Ic_guA" sourceShape="#_t0-akMhvEeSjya36Ic_guA" targetShape="#_t1ZRUMhvEeSjya36Ic_guA" cmmnElement="#_84BB4A38-FC4A-4B4A-A121-EA406DEED0E1">
+      <localStyle xsi:type="cmmndi:CMMNStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <waypoint xsi:type="DC:Point" x="215.0" y="160.0"/>
+      <waypoint xsi:type="DC:Point" x="355.4925984096592" y="170.0"/>
+      <waypoint xsi:type="DC:Point" x="345.4925984096592" y="225.2939609732831"/>
+    </ownedCmmnDiagramElement>
+  </diagram>
+  <cmmn:caseFileItemDefinition xsi:type="cmmn:tCaseFileItemDefinition" id="_t2D_sMhvEeSjya36Ic_guA" structureRef="ScrumClassDiagram.ucd:_03597160-10B6-4D02-B446-913FA236D1C8"/>
+  <cmmn:caseFileItemDefinition xsi:type="cmmn:tCaseFileItemDefinition" id="_t2D_schvEeSjya36Ic_guA" structureRef="ScrumClassDiagram.ucd:_073D3C0B-8364-4ED3-B3F8-7F12604730DF"/>
+  <cmmn:caseFileItemDefinition xsi:type="cmmn:tCaseFileItemDefinition" id="_t2D_sshvEeSjya36Ic_guA" structureRef="ScrumClassDiagram.ucd:_C621CFC2-0ECC-4D97-9827-F24587C83CAB"/>
+  <cmmn:case xsi:type="cmmn:tCase" id="scrum.Sprint" name="scrum.Sprint">
+    <cmmn:caseFileModel xsi:type="cmmn:tCaseFile">
+      <cmmn:caseFileItem xsi:type="cmmn:tCaseFileItem" id="_D626EF3B-684B-4C89-85D3-435477A359BE" definitionRef="#_t2D_sMhvEeSjya36Ic_guA" multiplicity="Unspecified" name="SprintBacklog"/>
+      <cmmn:caseFileItem xsi:type="cmmn:tCaseFileItem" id="_750BCC86-85C0-4596-B8EB-0F033EC96D19" definitionRef="#_t2D_schvEeSjya36Ic_guA" multiplicity="Unspecified" name="IncludedUserStory"/>
+      <cmmn:caseFileItem xsi:type="cmmn:tCaseFileItem" id="_F71F3919-C843-45B4-8500-633BC829D510" definitionRef="#_t2D_sshvEeSjya36Ic_guA" multiplicity="Unspecified" name="ProductBacklog"/>
+    </cmmn:caseFileModel>
+    <cmmn:casePlanModel xsi:type="cmmn:tStage" id="_aN7uEMhlEeSga4V0mo0_Ug" autoComplete="true">
+      <cmmn:planItem xsi:type="cmmn:tPlanItem" id="_1071F431-93BE-4478-B80D-3498E39E5AE0" definitionRef="#_t2D_s8hvEeSjya36Ic_guA" name="SprintPlanning">
+        <cmmn:itemControl xsi:type="cmmn:tPlanItemControl">
+          <cmmn:repetitionRule xsi:type="cmmn:tRepetitionRule">
+            <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"/>
+          </cmmn:repetitionRule>
+          <cmmn:requiredRule xsi:type="cmmn:tRequiredRule">
+            <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"/>
+          </cmmn:requiredRule>
+          <cmmn:manualActivationRule xsi:type="cmmn:tManualActivationRule">
+            <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"/>
+          </cmmn:manualActivationRule>
+        </cmmn:itemControl>
+      </cmmn:planItem>
+      <cmmn:planItem xsi:type="cmmn:tPlanItem" id="_1FDEE972-62D1-4B4E-80D8-373B12BC69FC" definitionRef="#_t2D_tMhvEeSjya36Ic_guA" entryCriteriaRefs="#_791B39EB-1E95-4879-9EA9-B0F0E03527F4" name="Implement User Story">
+        <cmmn:itemControl xsi:type="cmmn:tPlanItemControl">
+          <cmmn:repetitionRule xsi:type="cmmn:tRepetitionRule">
+            <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"/>
+          </cmmn:repetitionRule>
+          <cmmn:requiredRule xsi:type="cmmn:tRequiredRule">
+            <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"/>
+          </cmmn:requiredRule>
+          <cmmn:manualActivationRule xsi:type="cmmn:tManualActivationRule">
+            <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"/>
+          </cmmn:manualActivationRule>
+        </cmmn:itemControl>
+      </cmmn:planItem>
+      <cmmn:planItem xsi:type="cmmn:tPlanItem" id="_65D05A36-53D4-4898-88BC-5F55AA789248" definitionRef="#_t2D_tchvEeSjya36Ic_guA" entryCriteriaRefs="#_5D6F90F6-C9E0-4A33-9147-BADD7F2690D6 #_9F4FA2B4-E80F-4619-BB03-5A05E6C8B813" name="SprintReview">
+        <cmmn:itemControl xsi:type="cmmn:tPlanItemControl">
+          <cmmn:repetitionRule xsi:type="cmmn:tRepetitionRule">
+            <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"/>
+          </cmmn:repetitionRule>
+          <cmmn:requiredRule xsi:type="cmmn:tRequiredRule">
+            <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"/>
+          </cmmn:requiredRule>
+          <cmmn:manualActivationRule xsi:type="cmmn:tManualActivationRule">
+            <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"/>
+          </cmmn:manualActivationRule>
+        </cmmn:itemControl>
+      </cmmn:planItem>
+      <cmmn:planItem xsi:type="cmmn:tPlanItem" id="_63F6A3F5-7FF3-4BE5-94C0-7D154C007C17" definitionRef="#_t2D_tshvEeSjya36Ic_guA" entryCriteriaRefs="#_64A0AB17-A480-4C99-824F-EE5B69E4C024" name="Sprint Retrospective">
+        <cmmn:itemControl xsi:type="cmmn:tPlanItemControl">
+          <cmmn:repetitionRule xsi:type="cmmn:tRepetitionRule">
+            <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"/>
+          </cmmn:repetitionRule>
+          <cmmn:requiredRule xsi:type="cmmn:tRequiredRule">
+            <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"/>
+          </cmmn:requiredRule>
+          <cmmn:manualActivationRule xsi:type="cmmn:tManualActivationRule">
+            <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"/>
+          </cmmn:manualActivationRule>
+        </cmmn:itemControl>
+      </cmmn:planItem>
+      <cmmn:planItem xsi:type="cmmn:tPlanItem" id="_29D010C8-81C5-4775-81FE-882E698EAAC5" definitionRef="#_t2EmwMhvEeSjya36Ic_guA" name="EndOfSprint"/>
+      <cmmn:sentry xsi:type="cmmn:tSentry" id="_791B39EB-1E95-4879-9EA9-B0F0E03527F4">
+        <cmmn:onPart xsi:type="cmmn:tCaseFileItemOnPart" id="_8E0F37EC-17CD-4800-BB39-AE719CBA6302" sourceRef="#_750BCC86-85C0-4596-B8EB-0F033EC96D19">
+          <cmmn:standardEvent>create</cmmn:standardEvent>
+        </cmmn:onPart>
+        <cmmn:onPart xsi:type="cmmn:tPlanItemOnPart" id="_84BB4A38-FC4A-4B4A-A121-EA406DEED0E1" sourceRef="#_1071F431-93BE-4478-B80D-3498E39E5AE0">
+          <cmmn:standardEvent>complete</cmmn:standardEvent>
+        </cmmn:onPart>
+        <cmmn:ifPart xsi:type="cmmn:tIfPart">
+          <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"/>
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry xsi:type="cmmn:tSentry" id="_5D6F90F6-C9E0-4A33-9147-BADD7F2690D6">
+        <cmmn:onPart xsi:type="cmmn:tPlanItemOnPart" id="_BB8E396A-7176-4299-88E7-321FE25B8EEC" sourceRef="#_1FDEE972-62D1-4B4E-80D8-373B12BC69FC">
+          <cmmn:standardEvent>close</cmmn:standardEvent>
+        </cmmn:onPart>
+        <cmmn:ifPart xsi:type="cmmn:tIfPart">
+          <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"><cmmn:body>SprintBacklog sb= (SprintBacklog)kcontext.getVariable(&quot;splitBacklog&quot;);\nfor(IncludedUserStory ius:sb.getIncludedUserStories()){\n
+							if(!ius.isDoneDone()){\n return false;\n }\n}\nreturn true;
+						</cmmn:body></cmmn:condition>
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry xsi:type="cmmn:tSentry" id="_9F4FA2B4-E80F-4619-BB03-5A05E6C8B813">
+        <cmmn:onPart xsi:type="cmmn:tPlanItemOnPart" id="_6E1A8946-8634-49C6-99F2-B513D8A24CE5" sourceRef="#_29D010C8-81C5-4775-81FE-882E698EAAC5">
+          <cmmn:standardEvent>close</cmmn:standardEvent>
+        </cmmn:onPart>
+        <cmmn:ifPart xsi:type="cmmn:tIfPart">
+          <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"/>
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry xsi:type="cmmn:tSentry" id="_64A0AB17-A480-4C99-824F-EE5B69E4C024">
+        <cmmn:onPart xsi:type="cmmn:tPlanItemOnPart" id="_6E050061-8BC7-462B-A0E4-5A6983F977E2" sourceRef="#_65D05A36-53D4-4898-88BC-5F55AA789248">
+          <cmmn:standardEvent>complete</cmmn:standardEvent>
+        </cmmn:onPart>
+        <cmmn:ifPart xsi:type="cmmn:tIfPart">
+          <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"/>
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:planItemDefinition xsi:type="cmmn:tHumanTask" id="_t2D_s8hvEeSjya36Ic_guA" name="SprintPlanning" isBlocking="true" performerRef="#TeamMember">
+        <cmmn:inputs xsi:type="cmmn:tCaseParameter" id="_t2EmwchvEeSjya36Ic_guA" name="sprintBacklog" bindingRef="#_D626EF3B-684B-4C89-85D3-435477A359BE">
+          <cmmn:bindingRefinement xsi:type="cmmn:tExpression" language=""><cmmn:body></cmmn:body></cmmn:bindingRefinement>
+        </cmmn:inputs>
+        <cmmn:outputs xsi:type="cmmn:tCaseParameter" id="_t2EmwshvEeSjya36Ic_guA" name="includedUserStory" bindingRef="#_750BCC86-85C0-4596-B8EB-0F033EC96D19">
+          <cmmn:bindingRefinement xsi:type="cmmn:tExpression" language=""><cmmn:body></cmmn:body></cmmn:bindingRefinement>
+        </cmmn:outputs>
+      </cmmn:planItemDefinition>
+      <cmmn:planItemDefinition xsi:type="cmmn:tCaseTask" id="_t2D_tMhvEeSjya36Ic_guA" name="Implement User Story" isBlocking="true" caseRef="cmmn:tCase platform:/resource/scrum/src/main/resources/ImplementUserStory.cmmn#scrum.ImplementUserStory"/>
+      <cmmn:planItemDefinition xsi:type="cmmn:tHumanTask" id="_t2D_tchvEeSjya36Ic_guA" name="SprintReview" isBlocking="true" performerRef="#TeamMember"/>
+      <cmmn:planItemDefinition xsi:type="cmmn:tHumanTask" id="_t2D_tshvEeSjya36Ic_guA" name="Sprint Retrospective" isBlocking="true" performerRef="#TeamMember"/>
+      <cmmn:planItemDefinition xsi:type="cmmn:tTimerEvent" id="_t2EmwMhvEeSjya36Ic_guA" name="EndOfSprint"/>
+    </cmmn:casePlanModel>
+    <cmmn:caseRoles xsi:type="cmmn:tRole" id="Developer" name="Developer"/>
+    <cmmn:caseRoles xsi:type="cmmn:tRole" id="Tester" name="Tester"/>
+    <cmmn:caseRoles xsi:type="cmmn:tRole" id="ProductOwner" name="ProductOwner"/>
+    <cmmn:caseRoles xsi:type="cmmn:tRole" id="ScrumMaster" name="ScrumMaster"/>
+    <cmmn:caseRoles xsi:type="cmmn:tRole" id="TeamMember" name="TeamMember"/>
+    <cmmn:input xsi:type="cmmn:tCaseParameter" id="_t2Emw8hvEeSjya36Ic_guA" name="sprintBacklog">
+      <cmmn:bindingRefinement xsi:type="cmmn:tExpression" language=""><cmmn:body></cmmn:body></cmmn:bindingRefinement>
+    </cmmn:input>
+  </cmmn:case>
+</cmmn:definitions>

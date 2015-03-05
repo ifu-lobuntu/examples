@@ -1,0 +1,17 @@
+
+<form id="1058565383">
+<property name="name" value="PlasterWall_wall.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="StraightWall" type="EnumLookup" id="894108022">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;StraightWallquot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="wallIn/StraightWall"/>
+<property name="outputBinding" value="wallOut/StraightWall"/>
+<property name="fieldClass" value="java.lang.Object"/>
+<property name="param4" value="Straight,Skew,"/>
+<property name="param5" value="StraightnessOfWall"/>
+</field>
+<dataHolder inputId="wallIn" name="#6699FF" type="vdmlPortEntry" outId="wallOut" value="platform:/resource/mebx/src/main/resources/ConstructionProject.vdcol#_ADB4B7CF-8651-4C79-9FAC-E9DE77B1E2F4" id="wall"/>
+</form>

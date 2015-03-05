@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML">
+  <VDML:ValueDeliveryModel name="TransportNetworkValueDeliveryModel">
+    <collaboration xsi:type="VDML:BusinessNetwork" name="TransportNetwork" id="TransportNetwork">
+      <party xsi:type="VDML:Party" name="Customer" id="_74C9790D-8A3E-45FB-94BD-944717D7FC4A" receivedProposition="_349A06CC-0263-4BD7-82F0-346826913550 _2CA6BA73-9DD2-42B5-ACEE-88AC3BDBAC98 _8380B0F5-1E95-4AC3-BE65-ED1B18DC50E8">
+        <providedProposition xsi:type="VDML:ValueProposition" name="CustomerToVehicleOwner" id="_DAD480C8-B329-47D4-A0E6-1AE032F9DB07" recipient="_41B171A1-CEE7-48E8-977F-76FD4CB41F8A">
+          <component xsi:type="VDML:ValuePropositionComponent" name="Revenue" id="_27DF82FC-60F5-4F08-AF1F-CFB4CB9711F2"/>
+        </providedProposition>
+      </party>
+      <party xsi:type="VDML:Party" name="VehicleOwner" id="_41B171A1-CEE7-48E8-977F-76FD4CB41F8A" receivedProposition="_DAD480C8-B329-47D4-A0E6-1AE032F9DB07 _CB25A04D-C689-40CB-B6C0-61AA331360CB">
+        <providedProposition xsi:type="VDML:ValueProposition" name="VehicleOwnerToDriver" id="_FB9026A3-C0D1-4D31-A55F-A2F16F4C3A6B" recipient="_A9646601-AEE6-4899-B896-BA2388D5E3DF">
+          <component xsi:type="VDML:ValuePropositionComponent" name="PaymentForServices" id="_61B181A6-1185-4381-A0AF-A745B3A56E06"/>
+        </providedProposition>
+        <providedProposition xsi:type="VDML:ValueProposition" name="VehicleOwnerToCustomer" id="_2CA6BA73-9DD2-42B5-ACEE-88AC3BDBAC98" recipient="_74C9790D-8A3E-45FB-94BD-944717D7FC4A">
+          <component xsi:type="VDML:ValuePropositionComponent" name="ReliabilityOfDrivers" id="_FB26CC68-9314-41A9-9136-3A7652F07E04"/>
+          <component xsi:type="VDML:ValuePropositionComponent" name="ReliabilityOfVehicles" id="_C872D3FF-B1FE-479E-B557-129DFFB1166A"/>
+        </providedProposition>
+        <providedProposition xsi:type="VDML:ValueProposition" name="VehicleOwnerToCustomer" id="_8380B0F5-1E95-4AC3-BE65-ED1B18DC50E8" recipient="_74C9790D-8A3E-45FB-94BD-944717D7FC4A">
+          <component xsi:type="VDML:ValuePropositionComponent" name="LowPrices" id="_295B2A51-48CD-4C7D-8351-4C349849AB6A"/>
+        </providedProposition>
+      </party>
+      <party xsi:type="VDML:Party" name="Driver" id="_A9646601-AEE6-4899-B896-BA2388D5E3DF" receivedProposition="_FB9026A3-C0D1-4D31-A55F-A2F16F4C3A6B">
+        <providedProposition xsi:type="VDML:ValueProposition" name="DriverToCustomer" id="_349A06CC-0263-4BD7-82F0-346826913550" recipient="_74C9790D-8A3E-45FB-94BD-944717D7FC4A">
+          <component xsi:type="VDML:ValuePropositionComponent" name="OnTimeDelivery" id="_CE9C404E-AC17-4245-AF32-8BE58DC97CC3"/>
+          <component xsi:type="VDML:ValuePropositionComponent" name="NoDamageToParcels" id="_ECDA8302-ACED-4B16-A34F-E64C6D6DDE53"/>
+          <component xsi:type="VDML:ValuePropositionComponent" name="NoLostParcels" id="_29E18DE8-7429-4C5D-814C-94C4BCDBB9D7"/>
+        </providedProposition>
+        <providedProposition xsi:type="VDML:ValueProposition" name="DriverToVehicleOwner" id="_CB25A04D-C689-40CB-B6C0-61AA331360CB" recipient="_41B171A1-CEE7-48E8-977F-76FD4CB41F8A">
+          <component xsi:type="VDML:ValuePropositionComponent" name="UpToDateInformationAboutVehicle" id="_CB30C6F3-0E8C-4304-9D97-DDC01F5F04D6"/>
+          <component xsi:type="VDML:ValuePropositionComponent" name="NoTrafficFines" id="_6B2D4479-1E73-4476-A276-42944746D73E"/>
+          <component xsi:type="VDML:ValuePropositionComponent" name="CostEfficientUseOfVehicle" id="_5FEFEE4F-98A1-4D7B-A5F9-4BBC17F2C077"/>
+        </providedProposition>
+      </party>
+    </collaboration>
+  </VDML:ValueDeliveryModel>
+  <uml:Package xmi:id="_CCuRwOtYEeSKU5iTMNyenQ" name="transportnetwork"/>
+</xmi:XMI>

@@ -1,0 +1,7 @@
+
+<form id="218474578">
+<property name="name" value="BrickWall.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<dataHolder inputId="brickWallIn" name="#0099FF" type="umlClassEntry" outId="brickWallOut" value="platform:/resource/mebx/src/main/resources/ConstructionNetwork.vdcol#_AvIoK-jVEeSWfZ_4xae2EQ" id="brickWall"/>
+</form>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DC="http://www.omg.org/spec/DD/20131001/DC" xmlns:SMM="http://www.omg.org/spec/SMM/20150201/SMM.cmof" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umldi="http://www.omg.org/spec/UML/20131201/DI">
+  <uml:Package xmi:id="_8af3oN9nEeSVg_sq7xRrFQ" name="scrum.asfd">
+    <packagedElement xsi:type="uml:Class" xmi:id="_B48C2B2B-0DC3-441A-82E2-E7348100D61D">
+      <eAnnotations xsi:type="ecore:EAnnotation" xmi:id="_diNrUd-oEeShZtg_5Jfr1g" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_diNrUN-oEeShZtg_5Jfr1g"/>
+      <name xsi:nil="true"/>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_3DF1C898-5EE7-4B05-A302-CC98E60779D3" name="DIrectMeasure1">
+        <eAnnotations xsi:type="ecore:EAnnotation" xmi:id="_diOSYN-oEeShZtg_5Jfr1g" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib">
+          <references xsi:type="SMM:Characteristic" href="platform:/resource/scrum/src/main/resources/scrum/MeasLib.meas#_RJto8d95EeSuE5GbYXez2g"/>
+        </eAnnotations>
+      </ownedAttribute>
+    </packagedElement>
+  </uml:Package>
+  <umldi:UMLDiagram xmi:id="_8a114N9nEeSVg_sq7xRrFQ" umlElement="_8af3oN9nEeSVg_sq7xRrFQ">
+    <ownedUmlDiagramElement xsi:type="umldi:UMLShape" xmi:id="_bHuKNt95EeSuE5GbYXez2g" umlElement="_B48C2B2B-0DC3-441A-82E2-E7348100D61D">
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_dh8llN-oEeShZtg_5Jfr1g">
+        <fillColor xsi:type="DC:Color" xmi:id="_dh8lmN-oEeShZtg_5Jfr1g" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_dh8llt-oEeShZtg_5Jfr1g" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_dh8ll9-oEeShZtg_5Jfr1g" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" xmi:id="_dh8lld-oEeShZtg_5Jfr1g" x="214.0" y="220.0" width="120.0" height="95.0"/>
+      <ownedCompartment xsi:type="umldi:UMLCompartment" xmi:id="_bHv_Y995EeSuE5GbYXez2g" isExpanded="true" previousWidth="200.0" previousHeight="40.0" featureName="ownedAttribute">
+        <localStyle xsi:type="umldi:UMLStyle" xmi:id="_dh9Mod-oEeShZtg_5Jfr1g">
+          <fillColor xsi:type="DC:Color" xmi:id="_dh9Mpd-oEeShZtg_5Jfr1g" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_dh9Mo9-oEeShZtg_5Jfr1g" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_dh9MpN-oEeShZtg_5Jfr1g" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" xmi:id="_dh9Mot-oEeShZtg_5Jfr1g" x="1.0" y="30.0" width="118.0" height="50.0"/>
+        <ownedShape xsi:type="umldi:UMLShape" xmi:id="_bH2GA995EeSuE5GbYXez2g" umlElement="_3DF1C898-5EE7-4B05-A302-CC98E60779D3">
+          <localStyle xsi:type="umldi:UMLStyle" xmi:id="_dh9Mp9-oEeShZtg_5Jfr1g">
+            <fillColor xsi:type="DC:Color" xmi:id="_diLPEd-oEeShZtg_5Jfr1g" red="255" green="255" blue="255"/>
+            <strokeColor xsi:type="DC:Color" xmi:id="_dh9Mqd-oEeShZtg_5Jfr1g" red="0" green="0" blue="0"/>
+            <fontColor xsi:type="DC:Color" xmi:id="_diLPEN-oEeShZtg_5Jfr1g" red="0" green="0" blue="0"/>
+          </localStyle>
+          <bounds xsi:type="DC:Bounds" xmi:id="_dh9MqN-oEeShZtg_5Jfr1g" x="1.0" y="15.0" width="115.0" height="20.0"/>
+        </ownedShape>
+      </ownedCompartment>
+    </ownedUmlDiagramElement>
+  </umldi:UMLDiagram>
+  <VDML:ValueDeliveryModel xmi:id="_dh8lkd-oEeShZtg_5Jfr1g" id="_8af3oN9nEeSVg_sq7xRrFQvdm">
+    <businessItemLibrary xsi:type="VDML:BusinessItemLibrary" xmi:id="_dh8lkt-oEeShZtg_5Jfr1g" id="_8af3oN9nEeSVg_sq7xRrFQbil">
+      <businessItemLibraryElement xsi:type="VDML:BusinessItemDefinition" xmi:id="_diNrUN-oEeShZtg_5Jfr1g" id="_B48C2B2B-0DC3-441A-82E2-E7348100D61Dbid" isShareable="true">
+        <characteristicDefinition xsi:type="SMM:Characteristic" href="platform:/resource/scrum/src/main/resources/scrum/MeasLib.meas#_RJto8d95EeSuE5GbYXez2g"/>
+      </businessItemLibraryElement>
+    </businessItemLibrary>
+  </VDML:ValueDeliveryModel>
+</xmi:XMI>

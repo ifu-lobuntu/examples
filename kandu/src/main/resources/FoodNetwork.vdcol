@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VDML:ValueDeliveryModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" name="kandu.FoodNetworkValueDelivyModel">
+  <collaboration xsi:type="VDML:BusinessNetwork" name="kandu.FoodNetwork" id="kandu.FoodNetwork">
+    <activity xsi:type="VDML:Activity" name="ConsumerDefaultActivity" id="_fYa1UOEkEeSscbl9KLghFQ" performingRole="_7C51C722-9E33-4AA1-ADE5-CA70DEC8089A">
+      <containedPort xsi:type="VDML:OutputPort" name="tiConsumer" id="_fYa1UeEkEeSscbl9KLghFQ" output="_F7E16494-B047-4CF7-9471-663754B76745"/>
+      <containedPort xsi:type="VDML:OutputPort" name="tiConsumer" id="_UbzIAOEqEeSscbl9KLghFQ" output="_54019D38-4A83-4241-B660-AEC23EFCACFB"/>
+    </activity>
+    <activity xsi:type="VDML:Activity" name="FarmerDefaultActivity" id="_fYa1UuEkEeSscbl9KLghFQ" performingRole="_A5B7D237-9770-46AF-8898-79B5B06477F6">
+      <containedPort xsi:type="VDML:InputPort" name="fromnull" id="_fYa1U-EkEeSscbl9KLghFQ" input="_F7E16494-B047-4CF7-9471-663754B76745"/>
+      <containedPort xsi:type="VDML:InputPort" name="fromPositiveRating" id="_UbzIAeEqEeSscbl9KLghFQ" input="_54019D38-4A83-4241-B660-AEC23EFCACFB"/>
+    </activity>
+    <flow xsi:type="VDML:DeliverableFlow" name="Order" id="_F7E16494-B047-4CF7-9471-663754B76745" recipient="_fYa1U-EkEeSscbl9KLghFQ" provider="_fYa1UeEkEeSscbl9KLghFQ"/>
+    <flow xsi:type="VDML:DeliverableFlow" name="PositiveRating" id="_54019D38-4A83-4241-B660-AEC23EFCACFB" recipient="_UbzIAeEqEeSscbl9KLghFQ" isTangible="false" provider="_UbzIAOEqEeSscbl9KLghFQ"/>
+    <businessItem xsi:type="VDML:BusinessItem">
+      <definition xsi:type="VDML:BusinessItemDefinition" href="platform:/resource/kandu/src/main/resources/KanduValueLibrary.vdlib#_nrd0IOElEeSscbl9KLghFQ"/>
+    </businessItem>
+    <businessItem xsi:type="VDML:BusinessItem">
+      <definition xsi:type="VDML:BusinessItemDefinition" href="platform:/resource/kandu/src/main/resources/KanduValueLibrary.vdlib#_nrd0IuElEeSscbl9KLghFQ"/>
+    </businessItem>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_A5B7D237-9770-46AF-8898-79B5B06477F6">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/scrum/src/main/resources/scrum/Org2.vdcol#scrum.Org2"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_A5B7D237-9770-46AF-8898-79B5B06477F6">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/scrum/src/main/resources/scrum/MyOrgUnit.vdcol#scrum.MyOrgUnit"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_A5B7D237-9770-46AF-8898-79B5B06477F6">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/kandu/src/main/resources/Farm.vdcol#kandu.Farm"/>
+    </ownedAssignment>
+    <party xsi:type="VDML:Party" name="Consumer" id="_7C51C722-9E33-4AA1-ADE5-CA70DEC8089A" performedWork="_fYa1UOEkEeSscbl9KLghFQ"/>
+    <party xsi:type="VDML:Party" name="Farmer" id="_A5B7D237-9770-46AF-8898-79B5B06477F6" performedWork="_fYa1UuEkEeSscbl9KLghFQ" roleAssignment="//@collaboration.0/@ownedAssignment.0 //@collaboration.0/@ownedAssignment.1 //@collaboration.0/@ownedAssignment.2"/>
+    <party xsi:type="VDML:Party" name="TransportProvider" id="_B817526C-18F4-4FDF-A4E3-BFBD81E9085B"/>
+    <party xsi:type="VDML:Party" name="CreditProvider" id="_26B3BF1E-FA1A-44F5-80B4-48111B49E0F7"/>
+    <party xsi:type="VDML:Party" name="ExhangeHost" id="_FDD100C9-4979-498A-BA84-948450EBC37F"/>
+  </collaboration>
+</VDML:ValueDeliveryModel>

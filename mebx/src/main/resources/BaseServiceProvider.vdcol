@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML">
+  <VDML:ValueDeliveryModel name="BaseServiceProviderValueDeliveryModel">
+    <capabilitylibrary xsi:type="VDML:CapabilityLibrary" name="baseserviceprovider" id="_UJjrcOgPEeSihPTTeyiGNwcl"/>
+    <businessItemLibrary xsi:type="VDML:BusinessItemLibrary" name="baseserviceprovider" id="_UJjrcOgPEeSihPTTeyiGNwbil"/>
+    <collaboration xsi:type="VDML:OrgUnit" name="BaseServiceProvider" id="BaseServiceProvider">
+      <attribute xsi:type="VDML:Attribute" name="isTemplate" tag="isTemplate" value=""/>
+      <capabilityOffer xsi:type="VDML:CapabilityOffer" name="ProvideService" id="_A3DC997B-59E9-425C-8697-40CE59F7F75D"/>
+      <position xsi:type="VDML:Position" name="Employee" id="_BF5F7F5D-A922-4B54-B05E-B571FC9656FE"/>
+      <ownedStore xsi:type="VDML:Store" name="Account" id="_EDCAC008-06B4-42BC-9024-570A9BAD782C"/>
+    </collaboration>
+  </VDML:ValueDeliveryModel>
+  <uml:Package xmi:id="_UJjrcOgPEeSihPTTeyiGNw" name="baseserviceprovider">
+    <packagedElement xsi:type="uml:Class" xmi:id="BaseServiceProviderClass" name="BaseServiceProvider">
+      <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="BaseServiceProvider"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_EDCAC008-06B4-42BC-9024-570A9BAD782CClass" name="Account">
+      <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_EDCAC008-06B4-42BC-9024-570A9BAD782C"/>
+      <generalization xsi:type="uml:Generalization" xmi:id="_NvdQoOghEeSHBdC7ERwr2w"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_A3DC997B-59E9-425C-8697-40CE59F7F75DClass" name="ProvideService">
+      <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_A3DC997B-59E9-425C-8697-40CE59F7F75D"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_bRkZQOi6EeSWfZ_4xae2EQ" name="ServiceSpec">
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_bRkZQei6EeSWfZ_4xae2EQ" name="Description">
+        <type xsi:type="uml:PrimitiveType" href="pathmap://jbpm-cmmn/libraries/cmmntypes.uml#_nOT-cMGyEeSOM_pby657_g"/>
+      </ownedAttribute>
+    </packagedElement>
+  </uml:Package>
+</xmi:XMI>

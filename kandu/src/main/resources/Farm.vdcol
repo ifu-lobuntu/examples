@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VDML:ValueDeliveryModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" name="kandu.FarmValueDelivyModel">
+  <collaboration xsi:type="VDML:OrgUnit" name="kandu.Farm" id="kandu.Farm">
+    <capabilityOffer xsi:type="VDML:CapabilityOffer" name="ProvideFreshProduce" id="_08E8A4A6-C22F-45FA-AAD8-9C89C9FA323E"/>
+    <capabilityOffer xsi:type="VDML:CapabilityOffer" name="BuySeedlings" id="_094A130E-7054-4CFA-8114-EB15577BCFC7"/>
+    <position xsi:type="VDML:Position" name="Farmer" id="_C09FB2F2-3DCD-4875-B04C-9122F7943D67"/>
+    <position xsi:type="VDML:Position" name="FarmWorker" id="_219DA137-4CB3-477A-9B14-31B00E21A98E"/>
+    <ownedStore xsi:type="VDML:Store" name="HarvestableFreshProduce" id="_410B316A-A95D-4FA6-83F2-35D87AEE32BF"/>
+    <ownedStore xsi:type="VDML:Store" name="PlantedFreshProduce" id="_9FD6B61B-D71C-4F2B-BB63-24EECF0089FF"/>
+    <ownedStore xsi:type="VDML:Store" name="HarvestedFreshProduce" id="_12614E94-6117-4BFA-B13B-AC050D077169"/>
+    <ownedStore xsi:type="VDML:Pool" name="ArableLand" id="_616DDFCF-2952-46EC-B96A-58224EAF3A79"/>
+  </collaboration>
+</VDML:ValueDeliveryModel>

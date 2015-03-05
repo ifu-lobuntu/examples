@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<umldi:UMLDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DC="http://www.omg.org/spec/DD/20131001/DC" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umldi="http://www.omg.org/spec/UML/20131201/DI" xmi:id="_a85AcOgPEeSihPTTeyiGNw">
+  <umlElement xsi:type="uml:Package" href="platform:/resource/mebx/src/main/resources/BaseServiceProvider.vdcol#_UJjrcOgPEeSihPTTeyiGNw"/>
+  <ownedUmlDiagramElement xsi:type="umldi:UMLShape" xmi:id="_yCJVsOgYEeSICKLD62EH2A">
+    <localStyle xsi:type="umldi:UMLStyle" xmi:id="_bM_bQei6EeSWfZ_4xae2EQ">
+      <fillColor xsi:type="DC:Color" xmi:id="_bNACUei6EeSWfZ_4xae2EQ" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" xmi:id="_bM_bQ-i6EeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" xmi:id="_bNACUOi6EeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+    </localStyle>
+    <bounds xsi:type="DC:Bounds" xmi:id="_bM_bQui6EeSWfZ_4xae2EQ" x="300.0" y="190.0" width="200.0" height="95.0"/>
+    <umlElement xsi:type="uml:Class" href="platform:/resource/mebx/src/main/resources/BaseServiceProvider.vdcol#BaseServiceProviderClass"/>
+    <ownedCompartment xsi:type="umldi:UMLCompartment" xmi:id="_yCJ8wOgYEeSICKLD62EH2A" isExpanded="true" featureName="ownedAttribute">
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_bNACU-i6EeSWfZ_4xae2EQ">
+        <fillColor xsi:type="DC:Color" xmi:id="_bNACV-i6EeSWfZ_4xae2EQ" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_bNACVei6EeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_bNACVui6EeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" xmi:id="_bNACVOi6EeSWfZ_4xae2EQ" x="1.0" y="30.0" width="198.0" height="25.0"/>
+    </ownedCompartment>
+    <ownedCompartment xsi:type="umldi:UMLCompartment" xmi:id="_yCJ8wugYEeSICKLD62EH2A" isExpanded="true" featureName="characteristicDefinition">
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_bNACWei6EeSWfZ_4xae2EQ">
+        <fillColor xsi:type="DC:Color" xmi:id="_bNACXei6EeSWfZ_4xae2EQ" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_bNACW-i6EeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_bNACXOi6EeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" xmi:id="_bNACWui6EeSWfZ_4xae2EQ" x="1.0" y="55.0" width="198.0" height="25.0"/>
+    </ownedCompartment>
+  </ownedUmlDiagramElement>
+  <ownedUmlDiagramElement xsi:type="umldi:UMLShape" xmi:id="_yCJ8xOgYEeSICKLD62EH2A">
+    <localStyle xsi:type="umldi:UMLStyle" xmi:id="_bNACX-i6EeSWfZ_4xae2EQ">
+      <fillColor xsi:type="DC:Color" xmi:id="_bNACY-i6EeSWfZ_4xae2EQ" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" xmi:id="_bNACYei6EeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" xmi:id="_bNACYui6EeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+    </localStyle>
+    <bounds xsi:type="DC:Bounds" xmi:id="_bNACYOi6EeSWfZ_4xae2EQ" x="450.0" y="315.0" width="200.0" height="95.0"/>
+    <umlElement xsi:type="uml:Class" href="platform:/resource/mebx/src/main/resources/BaseServiceProvider.vdcol#_EDCAC008-06B4-42BC-9024-570A9BAD782CClass"/>
+    <ownedCompartment xsi:type="umldi:UMLCompartment" xmi:id="_yCJ8x-gYEeSICKLD62EH2A" isExpanded="true" featureName="ownedAttribute">
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_bNACZei6EeSWfZ_4xae2EQ">
+        <fillColor xsi:type="DC:Color" xmi:id="_bNACaei6EeSWfZ_4xae2EQ" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_bNACZ-i6EeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_bNACaOi6EeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" xmi:id="_bNACZui6EeSWfZ_4xae2EQ" x="1.0" y="30.0" width="198.0" height="25.0"/>
+    </ownedCompartment>
+    <ownedCompartment xsi:type="umldi:UMLCompartment" xmi:id="_yCJ8yegYEeSICKLD62EH2A" isExpanded="true" featureName="characteristicDefinition">
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_bNApYOi6EeSWfZ_4xae2EQ">
+        <fillColor xsi:type="DC:Color" xmi:id="_bNApZOi6EeSWfZ_4xae2EQ" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_bNApYui6EeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_bNApY-i6EeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" xmi:id="_bNApYei6EeSWfZ_4xae2EQ" x="1.0" y="55.0" width="198.0" height="25.0"/>
+    </ownedCompartment>
+  </ownedUmlDiagramElement>
+  <ownedUmlDiagramElement xsi:type="umldi:UMLShape" xmi:id="_yCJ8y-gYEeSICKLD62EH2A">
+    <localStyle xsi:type="umldi:UMLStyle" xmi:id="_bNApZui6EeSWfZ_4xae2EQ">
+      <fillColor xsi:type="DC:Color" xmi:id="_bNApaui6EeSWfZ_4xae2EQ" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" xmi:id="_bNApaOi6EeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" xmi:id="_bNApaei6EeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+    </localStyle>
+    <bounds xsi:type="DC:Bounds" xmi:id="_bNApZ-i6EeSWfZ_4xae2EQ" x="60.0" y="255.0" width="200.0" height="95.0"/>
+    <umlElement xsi:type="uml:Class" href="platform:/resource/mebx/src/main/resources/BaseServiceProvider.vdcol#_A3DC997B-59E9-425C-8697-40CE59F7F75DClass"/>
+    <ownedCompartment xsi:type="umldi:UMLCompartment" xmi:id="_yCJ8zugYEeSICKLD62EH2A" isExpanded="true" featureName="ownedAttribute">
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_bNApbOi6EeSWfZ_4xae2EQ">
+        <fillColor xsi:type="DC:Color" xmi:id="_bNApcOi6EeSWfZ_4xae2EQ" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_bNApbui6EeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_bNApb-i6EeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" xmi:id="_bNApbei6EeSWfZ_4xae2EQ" x="1.0" y="30.0" width="198.0" height="25.0"/>
+    </ownedCompartment>
+    <ownedCompartment xsi:type="umldi:UMLCompartment" xmi:id="_yCJ80OgYEeSICKLD62EH2A" isExpanded="true" featureName="characteristicDefinition">
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_bNApcui6EeSWfZ_4xae2EQ">
+        <fillColor xsi:type="DC:Color" xmi:id="_bNApdui6EeSWfZ_4xae2EQ" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_bNApdOi6EeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_bNApdei6EeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" xmi:id="_bNApc-i6EeSWfZ_4xae2EQ" x="1.0" y="55.0" width="198.0" height="25.0"/>
+    </ownedCompartment>
+  </ownedUmlDiagramElement>
+  <ownedUmlDiagramElement xsi:type="umldi:UMLShape" xmi:id="_bNBQc-i6EeSWfZ_4xae2EQ">
+    <localStyle xsi:type="umldi:UMLStyle" xmi:id="_bNBQcei6EeSWfZ_4xae2EQ">
+      <fillColor xsi:type="DC:Color" xmi:id="_bNBQdui6EeSWfZ_4xae2EQ" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" xmi:id="_bNBQdOi6EeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" xmi:id="_bNBQdei6EeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+    </localStyle>
+    <bounds xsi:type="DC:Bounds" xmi:id="_bNBQcui6EeSWfZ_4xae2EQ" x="255.0" y="62.0" width="175.0" height="91.0"/>
+    <umlElement xsi:type="uml:Class" href="platform:/resource/mebx/src/main/resources/BaseServiceProvider.vdcol#/1/ServiceSpec"/>
+    <ownedCompartment xsi:type="umldi:UMLCompartment" xmi:id="_bNBQeui6EeSWfZ_4xae2EQ" isExpanded="true" previousWidth="200.0" previousHeight="20.0" featureName="ownedAttribute">
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_bNBQeOi6EeSWfZ_4xae2EQ">
+        <fillColor xsi:type="DC:Color" xmi:id="_bNBQfei6EeSWfZ_4xae2EQ" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_bNBQe-i6EeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_bNBQfOi6EeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" xmi:id="_bNBQeei6EeSWfZ_4xae2EQ" x="1.0" y="30.0" width="173.0" height="46.0"/>
+      <ownedShape xsi:type="umldi:UMLShape" xmi:id="_bNBQgei6EeSWfZ_4xae2EQ">
+        <localStyle xsi:type="umldi:UMLStyle" xmi:id="_bNBQf-i6EeSWfZ_4xae2EQ">
+          <fillColor xsi:type="DC:Color" xmi:id="_bNB3gei6EeSWfZ_4xae2EQ" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_bNBQgui6EeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_bNB3gOi6EeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" xmi:id="_bNBQgOi6EeSWfZ_4xae2EQ" x="1.0" y="15.0" width="170.0" height="20.0"/>
+        <umlElement xsi:type="uml:Property" href="platform:/resource/mebx/src/main/resources/BaseServiceProvider.vdcol#/1/ServiceSpec/Description"/>
+      </ownedShape>
+    </ownedCompartment>
+  </ownedUmlDiagramElement>
+</umldi:UMLDiagram>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML">
+  <VDML:ValueDeliveryModel name="agriculture.ConsumerValueDelivyModel">
+    <collaboration xsi:type="VDML:OrgUnit" name="agriculture.Consumer" id="agriculture.Consumer">
+      <attribute xsi:type="VDML:Attribute" name="isTemplate" tag="isTemplate" value=""/>
+      <ownedStore xsi:type="VDML:Store" name="Account" id="_0ECF5CB5-EA0B-44DC-8606-7B9934D4CD36"/>
+    </collaboration>
+  </VDML:ValueDeliveryModel>
+  <uml:Package xmi:id="_88iFIOQyEeS4HskRqikVKw" name="agriculture.consumer">
+    <packagedElement xsi:type="uml:Class" xmi:id="agriculture.ConsumerClass" name="agriculture.Consumer">
+      <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="agriculture.Consumer"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_0ECF5CB5-EA0B-44DC-8606-7B9934D4CD36Class" name="Account">
+      <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_0ECF5CB5-EA0B-44DC-8606-7B9934D4CD36"/>
+    </packagedElement>
+  </uml:Package>
+</xmi:XMI>

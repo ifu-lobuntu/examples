@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vdmldi:VDMLDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DC="http://www.omg.org/spec/DD/20131001/DC" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" xmlns:vdmldi="http://www.omg.org/spec/VDML/20131201/DI" id="BaseEmergingBusinessvdcmDiagram">
+  <localStyle xsi:type="vdmldi:VDMLStyle"/>
+  <vdmlElement xsi:type="VDML:OrgUnit" href="platform:/resource/mebx/src/main/resources/BaseEmergingBusiness.vdcol#BaseEmergingBusiness"/>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_4IbjAOgOEeSihPTTeyiGNw" boundaryShapes="_F-15MegPEeSihPTTeyiGNw">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <bounds xsi:type="DC:Bounds" x="315.0" y="60.0" width="500.0" height="500.0"/>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_F-15MOgPEeSihPTTeyiGNw">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="222.0" y="120.0" width="42.0" height="62.0"/>
+      <vdmlElement xsi:type="VDML:Store" href="platform:/resource/mebx/src/main/resources/BaseEmergingBusiness.vdcol#_FBCC9442-7711-4EB2-A646-24980D757B6F"/>
+    </ownedShape>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_F-15MegPEeSihPTTeyiGNw">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <bounds xsi:type="DC:Bounds" x="263.9331623958579" y="132.09989616607896" width="102.0" height="52.0"/>
+    <vdmlElement xsi:type="VDML:CapabilityOffer" href="platform:/resource/mebx/src/main/resources/BaseEmergingBusiness.vdcol#_43A6F09C-9D9A-4D7E-BE13-F81ACA6A5C1B"/>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_qlYBIOgjEeSHBdC7ERwr2w">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <bounds xsi:type="DC:Bounds" x="950.0" y="96.0" width="42.0" height="62.0"/>
+    <vdmlElement xsi:type="VDML:Store" href="platform:/resource/mebx/src/main/resources/BaseEmergingBusiness.vdcol#_EDCAC008-06B4-42BC-9024-570A9BAD782C"/>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_qliZMOgjEeSHBdC7ERwr2w">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <bounds xsi:type="DC:Bounds" x="882.0" y="234.0" width="42.0" height="62.0"/>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLEdge" id="_qljnUOgjEeSHBdC7ERwr2w" sourceShape="_F-15MegPEeSihPTTeyiGNw" targetShape="_F-15MOgPEeSihPTTeyiGNw">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <waypoint xsi:type="DC:Point" x="314.9331623958579" y="158.09989616607896"/>
+    <waypoint xsi:type="DC:Point" x="558.0" y="158.09989616607896"/>
+    <waypoint xsi:type="DC:Point" x="243.0" y="151.0"/>
+  </ownedVdmlDiagramElement>
+</vdmldi:VDMLDiagram>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VDML:ValueDeliveryModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SMM="http://www.omg.org/spec/SMM/20150201/SMM.cmof" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" name="agriculture.BuyFreshProduceValueDelivyModel">
+  <collaboration xsi:type="VDML:CapabilityMethod" name="agriculture.BuyFreshProduce" id="agriculture.BuyFreshProduce">
+    <containedPort xsi:type="VDML:InputPort" name="Nameasd" id="_CC8EF52E-E9C7-4A66-9274-D59362C5626B" inputDelegation="_E9DE8CD5-739D-4F5D-B19B-94D5A6ADC5D1"/>
+    <containedPort xsi:type="VDML:OutputPort" name="MyOutput" id="_4CE8DD58-4C42-4A31-9659-0C878AC8578F"/>
+    <activity xsi:type="VDML:Activity" name="Pay" id="_7983B1AE-7043-47BD-B2B2-B282924FF1BA" performingRole="_04B699FF-7051-4F1B-9F83-E5423822144D">
+      <containedPort xsi:type="VDML:OutputPort" name="Payment" id="_52BF64F6-0439-4054-8D26-F28C0929866D" output="_34E6ED31-507A-497A-867D-A8E03C3CBDF6" resourceUse="_4054502D-9591-492F-8805-93C621AD8203">
+        <valueAdd xsi:type="VDML:ValueAdd" name="OnTimePayment" id="_72219F41-A02C-4D36-A5A5-C37D038DE125">
+          <valueMeasurement xsi:type="VDML:MeasuredCharacteristic">
+            <characteristicDefinition xsi:type="SMM:Characteristic" href="platform:/resource/agriculture/src/main/resources/GardenMeasures.meas#_CF8E8B7C-E7EB-41DC-908A-8B4D6E53485Ctrait"/>
+          </valueMeasurement>
+        </valueAdd>
+        <valueAdd xsi:type="VDML:ValueAdd" name="PayInCorrectCurrency" id="_B88EA3A8-74CD-48F9-AEC1-35B60C1984B7">
+          <valueMeasurement xsi:type="VDML:MeasuredCharacteristic">
+            <characteristicDefinition xsi:type="SMM:Characteristic" href="platform:/resource/agriculture/src/main/resources/GardenMeasures.meas#_925D58F2-FCA5-4CFD-BEB8-EB2FF9A30CBCtrait"/>
+          </valueMeasurement>
+        </valueAdd>
+      </containedPort>
+      <containedPort xsi:type="VDML:InputPort" id="_32144B5B-3AD3-409F-B9D3-9A32AD3D1055" resourceUse="_4054502D-9591-492F-8805-93C621AD8203" delegatedInput="_E9DE8CD5-739D-4F5D-B19B-94D5A6ADC5D1"/>
+      <resourceUse xsi:type="VDML:ResourceUse" id="_4054502D-9591-492F-8805-93C621AD8203" deliverable="_52BF64F6-0439-4054-8D26-F28C0929866D" resource="_32144B5B-3AD3-409F-B9D3-9A32AD3D1055"/>
+    </activity>
+    <flow xsi:type="VDML:DeliverableFlow" id="_34E6ED31-507A-497A-867D-A8E03C3CBDF6" provider="_52BF64F6-0439-4054-8D26-F28C0929866D">
+      <recipient xsi:type="VDML:InputPort" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#_7DE6EBA6-4DB5-4865-8743-AE3A4846172D"/>
+    </flow>
+    <internalPortDelegation xsi:type="VDML:InputDelegation" id="_E9DE8CD5-739D-4F5D-B19B-94D5A6ADC5D1" source="_CC8EF52E-E9C7-4A66-9274-D59362C5626B" target="_32144B5B-3AD3-409F-B9D3-9A32AD3D1055"/>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <ownedAssignment xsi:type="VDML:Assignment" assignedRole="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5">
+      <participant xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    </ownedAssignment>
+    <performer xsi:type="VDML:Performer" name="Consumer" id="_04B699FF-7051-4F1B-9F83-E5423822144D" performedWork="_7983B1AE-7043-47BD-B2B2-B282924FF1BA"/>
+    <performer xsi:type="VDML:Performer" name="FarmingBusiness" id="_8BF553EA-9490-4E01-9C80-BBD1CE51ADB5" roleAssignment="//@collaboration.0/@ownedAssignment.0 //@collaboration.0/@ownedAssignment.1 //@collaboration.0/@ownedAssignment.2 //@collaboration.0/@ownedAssignment.3 //@collaboration.0/@ownedAssignment.4 //@collaboration.0/@ownedAssignment.5 //@collaboration.0/@ownedAssignment.6 //@collaboration.0/@ownedAssignment.7 //@collaboration.0/@ownedAssignment.8 //@collaboration.0/@ownedAssignment.9 //@collaboration.0/@ownedAssignment.10 //@collaboration.0/@ownedAssignment.11 //@collaboration.0/@ownedAssignment.12 //@collaboration.0/@ownedAssignment.13 //@collaboration.0/@ownedAssignment.14 //@collaboration.0/@ownedAssignment.15 //@collaboration.0/@ownedAssignment.16 //@collaboration.0/@ownedAssignment.17 //@collaboration.0/@ownedAssignment.18 //@collaboration.0/@ownedAssignment.19 //@collaboration.0/@ownedAssignment.20 //@collaboration.0/@ownedAssignment.21 //@collaboration.0/@ownedAssignment.22 //@collaboration.0/@ownedAssignment.23 //@collaboration.0/@ownedAssignment.24 //@collaboration.0/@ownedAssignment.25 //@collaboration.0/@ownedAssignment.26 //@collaboration.0/@ownedAssignment.27 //@collaboration.0/@ownedAssignment.28 //@collaboration.0/@ownedAssignment.29 //@collaboration.0/@ownedAssignment.30 //@collaboration.0/@ownedAssignment.31 //@collaboration.0/@ownedAssignment.32 //@collaboration.0/@ownedAssignment.33 //@collaboration.0/@ownedAssignment.34 //@collaboration.0/@ownedAssignment.35 //@collaboration.0/@ownedAssignment.36 //@collaboration.0/@ownedAssignment.37 //@collaboration.0/@ownedAssignment.38 //@collaboration.0/@ownedAssignment.39 //@collaboration.0/@ownedAssignment.40 //@collaboration.0/@ownedAssignment.41 //@collaboration.0/@ownedAssignment.42 //@collaboration.0/@ownedAssignment.43 //@collaboration.0/@ownedAssignment.44 //@collaboration.0/@ownedAssignment.45 //@collaboration.0/@ownedAssignment.46 //@collaboration.0/@ownedAssignment.47 //@collaboration.0/@ownedAssignment.48 //@collaboration.0/@ownedAssignment.49 //@collaboration.0/@ownedAssignment.50 //@collaboration.0/@ownedAssignment.51 //@collaboration.0/@ownedAssignment.52 //@collaboration.0/@ownedAssignment.53 //@collaboration.0/@ownedAssignment.54 //@collaboration.0/@ownedAssignment.55 //@collaboration.0/@ownedAssignment.56 //@collaboration.0/@ownedAssignment.57 //@collaboration.0/@ownedAssignment.58 //@collaboration.0/@ownedAssignment.59"/>
+  </collaboration>
+</VDML:ValueDeliveryModel>

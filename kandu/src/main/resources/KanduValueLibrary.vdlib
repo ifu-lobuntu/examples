@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DC="http://www.omg.org/spec/DD/20131001/DC" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umldi="http://www.omg.org/spec/UML/20131201/DI">
+  <uml:Package xmi:id="_X7HWQOEkEeSscbl9KLghFQ" name="kandu">
+    <packagedElement xsi:type="uml:Class" xmi:id="_4E5F0C16-4BE4-4425-AD47-BFC4A2C50633" name="Order">
+      <eAnnotations xsi:type="ecore:EAnnotation" xmi:id="_BQCXgeILEeSjDKkJKWUSNg" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_BQCXgOILEeSjDKkJKWUSNg"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_D887CE97-C6AE-4341-9B20-8CEA5B35F09C" name="FreshProduce">
+      <eAnnotations xsi:type="ecore:EAnnotation" xmi:id="_BQCXg-ILEeSjDKkJKWUSNg" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_BQCXguILEeSjDKkJKWUSNg"/>
+    </packagedElement>
+  </uml:Package>
+  <umldi:UMLDiagram xmi:id="_X7HWQeEkEeSscbl9KLghFQ" umlElement="_X7HWQOEkEeSscbl9KLghFQ">
+    <ownedUmlDiagramElement xsi:type="umldi:UMLShape" xmi:id="_ea3n8-EkEeSscbl9KLghFQ" umlElement="_4E5F0C16-4BE4-4425-AD47-BFC4A2C50633">
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_BPzG9OILEeSjDKkJKWUSNg">
+        <fillColor xsi:type="DC:Color" xmi:id="_BPzG-OILEeSjDKkJKWUSNg" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_BPzG9uILEeSjDKkJKWUSNg" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_BPzG9-ILEeSjDKkJKWUSNg" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" xmi:id="_BPzG9eILEeSjDKkJKWUSNg" x="225.0" y="67.0" width="120.0" height="45.0"/>
+    </ownedUmlDiagramElement>
+    <ownedUmlDiagramElement xsi:type="umldi:UMLShape" xmi:id="_ea3n-uEkEeSscbl9KLghFQ" umlElement="_D887CE97-C6AE-4341-9B20-8CEA5B35F09C">
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_BPzG-uILEeSjDKkJKWUSNg">
+        <fillColor xsi:type="DC:Color" xmi:id="_BPzuAuILEeSjDKkJKWUSNg" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_BPzuAOILEeSjDKkJKWUSNg" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_BPzuAeILEeSjDKkJKWUSNg" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" xmi:id="_BPzG--ILEeSjDKkJKWUSNg" x="561.0" y="67.0" width="120.0" height="45.0"/>
+    </ownedUmlDiagramElement>
+    <ownedUmlDiagramElement xsi:type="umldi:UMLShape" xmi:id="_BPzuBuILEeSjDKkJKWUSNg">
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_BPzuBOILEeSjDKkJKWUSNg">
+        <fillColor xsi:type="DC:Color" xmi:id="_BQBwceILEeSjDKkJKWUSNg" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_BPzuB-ILEeSjDKkJKWUSNg" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_BQBwcOILEeSjDKkJKWUSNg" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" xmi:id="_BPzuBeILEeSjDKkJKWUSNg" x="337.0" y="245.0" width="120.0" height="45.0"/>
+      <umlElement xsi:type="uml:Class" href="platform:/resource/kandu/src/main/resources/Farm.vdcm#_0k_IkuIHEeSJuJEOZChNPw"/>
+    </ownedUmlDiagramElement>
+  </umldi:UMLDiagram>
+  <VDML:ValueDeliveryModel xmi:id="_BPzG8eILEeSjDKkJKWUSNg" id="_X7HWQOEkEeSscbl9KLghFQvdm">
+    <businessItemLibrary xsi:type="VDML:BusinessItemLibrary" xmi:id="_BPzG8uILEeSjDKkJKWUSNg" name="kandu" id="_X7HWQOEkEeSscbl9KLghFQbil">
+      <businessItemLibraryElement xsi:type="VDML:BusinessItemDefinition" xmi:id="_BQCXgOILEeSjDKkJKWUSNg" name="Order" id="_4E5F0C16-4BE4-4425-AD47-BFC4A2C50633bid"/>
+      <businessItemLibraryElement xsi:type="VDML:BusinessItemDefinition" xmi:id="_BQCXguILEeSjDKkJKWUSNg" name="FreshProduce" id="_D887CE97-C6AE-4341-9B20-8CEA5B35F09Cbid"/>
+    </businessItemLibrary>
+  </VDML:ValueDeliveryModel>
+</xmi:XMI>

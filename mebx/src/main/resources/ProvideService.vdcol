@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SMM="http://www.omg.org/spec/SMM/20150201/SMM.cmof" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML">
+  <VDML:ValueDeliveryModel name="ProvideServiceValueDeliveryModel">
+    <businessItemLibrary xsi:type="VDML:BusinessItemLibrary" id="_WyCPsOi2EeSWuZ_V2bjrKwbil">
+      <businessItemLibraryElement xsi:type="VDML:BusinessItemDefinition" name="ServiceDeliverable" id="_obrfkOi5EeSWfZ_4xae2EQ"/>
+    </businessItemLibrary>
+    <collaboration xsi:type="VDML:CapabilityMethod" name="ProvideService" id="ProvideService">
+      <activity xsi:type="VDML:Activity" name="PerformService" id="_2074113C-467A-4619-A40D-A5C7F40DD0F8" performingRole="_210C2670-5F3D-4BD1-9DB5-24AA006865FC">
+        <containedPort xsi:type="VDML:OutputPort" name="ServiceDeliverable" id="_CF0A3926-1436-4DA7-A25B-1F76E7B8162B" output="_14B1F9D7-BF46-4E25-8942-BFB80C854774">
+          <batchSize xsi:type="VDML:MeasuredCharacteristic">
+            <characteristicDefinition xsi:type="SMM:Characteristic" href="platform:/resource/mebx/src/main/resources/CommonMeasures.meas#_CBDA2445-87B9-417D-8BDC-7566E4E9E8F1trait"/>
+          </batchSize>
+          <valueAdd xsi:type="VDML:ValueAdd" name="ValueAdd1" id="_BD8A1479-91AF-4FEB-8997-03B3489BAE28">
+            <valueMeasurement xsi:type="VDML:MeasuredCharacteristic">
+              <characteristicDefinition xsi:type="SMM:Characteristic" href="platform:/resource/mebx/src/main/resources/CommonMeasures.meas#_2270370A-9F03-4D39-95BC-BD32EE0684E4trait"/>
+            </valueMeasurement>
+          </valueAdd>
+        </containedPort>
+      </activity>
+      <activity xsi:type="VDML:Activity" name="PayForService" id="_4E463F1B-6750-4727-AF4D-89EB4B4963D5" performingRole="_A75AC4D4-0A25-48C5-A5C2-0C736E5D301C">
+        <containedPort xsi:type="VDML:InputPort" id="_D1DEDD2C-6401-4EE7-B918-ADE7F5D42AF2" input="_14B1F9D7-BF46-4E25-8942-BFB80C854774"/>
+      </activity>
+      <flow xsi:type="VDML:DeliverableFlow" name="ServiceDeliverable" id="_14B1F9D7-BF46-4E25-8942-BFB80C854774" recipient="_D1DEDD2C-6401-4EE7-B918-ADE7F5D42AF2" provider="_CF0A3926-1436-4DA7-A25B-1F76E7B8162B"/>
+      <businessItem xsi:type="VDML:BusinessItem" name="ServiceDeliverable" id="_obrfkei5EeSWfZ_4xae2EQ" definition="_obrfkOi5EeSWfZ_4xae2EQ"/>
+      <businessItem xsi:type="VDML:BusinessItem" name="ServiceDeliverable" id="_saA9YOi5EeSWfZ_4xae2EQ" definition="_obrfkOi5EeSWfZ_4xae2EQ"/>
+      <businessItem xsi:type="VDML:BusinessItem" name="ServiceDeliverable" id="_krZ80OjCEeSWfZ_4xae2EQ" definition="_obrfkOi5EeSWfZ_4xae2EQ"/>
+      <performer xsi:type="VDML:Performer" name="ServiceProvider" id="_210C2670-5F3D-4BD1-9DB5-24AA006865FC" performedWork="_2074113C-467A-4619-A40D-A5C7F40DD0F8"/>
+      <performer xsi:type="VDML:Performer" name="Customer" id="_A75AC4D4-0A25-48C5-A5C2-0C736E5D301C" performedWork="_4E463F1B-6750-4727-AF4D-89EB4B4963D5"/>
+    </collaboration>
+  </VDML:ValueDeliveryModel>
+  <uml:Package xmi:id="_WyCPsOi2EeSWuZ_V2bjrKw" name="provideservice">
+    <packagedElement xsi:type="uml:Class" xmi:id="_obrfkui5EeSWfZ_4xae2EQ" name="ServiceDeliverable">
+      <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_obrfkOi5EeSWfZ_4xae2EQ"/>
+    </packagedElement>
+  </uml:Package>
+</xmi:XMI>

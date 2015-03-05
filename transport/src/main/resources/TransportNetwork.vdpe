@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vdmldi:VDMLDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DC="http://www.omg.org/spec/DD/20131001/DC" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" xmlns:vdmldi="http://www.omg.org/spec/VDML/20131201/DI" id="TransportNetworkvdpeDiagram">
+  <localStyle xsi:type="vdmldi:VDMLStyle">
+    <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+    <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+  </localStyle>
+  <vdmlElement xsi:type="VDML:BusinessNetwork" href="platform:/resource/transport/src/main/resources/TransportNetwork.vdcol#TransportNetwork"/>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_OyxYoOtfEeSKU5iTMNyenQ">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <bounds xsi:type="DC:Bounds" x="100.37386366239248" y="330.0" width="200.0" height="100.0"/>
+    <vdmlElement xsi:type="VDML:Party" href="platform:/resource/transport/src/main/resources/TransportNetwork.vdcol#_74C9790D-8A3E-45FB-94BD-944717D7FC4A"/>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_Oyx_sOtfEeSKU5iTMNyenQ">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <bounds xsi:type="DC:Bounds" x="420.0" y="14.0" width="200.0" height="100.0"/>
+    <vdmlElement xsi:type="VDML:Party" href="platform:/resource/transport/src/main/resources/TransportNetwork.vdcol#_41B171A1-CEE7-48E8-977F-76FD4CB41F8A"/>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_Oyx_setfEeSKU5iTMNyenQ">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <bounds xsi:type="DC:Bounds" x="846.0082794401652" y="315.4607143675192" width="199.9999999999999" height="100.0"/>
+    <vdmlElement xsi:type="VDML:Party" href="platform:/resource/transport/src/main/resources/TransportNetwork.vdcol#_A9646601-AEE6-4899-B896-BA2388D5E3DF"/>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_Oyx_sutfEeSKU5iTMNyenQ" isExpanded="true" previousWidth="100.0" previousHeight="80.0">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <bounds xsi:type="DC:Bounds" x="75.37386366239247" y="71.69561690170892" width="250.0" height="60.0"/>
+    <vdmlElement xsi:type="VDML:ValueProposition" href="platform:/resource/transport/src/main/resources/TransportNetwork.vdcol#_DAD480C8-B329-47D4-A0E6-1AE032F9DB07"/>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_Oyx_s-tfEeSKU5iTMNyenQ">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="1.0" y="12.0" width="247.0" height="20.0"/>
+      <vdmlElement xsi:type="VDML:ValuePropositionComponent" href="platform:/resource/transport/src/main/resources/TransportNetwork.vdcol#_27DF82FC-60F5-4F08-AF1F-CFB4CB9711F2"/>
+    </ownedShape>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLEdge" id="_Oyx_tOtfEeSKU5iTMNyenQ" sourceShape="_OyxYoOtfEeSKU5iTMNyenQ" targetShape="_Oyx_sutfEeSKU5iTMNyenQ">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <waypoint xsi:type="DC:Point" x="200.37386366239247" y="380.0"/>
+    <waypoint xsi:type="DC:Point" x="200.37386366239247" y="101.69561690170892"/>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLEdge" id="_OyymwOtfEeSKU5iTMNyenQ" sourceShape="_Oyx_sutfEeSKU5iTMNyenQ" targetShape="_Oyx_sOtfEeSKU5iTMNyenQ">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <waypoint xsi:type="DC:Point" x="200.37386366239247" y="101.69561690170892"/>
+    <waypoint xsi:type="DC:Point" x="520.0" y="64.0"/>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_OyymwetfEeSKU5iTMNyenQ" isExpanded="true" previousWidth="100.0" previousHeight="80.0">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <bounds xsi:type="DC:Bounds" x="495.0" y="390.0" width="250.0" height="87.0"/>
+    <vdmlElement xsi:type="VDML:ValueProposition" href="platform:/resource/transport/src/main/resources/TransportNetwork.vdcol#_349A06CC-0263-4BD7-82F0-346826913550"/>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_OyymwutfEeSKU5iTMNyenQ">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="1.0" y="12.0" width="247.0" height="20.0"/>
+      <vdmlElement xsi:type="VDML:ValuePropositionComponent" href="platform:/resource/transport/src/main/resources/TransportNetwork.vdcol#_CE9C404E-AC17-4245-AF32-8BE58DC97CC3"/>
+    </ownedShape>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_Oyymw-tfEeSKU5iTMNyenQ">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="1.0" y="33.0" width="247.0" height="20.0"/>
+      <vdmlElement xsi:type="VDML:ValuePropositionComponent" href="platform:/resource/transport/src/main/resources/TransportNetwork.vdcol#_ECDA8302-ACED-4B16-A34F-E64C6D6DDE53"/>
+    </ownedShape>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_OyymxOtfEeSKU5iTMNyenQ">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="1.0" y="54.0" width="247.0" height="20.0"/>
+      <vdmlElement xsi:type="VDML:ValuePropositionComponent" href="platform:/resource/transport/src/main/resources/TransportNetwork.vdcol#_29E18DE8-7429-4C5D-814C-94C4BCDBB9D7"/>
+    </ownedShape>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLEdge" id="_OyzN0OtfEeSKU5iTMNyenQ" sourceShape="_OyymwetfEeSKU5iTMNyenQ" targetShape="_OyxYoOtfEeSKU5iTMNyenQ">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <waypoint xsi:type="DC:Point" x="620.0" y="433.5"/>
+    <waypoint xsi:type="DC:Point" x="200.37386366239247" y="380.0"/>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLEdge" id="_OyzN0etfEeSKU5iTMNyenQ" sourceShape="_Oyx_setfEeSKU5iTMNyenQ" targetShape="_OyymwetfEeSKU5iTMNyenQ">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <waypoint xsi:type="DC:Point" x="946.0082794401651" y="365.4607143675192"/>
+    <waypoint xsi:type="DC:Point" x="620.0" y="433.5"/>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_OyzN0utfEeSKU5iTMNyenQ" isExpanded="true" previousWidth="100.0" previousHeight="80.0">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <bounds xsi:type="DC:Bounds" x="821.0082794401651" y="42.00000000000001" width="250.0" height="59.99999999999999"/>
+    <vdmlElement xsi:type="VDML:ValueProposition" href="platform:/resource/transport/src/main/resources/TransportNetwork.vdcol#_FB9026A3-C0D1-4D31-A55F-A2F16F4C3A6B"/>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_OyzN0-tfEeSKU5iTMNyenQ">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="1.0" y="12.0" width="247.0" height="20.0"/>
+      <vdmlElement xsi:type="VDML:ValuePropositionComponent" href="platform:/resource/transport/src/main/resources/TransportNetwork.vdcol#_61B181A6-1185-4381-A0AF-A745B3A56E06"/>
+    </ownedShape>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLEdge" id="_OyzN1OtfEeSKU5iTMNyenQ" sourceShape="_Oyx_sOtfEeSKU5iTMNyenQ" targetShape="_OyzN0utfEeSKU5iTMNyenQ">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <waypoint xsi:type="DC:Point" x="520.0" y="64.0"/>
+    <waypoint xsi:type="DC:Point" x="720.5041397200825" y="63.0"/>
+    <waypoint xsi:type="DC:Point" x="946.0082794401651" y="72.0"/>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLEdge" id="_Oyz04OtfEeSKU5iTMNyenQ" sourceShape="_OyzN0utfEeSKU5iTMNyenQ" targetShape="_Oyx_setfEeSKU5iTMNyenQ">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <waypoint xsi:type="DC:Point" x="946.0082794401651" y="72.0"/>
+    <waypoint xsi:type="DC:Point" x="946.0082794401651" y="365.4607143675192"/>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_Oyz04etfEeSKU5iTMNyenQ" isExpanded="true" previousWidth="100.0" previousHeight="80.0">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <bounds xsi:type="DC:Bounds" x="419.0" y="210.0" width="250.0" height="66.0"/>
+    <vdmlElement xsi:type="VDML:ValueProposition" href="platform:/resource/transport/src/main/resources/TransportNetwork.vdcol#_2CA6BA73-9DD2-42B5-ACEE-88AC3BDBAC98"/>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_Oyz04utfEeSKU5iTMNyenQ">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="1.0" y="12.0" width="247.0" height="20.0"/>
+      <vdmlElement xsi:type="VDML:ValuePropositionComponent" href="platform:/resource/transport/src/main/resources/TransportNetwork.vdcol#_FB26CC68-9314-41A9-9136-3A7652F07E04"/>
+    </ownedShape>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_Oyz04-tfEeSKU5iTMNyenQ">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="1.0" y="33.0" width="247.0" height="20.0"/>
+      <vdmlElement xsi:type="VDML:ValuePropositionComponent" href="platform:/resource/transport/src/main/resources/TransportNetwork.vdcol#_C872D3FF-B1FE-479E-B557-129DFFB1166A"/>
+    </ownedShape>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLEdge" id="_Oy0b8OtfEeSKU5iTMNyenQ" sourceShape="_Oyz04etfEeSKU5iTMNyenQ" targetShape="_OyxYoOtfEeSKU5iTMNyenQ">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <waypoint xsi:type="DC:Point" x="544.0" y="243.0"/>
+    <waypoint xsi:type="DC:Point" x="200.37386366239247" y="380.0"/>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLEdge" id="_Oy0b8etfEeSKU5iTMNyenQ" sourceShape="_Oyx_sOtfEeSKU5iTMNyenQ" targetShape="_Oyz04etfEeSKU5iTMNyenQ">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <waypoint xsi:type="DC:Point" x="520.0" y="64.0"/>
+    <waypoint xsi:type="DC:Point" x="544.0" y="243.0"/>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_Oy0b8utfEeSKU5iTMNyenQ" isExpanded="true" previousWidth="100.0" previousHeight="80.00000000000003">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <bounds xsi:type="DC:Bounds" x="708.0616560407356" y="180.82250005726345" width="250.0" height="87.00000000000003"/>
+    <vdmlElement xsi:type="VDML:ValueProposition" href="platform:/resource/transport/src/main/resources/TransportNetwork.vdcol#_CB25A04D-C689-40CB-B6C0-61AA331360CB"/>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_Oy0b8-tfEeSKU5iTMNyenQ">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="1.0" y="12.0" width="247.0" height="20.0"/>
+      <vdmlElement xsi:type="VDML:ValuePropositionComponent" href="platform:/resource/transport/src/main/resources/TransportNetwork.vdcol#_CB30C6F3-0E8C-4304-9D97-DDC01F5F04D6"/>
+    </ownedShape>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_Oy1DAOtfEeSKU5iTMNyenQ">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="1.0" y="33.0" width="247.0" height="20.0"/>
+      <vdmlElement xsi:type="VDML:ValuePropositionComponent" href="platform:/resource/transport/src/main/resources/TransportNetwork.vdcol#_6B2D4479-1E73-4476-A276-42944746D73E"/>
+    </ownedShape>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_Oy1DAetfEeSKU5iTMNyenQ">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="1.0" y="54.0" width="247.0" height="20.0"/>
+      <vdmlElement xsi:type="VDML:ValuePropositionComponent" href="platform:/resource/transport/src/main/resources/TransportNetwork.vdcol#_5FEFEE4F-98A1-4D7B-A5F9-4BBC17F2C077"/>
+    </ownedShape>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLEdge" id="_Oy1DAutfEeSKU5iTMNyenQ" sourceShape="_Oyx_setfEeSKU5iTMNyenQ" targetShape="_Oy0b8utfEeSKU5iTMNyenQ">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <waypoint xsi:type="DC:Point" x="946.0082794401651" y="365.4607143675192"/>
+    <waypoint xsi:type="DC:Point" x="833.0616560407356" y="224.32250005726348"/>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLEdge" id="_Oy1qEOtfEeSKU5iTMNyenQ" sourceShape="_Oy0b8utfEeSKU5iTMNyenQ" targetShape="_Oyx_sOtfEeSKU5iTMNyenQ">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <waypoint xsi:type="DC:Point" x="833.0616560407356" y="224.32250005726348"/>
+    <waypoint xsi:type="DC:Point" x="520.0" y="64.0"/>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_Oy1qEetfEeSKU5iTMNyenQ" isExpanded="true" previousWidth="100.0" previousHeight="80.0">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <bounds xsi:type="DC:Bounds" x="275.02012995441373" y="131.11353900541195" width="250.0" height="60.0"/>
+    <vdmlElement xsi:type="VDML:ValueProposition" href="platform:/resource/transport/src/main/resources/TransportNetwork.vdcol#_8380B0F5-1E95-4AC3-BE65-ED1B18DC50E8"/>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_Oy1qEutfEeSKU5iTMNyenQ">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="1.0" y="12.0" width="247.0" height="20.0"/>
+      <vdmlElement xsi:type="VDML:ValuePropositionComponent" href="platform:/resource/transport/src/main/resources/TransportNetwork.vdcol#_295B2A51-48CD-4C7D-8351-4C349849AB6A"/>
+    </ownedShape>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLEdge" id="_Oy2RIOtfEeSKU5iTMNyenQ" sourceShape="_Oyx_sOtfEeSKU5iTMNyenQ" targetShape="_Oy1qEetfEeSKU5iTMNyenQ">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <waypoint xsi:type="DC:Point" x="520.0" y="64.0"/>
+    <waypoint xsi:type="DC:Point" x="400.02012995441373" y="161.11353900541195"/>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLEdge" id="_Oy2RIetfEeSKU5iTMNyenQ" sourceShape="_Oy1qEetfEeSKU5iTMNyenQ" targetShape="_OyxYoOtfEeSKU5iTMNyenQ">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <waypoint xsi:type="DC:Point" x="400.02012995441373" y="161.11353900541195"/>
+    <waypoint xsi:type="DC:Point" x="200.37386366239247" y="380.0"/>
+  </ownedVdmlDiagramElement>
+</vdmldi:VDMLDiagram>

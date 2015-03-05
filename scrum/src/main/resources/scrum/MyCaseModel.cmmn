@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmmn:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://asdf.com/" xmlns:DC="http://www.omg.org/spec/DD/20131001/DC" xmlns:cmmn="http://www.omg.org/spec/CMMN/20131201/MODEL" xmlns:cmmndi="http://www.omg.org/spec/CMMN/20131201/DI" xsi:type="cmmn:tDefinitions" id="_akx7wN-mEeShZtg_5Jfr1g" targetNamespace="http://asdf.com/">
+  <diagram xsi:type="cmmndi:CMMNDiagram" id="_akyi0N-mEeShZtg_5Jfr1g" cmmnElement="#_akx7wN-mEeShZtg_5Jfr1g">
+    <localStyle xsi:type="cmmndi:CMMNStyle"/>
+    <ownedCmmnDiagramElement xsi:type="cmmndi:CMMNShape" id="_akyi0d-mEeShZtg_5Jfr1g" cmmnElement="#scrum.MyCaseModel">
+      <localStyle xsi:type="cmmndi:CMMNStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="180.0" y="10.0" width="600.0" height="300.0"/>
+      <ownedShape xsi:type="cmmndi:CMMNShape" id="_RG8S4N-nEeShZtg_5Jfr1g" isPlanningTableExpanded="true" cmmnElement="#_FDF0692B-2FBC-4291-AE77-DB614A079A3B">
+        <localStyle xsi:type="cmmndi:CMMNStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="28.0" y="24.0" width="100.0" height="80.0"/>
+      </ownedShape>
+      <ownedShape xsi:type="cmmndi:CMMNShape" id="_RG8S4d-nEeShZtg_5Jfr1g" previousWidth="200.0" previousHeight="160.0" isPlanningTableExpanded="true" cmmnElement="#_FD1730C6-BB73-4AA1-AE1A-29CA3B295287">
+        <localStyle xsi:type="cmmndi:CMMNStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="255.0" y="65.0" width="200.0" height="100.0"/>
+      </ownedShape>
+      <ownedShape xsi:type="cmmndi:CMMNShape" id="_RHXwsN-nEeShZtg_5Jfr1g" cmmnElement="#_E66A391C-4ACE-4EFF-9E2D-1319D9ACA978">
+        <localStyle xsi:type="cmmndi:CMMNStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="12.0" y="130.0" width="200.0" height="160.0"/>
+      </ownedShape>
+    </ownedCmmnDiagramElement>
+    <ownedCmmnDiagramElement xsi:type="cmmndi:CMMNEdge" id="_RHXwsd-nEeShZtg_5Jfr1g" sourceShape="#_RG8S4N-nEeShZtg_5Jfr1g" targetShape="#_RG8S4d-nEeShZtg_5Jfr1g">
+      <localStyle xsi:type="cmmndi:CMMNStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <waypoint xsi:type="DC:Point" x="78.0" y="64.0"/>
+      <waypoint xsi:type="DC:Point" x="375.0" y="74.0"/>
+      <waypoint xsi:type="DC:Point" x="375.0" y="125.0"/>
+      <waypoint xsi:type="DC:Point" x="355.0" y="115.0"/>
+    </ownedCmmnDiagramElement>
+  </diagram>
+  <cmmn:caseFileItemDefinition xsi:type="cmmn:tCaseFileItemDefinition" id="_RHiv0N-nEeShZtg_5Jfr1g"/>
+  <cmmn:case xsi:type="cmmn:tCase" id="scrum.MyCaseModel" name="scrum.MyCaseModel">
+    <cmmn:caseFileModel xsi:type="cmmn:tCaseFile">
+      <cmmn:caseFileItem xsi:type="cmmn:tCaseFileItem" id="_E66A391C-4ACE-4EFF-9E2D-1319D9ACA978" definitionRef="#_RHiv0N-nEeShZtg_5Jfr1g" multiplicity="Unspecified" name="CaseFileItem"/>
+    </cmmn:caseFileModel>
+    <cmmn:casePlanModel xsi:type="cmmn:tStage" id="_akx7wd-mEeShZtg_5Jfr1g" autoComplete="true">
+      <cmmn:planItem xsi:type="cmmn:tPlanItem" id="_FDF0692B-2FBC-4291-AE77-DB614A079A3B" definitionRef="#_RHjW4N-nEeShZtg_5Jfr1g" name="MyHumanTask">
+        <cmmn:itemControl xsi:type="cmmn:tPlanItemControl">
+          <cmmn:repetitionRule xsi:type="cmmn:tRepetitionRule">
+            <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"/>
+          </cmmn:repetitionRule>
+          <cmmn:requiredRule xsi:type="cmmn:tRequiredRule">
+            <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"/>
+          </cmmn:requiredRule>
+          <cmmn:manualActivationRule xsi:type="cmmn:tManualActivationRule">
+            <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"/>
+          </cmmn:manualActivationRule>
+        </cmmn:itemControl>
+      </cmmn:planItem>
+      <cmmn:planItemDefinition xsi:type="cmmn:tHumanTask" id="_RHjW4N-nEeShZtg_5Jfr1g" name="MyHumanTask" isBlocking="true">
+        <cmmn:planningTable xsi:type="cmmn:tPlanningTable">
+          <cmmn:tableItem xsi:type="cmmn:tDiscretionaryItem" id="_FD1730C6-BB73-4AA1-AE1A-29CA3B295287" applicabilityRuleRefs="#_RHjW4d-nEeShZtg_5Jfr1g" definitionRef="#_RHjW4t-nEeShZtg_5Jfr1g">
+            <cmmn:itemControl xsi:type="cmmn:tPlanItemControl">
+              <cmmn:repetitionRule xsi:type="cmmn:tRepetitionRule">
+                <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"/>
+              </cmmn:repetitionRule>
+              <cmmn:requiredRule xsi:type="cmmn:tRequiredRule">
+                <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"/>
+              </cmmn:requiredRule>
+              <cmmn:manualActivationRule xsi:type="cmmn:tManualActivationRule">
+                <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"/>
+              </cmmn:manualActivationRule>
+            </cmmn:itemControl>
+          </cmmn:tableItem>
+          <cmmn:applicabilityRule xsi:type="cmmn:tApplicabilityRule" id="_RHjW4d-nEeShZtg_5Jfr1g">
+            <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"/>
+          </cmmn:applicabilityRule>
+        </cmmn:planningTable>
+      </cmmn:planItemDefinition>
+      <cmmn:planItemDefinition xsi:type="cmmn:tStage" id="_RHjW4t-nEeShZtg_5Jfr1g" name="DiscretionaryStage"/>
+    </cmmn:casePlanModel>
+  </cmmn:case>
+</cmmn:definitions>

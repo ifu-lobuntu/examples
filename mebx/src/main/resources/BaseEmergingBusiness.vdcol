@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML">
+  <VDML:ValueDeliveryModel name="BaseEmergingBusinessValueDeliveryModel">
+    <collaboration xsi:type="VDML:OrgUnit" name="BaseEmergingBusiness" id="BaseEmergingBusiness">
+      <attribute xsi:type="VDML:Attribute" name="isTemplate" tag="isTemplate" value=""/>
+      <capabilityOffer xsi:type="VDML:CapabilityOffer" name="BaseService" id="_43A6F09C-9D9A-4D7E-BE13-F81ACA6A5C1B" capabilityResource="_FBCC9442-7711-4EB2-A646-24980D757B6F"/>
+      <ownedStore xsi:type="VDML:Store" name="Account" id="_FBCC9442-7711-4EB2-A646-24980D757B6F" supportedCapability="_43A6F09C-9D9A-4D7E-BE13-F81ACA6A5C1B">
+        <containedPort xsi:type="VDML:InputPort" id="_CDD5D93C-65E9-435E-BA11-1CB779DAF9FB">
+          <input xsi:type="VDML:DeliverableFlow" href="platform:/resource/mebx/src/main/resources/ProvideService.vdcol#_CEB5D2ED-5193-4774-8B81-87F9FBEBBD83"/>
+        </containedPort>
+        <containedPort xsi:type="VDML:OutputPort" id="_A244639E-8172-4834-B502-7425F4989502">
+          <output xsi:type="VDML:DeliverableFlow" href="platform:/resource/mebx/src/main/resources/ProvideService.vdcol#_A6D797D9-1CDD-4F04-B781-ACCE0F68A12E"/>
+          <valueAdd xsi:type="VDML:ValueAdd" name="ValueAdd10" id="_CD42033F-CEE1-4877-BE12-83C4D1442FB6"/>
+        </containedPort>
+      </ownedStore>
+      <ownedStore xsi:type="VDML:Store" name="Account" id="_EDCAC008-06B4-42BC-9024-570A9BAD782C"/>
+    </collaboration>
+  </VDML:ValueDeliveryModel>
+  <uml:Package xmi:id="_3sAswOgOEeSihPTTeyiGNw" name="baseemergingbusiness">
+    <packagedElement xsi:type="uml:Class" xmi:id="BaseEmergingBusinessClass" name="BaseEmergingBusiness">
+      <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="BaseEmergingBusiness"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_FBCC9442-7711-4EB2-A646-24980D757B6FClass" name="Account">
+      <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_FBCC9442-7711-4EB2-A646-24980D757B6F"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_43A6F09C-9D9A-4D7E-BE13-F81ACA6A5C1BClass" name="BaseService">
+      <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_43A6F09C-9D9A-4D7E-BE13-F81ACA6A5C1B"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_EDCAC008-06B4-42BC-9024-570A9BAD782CClass" name="Account">
+      <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_EDCAC008-06B4-42BC-9024-570A9BAD782C"/>
+    </packagedElement>
+  </uml:Package>
+</xmi:XMI>

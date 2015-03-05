@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vdmldi:VDMLDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DC="http://www.omg.org/spec/DD/20131001/DC" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" xmlns:vdmldi="http://www.omg.org/spec/VDML/20131201/DI" id="ErectWallvdanDiagram">
+  <localStyle xsi:type="vdmldi:VDMLStyle"/>
+  <vdmlElement xsi:type="VDML:CapabilityMethod" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#ErectWall"/>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_r_JYoOphEeSR6qko9bcB0A">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <bounds xsi:type="DC:Bounds" x="30.0" y="10.0" width="1321.0" height="194.0"/>
+    <vdmlElement xsi:type="VDML:Performer" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_A598C1D9-3224-4B6B-ABE3-2003BD63CB88"/>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_r_Kmw-phEeSR6qko9bcB0A" boundaryShapes="_r_L04uphEeSR6qko9bcB0A _r_Mb8ephEeSR6qko9bcB0A">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="793.0452987141258" y="31.15226493570629" width="200.0" height="100.0"/>
+      <vdmlElement xsi:type="VDML:Activity" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#__WgRUunREeSqB9B_4YIk0g"/>
+    </ownedShape>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_r_L04uphEeSR6qko9bcB0A">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="812.2202687658003" y="124.71735394140876" width="14.0" height="14.0"/>
+      <vdmlElement xsi:type="VDML:OutputPort" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_w76-AOpIEeSmEovWXJk3gw"/>
+    </ownedShape>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_55Rp0OpkEeSR6qko9bcB0A" boundaryShapes="_r_L04OphEeSR6qko9bcB0A">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="47.0" y="42.25947444214633" width="133.0" height="85.99999999999999"/>
+      <vdmlElement xsi:type="VDML:Activity" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_AD056699-0BDB-4DC5-A649-3A9F4B1FE4C4"/>
+    </ownedShape>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_r_L04OphEeSR6qko9bcB0A">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="71.50538004393786" y="121.63924662912541" width="14.0" height="14.0"/>
+      <vdmlElement xsi:type="VDML:OutputPort" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#__WgRU-nREeSqB9B_4YIk0g"/>
+    </ownedShape>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_55TfAOpkEeSR6qko9bcB0A" boundaryShapes="_r_Mb8OphEeSR6qko9bcB0A">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="210.0" y="45.25947444214631" width="115.0" height="85.0"/>
+      <vdmlElement xsi:type="VDML:Activity" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_412A0D7A-9EA2-4130-8598-1C0DBC116EBB"/>
+    </ownedShape>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_r_Mb8OphEeSR6qko9bcB0A" previousWidth="200.0" previousHeight="37.0">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="285.6046008934191" y="123.4267247570134" width="14.0" height="14.0"/>
+      <vdmlElement xsi:type="VDML:OutputPort" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_w76-AupIEeSmEovWXJk3gw"/>
+      <ownedShape xsi:type="vdmldi:VDMLShape" id="_uBO1AOs5EeSKU5iTMNyenQ">
+        <localStyle xsi:type="vdmldi:VDMLStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="1.0" width="197.0" height="20.0"/>
+        <vdmlElement xsi:type="VDML:ValueAdd" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_A5F7B4F8-E2C8-4790-A6F2-E7BFA6052605"/>
+      </ownedShape>
+    </ownedShape>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_rEd4EOpsEeSWxM_C23aUIw" boundaryShapes="_r_L04-phEeSR6qko9bcB0A">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="425.0" y="56.0" width="100.0" height="80.0"/>
+      <vdmlElement xsi:type="VDML:Activity" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_A6FA37BD-31E9-4B0C-9D46-A7EF353E86F5"/>
+    </ownedShape>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_r_L04-phEeSR6qko9bcB0A">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="518.9284717878219" y="100.64079355150214" width="14.0" height="14.0"/>
+      <vdmlElement xsi:type="VDML:OutputPort" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_w76-AepIEeSmEovWXJk3gw"/>
+    </ownedShape>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_r_Mb8ephEeSR6qko9bcB0A">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="986.205427131691" y="106.46198378008216" width="14.0" height="14.0"/>
+      <vdmlElement xsi:type="VDML:InputPort" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_w76-A-pIEeSmEovWXJk3gw"/>
+    </ownedShape>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_r_J_sOphEeSR6qko9bcB0A">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <bounds xsi:type="DC:Bounds" x="30.0" y="214.0" width="950.0" height="200.0"/>
+    <vdmlElement xsi:type="VDML:Performer" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_56C9C961-1EC6-446B-A03B-04444A910566"/>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_r_LN0-phEeSR6qko9bcB0A" boundaryShapes="_r_NDBephEeSR6qko9bcB0A _r_NDB-phEeSR6qko9bcB0A _r_NDBOphEeSR6qko9bcB0A _r_NDBuphEeSR6qko9bcB0A">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="192.6046008934192" y="48.00744945205355" width="199.99999999999997" height="100.0"/>
+      <vdmlElement xsi:type="VDML:Activity" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_okWn0-nUEeSqB9B_4YIk0g"/>
+    </ownedShape>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_r_NDBephEeSR6qko9bcB0A">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="355.6999217285756" y="141.4685198436041" width="14.0" height="14.0"/>
+      <vdmlElement xsi:type="VDML:OutputPort" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_w76-CepIEeSmEovWXJk3gw"/>
+    </ownedShape>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_r_NDBuphEeSR6qko9bcB0A">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="386.57915608003407" y="114.23159714497496" width="14.0" height="14.0"/>
+      <vdmlElement xsi:type="VDML:InputPort" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_w76-CupIEeSmEovWXJk3gw"/>
+    </ownedShape>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_r_NDB-phEeSR6qko9bcB0A">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="301.9534038988049" y="40.31368180308948" width="14.0" height="14.0"/>
+      <vdmlElement xsi:type="VDML:InputPort" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_w76-C-pIEeSmEovWXJk3gw"/>
+    </ownedShape>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_r_NDBOphEeSR6qko9bcB0A">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="185.2116658535276" y="115.02000950657026" width="14.0" height="14.0"/>
+      <vdmlElement xsi:type="VDML:InputPort" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_G0-GoenVEeSqB9B_4YIk0g"/>
+    </ownedShape>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_r_KmwOphEeSR6qko9bcB0A">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <bounds xsi:type="DC:Bounds" x="30.0" y="634.0" width="1280.1749700516743" height="200.0"/>
+    <vdmlElement xsi:type="VDML:Performer" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_E9E32C0D-D08D-4D46-99F2-3CCA2E7E11A0"/>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_r_LN0ephEeSR6qko9bcB0A" boundaryShapes="_r_Mb-OphEeSR6qko9bcB0A _r_Mb-ephEeSR6qko9bcB0A _r_L04ephEeSR6qko9bcB0A _r_Mb9-phEeSR6qko9bcB0A">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="690.0987118589686" y="50.0" width="200.0" height="100.0"/>
+      <vdmlElement xsi:type="VDML:Activity" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#__Wg4Y-nREeSqB9B_4YIk0g"/>
+    </ownedShape>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_r_Mb-OphEeSR6qko9bcB0A">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="883.2868935723652" y="72.53144674672546" width="14.0" height="14.0"/>
+      <vdmlElement xsi:type="VDML:OutputPort" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_w76-BepIEeSmEovWXJk3gw"/>
+    </ownedShape>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_r_Mb-ephEeSR6qko9bcB0A">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="726.0588201538781" y="42.874034562193174" width="14.0" height="14.0"/>
+      <vdmlElement xsi:type="VDML:InputPort" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_w76-BupIEeSmEovWXJk3gw"/>
+    </ownedShape>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_r_L04ephEeSR6qko9bcB0A">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="682.764305454113" y="56.58401146913013" width="14.0" height="14.0"/>
+      <vdmlElement xsi:type="VDML:InputPort" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_G084genVEeSqB9B_4YIk0g"/>
+    </ownedShape>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_r_Mb9-phEeSR6qko9bcB0A">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="682.8803834060354" y="132.75239203253227" width="14.0" height="14.0"/>
+      <vdmlElement xsi:type="VDML:InputPort" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#__Wg4ZOnREeSqB9B_4YIk0g"/>
+    </ownedShape>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_r_KmwephEeSR6qko9bcB0A">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <bounds xsi:type="DC:Bounds" x="30.0" y="424.0" width="771.1749700516743" height="200.0"/>
+    <vdmlElement xsi:type="VDML:Performer" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_8E0BA72E-BF2A-4149-9749-9B7A13C651B5"/>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_r_LN0uphEeSR6qko9bcB0A" boundaryShapes="_r_NDAephEeSR6qko9bcB0A _r_NDA-phEeSR6qko9bcB0A _r_NDAuphEeSR6qko9bcB0A _r_NDAOphEeSR6qko9bcB0A">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="402.09878182491605" y="69.82717922847542" width="200.0" height="100.0"/>
+      <vdmlElement xsi:type="VDML:Activity" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_1sO5hunTEeSqB9B_4YIk0g"/>
+    </ownedShape>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_r_NDAephEeSR6qko9bcB0A">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="395.09878182491605" y="135.82717922847542" width="14.0" height="14.0"/>
+      <vdmlElement xsi:type="VDML:InputPort" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_G09flunVEeSqB9B_4YIk0g"/>
+    </ownedShape>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_r_NDA-phEeSR6qko9bcB0A">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="595.1974936838847" y="62.77782329899111" width="14.0" height="14.0"/>
+      <vdmlElement xsi:type="VDML:InputPort" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_w76-COpIEeSmEovWXJk3gw"/>
+    </ownedShape>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_r_NDAuphEeSR6qko9bcB0A">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="395.0773570920082" y="64.78153224939717" width="14.0" height="14.0"/>
+      <vdmlElement xsi:type="VDML:InputPort" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_w76-B-pIEeSmEovWXJk3gw"/>
+    </ownedShape>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_r_NDAOphEeSR6qko9bcB0A">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="567.9244061492722" y="163.15576012552174" width="14.0" height="14.0"/>
+      <vdmlElement xsi:type="VDML:OutputPort" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_G09flenVEeSqB9B_4YIk0g"/>
+    </ownedShape>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_r_KmwuphEeSR6qko9bcB0A">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <bounds xsi:type="DC:Bounds" x="30.0" y="844.0" width="770.0" height="226.0"/>
+    <vdmlElement xsi:type="VDML:Performer" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_B7C4D03E-A35C-4DD2-B047-2AC282F189AA"/>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_r_LN0OphEeSR6qko9bcB0A" boundaryShapes="_r_Mb8-phEeSR6qko9bcB0A _r_Mb8uphEeSR6qko9bcB0A _r_Mb9ephEeSR6qko9bcB0A _r_Mb9uphEeSR6qko9bcB0A _r_Mb9OphEeSR6qko9bcB0A">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="215.73107950231287" y="83.56508900570248" width="200.0" height="100.0"/>
+      <vdmlElement xsi:type="VDML:Activity" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#__Wg4YOnREeSqB9B_4YIk0g"/>
+    </ownedShape>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_r_Mb8-phEeSR6qko9bcB0A">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="208.73107950231287" y="149.56508900570248" width="14.0" height="14.0"/>
+      <vdmlElement xsi:type="VDML:InputPort" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#__Wg4YunREeSqB9B_4YIk0g"/>
+    </ownedShape>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_r_Mb8uphEeSR6qko9bcB0A">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="344.46215900462573" y="76.54157770246445" width="14.0" height="14.0"/>
+      <vdmlElement xsi:type="VDML:OutputPort" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#__Wg4YenREeSqB9B_4YIk0g"/>
+    </ownedShape>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_r_Mb9ephEeSR6qko9bcB0A">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="207.8876196373874" y="113.56075290040712" width="14.0" height="14.0"/>
+      <vdmlElement xsi:type="VDML:OutputPort" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_G09fk-nVEeSqB9B_4YIk0g"/>
+    </ownedShape>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_r_Mb9uphEeSR6qko9bcB0A">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="207.97509651159172" y="79.00376326176661" width="14.0" height="14.0"/>
+      <vdmlElement xsi:type="VDML:OutputPort" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_w76-BOpIEeSmEovWXJk3gw"/>
+    </ownedShape>
+    <ownedShape xsi:type="vdmldi:VDMLShape" id="_r_Mb9OphEeSR6qko9bcB0A">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="278.25252475780195" y="76.37355739120073" width="14.0" height="14.0"/>
+      <vdmlElement xsi:type="VDML:OutputPort" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_G09fkOnVEeSqB9B_4YIk0g"/>
+    </ownedShape>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLEdge" id="_r_O4MOphEeSR6qko9bcB0A" sourceShape="_r_L04OphEeSR6qko9bcB0A" targetShape="_r_Mb8-phEeSR6qko9bcB0A">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <waypoint xsi:type="DC:Point" x="78.50538004393786" y="128.6392466291254"/>
+    <waypoint xsi:type="DC:Point" x="108.0" y="950.0"/>
+    <waypoint xsi:type="DC:Point" x="215.73107950231287" y="156.56508900570248"/>
+    <vdmlElement xsi:type="VDML:DeliverableFlow" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_A672E966-FC21-4F71-8C66-38DD559E2262"/>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLEdge" id="_r_O4MephEeSR6qko9bcB0A" sourceShape="_r_Mb8uphEeSR6qko9bcB0A" targetShape="_r_Mb9-phEeSR6qko9bcB0A">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <waypoint xsi:type="DC:Point" x="351.46215900462573" y="83.54157770246445"/>
+    <waypoint xsi:type="DC:Point" x="689.8803834060354" y="139.75239203253227"/>
+    <vdmlElement xsi:type="VDML:DeliverableFlow" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_E39E7C5E-DCB2-4B31-B7BC-2C434A4A5FFA"/>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLEdge" id="_r_O4MuphEeSR6qko9bcB0A" sourceShape="_r_Mb9OphEeSR6qko9bcB0A" targetShape="_r_NDAephEeSR6qko9bcB0A">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <waypoint xsi:type="DC:Point" x="285.25252475780195" y="83.37355739120073"/>
+    <waypoint xsi:type="DC:Point" x="402.09878182491605" y="142.82717922847542"/>
+    <vdmlElement xsi:type="VDML:DeliverableFlow" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_3BBFA93C-7330-47CD-BF96-BDD7033D6CFF"/>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLEdge" id="_r_PfQOphEeSR6qko9bcB0A" sourceShape="_r_Mb9ephEeSR6qko9bcB0A" targetShape="_r_NDBOphEeSR6qko9bcB0A">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <waypoint xsi:type="DC:Point" x="214.8876196373874" y="120.56075290040712"/>
+    <waypoint xsi:type="DC:Point" x="156.37858354141588" y="825.78875885209"/>
+    <waypoint xsi:type="DC:Point" x="192.2116658535276" y="122.02000950657026"/>
+    <vdmlElement xsi:type="VDML:DeliverableFlow" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_9363EADA-55FC-4B01-94B7-BDF620539653"/>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLEdge" id="_r_PfQephEeSR6qko9bcB0A" sourceShape="_r_NDAOphEeSR6qko9bcB0A" targetShape="_r_L04ephEeSR6qko9bcB0A">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <waypoint xsi:type="DC:Point" x="574.9244061492722" y="170.15576012552174"/>
+    <waypoint xsi:type="DC:Point" x="689.764305454113" y="63.58401146913013"/>
+    <vdmlElement xsi:type="VDML:DeliverableFlow" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_256F71FE-0475-4333-856B-DECBA248DECB"/>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLEdge" id="_r_PfQuphEeSR6qko9bcB0A" sourceShape="_r_Mb9uphEeSR6qko9bcB0A" targetShape="_r_NDBuphEeSR6qko9bcB0A">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <waypoint xsi:type="DC:Point" x="214.97509651159172" y="86.00376326176661"/>
+    <waypoint xsi:type="DC:Point" x="393.57915608003407" y="121.23159714497496"/>
+    <vdmlElement xsi:type="VDML:DeliverableFlow" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_B6F6BCD3-0865-4844-B21B-F1ED0242E49D"/>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLEdge" id="_r_PfQ-phEeSR6qko9bcB0A" sourceShape="_r_NDBephEeSR6qko9bcB0A" targetShape="_r_NDAuphEeSR6qko9bcB0A">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <waypoint xsi:type="DC:Point" x="362.6999217285756" y="148.4685198436041"/>
+    <waypoint xsi:type="DC:Point" x="402.0773570920082" y="71.78153224939717"/>
+    <vdmlElement xsi:type="VDML:DeliverableFlow" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_1D94D988-4D2D-4586-8400-0D17BBC55428"/>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLEdge" id="_r_PfROphEeSR6qko9bcB0A" sourceShape="_r_Mb-OphEeSR6qko9bcB0A" targetShape="_r_Mb8ephEeSR6qko9bcB0A">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <waypoint xsi:type="DC:Point" x="890.2868935723652" y="79.53144674672546"/>
+    <waypoint xsi:type="DC:Point" x="1025.2651189982835" y="693.0628934934509"/>
+    <waypoint xsi:type="DC:Point" x="993.205427131691" y="113.46198378008216"/>
+    <vdmlElement xsi:type="VDML:DeliverableFlow" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_C0AC32A8-BCC4-4D0A-BD78-A58E22EE35EA"/>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLEdge" id="_r_PfRephEeSR6qko9bcB0A" sourceShape="_r_L04uphEeSR6qko9bcB0A" targetShape="_r_Mb-ephEeSR6qko9bcB0A">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <waypoint xsi:type="DC:Point" x="819.2202687658003" y="131.71735394140876"/>
+    <waypoint xsi:type="DC:Point" x="762.9601082949096" y="225.0"/>
+    <waypoint xsi:type="DC:Point" x="733.0588201538781" y="49.874034562193174"/>
+    <vdmlElement xsi:type="VDML:DeliverableFlow" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_22B50E2F-08F3-4C30-8B94-0D47FBDDE1D7"/>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLEdge" id="_r_PfRuphEeSR6qko9bcB0A" sourceShape="_r_L04-phEeSR6qko9bcB0A" targetShape="_r_NDA-phEeSR6qko9bcB0A">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <waypoint xsi:type="DC:Point" x="525.9284717878219" y="107.64079355150214"/>
+    <waypoint xsi:type="DC:Point" x="602.1974936838847" y="69.77782329899111"/>
+    <vdmlElement xsi:type="VDML:DeliverableFlow" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_58AF7835-ECA9-4AB9-9CC6-2D8C3B05C8D2"/>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLEdge" id="_r_PfR-phEeSR6qko9bcB0A" sourceShape="_r_Mb8OphEeSR6qko9bcB0A" targetShape="_r_NDB-phEeSR6qko9bcB0A">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <waypoint xsi:type="DC:Point" x="292.6046008934191" y="130.4267247570134"/>
+    <waypoint xsi:type="DC:Point" x="308.9534038988049" y="47.31368180308948"/>
+    <vdmlElement xsi:type="VDML:DeliverableFlow" href="platform:/resource/construction/src/main/resources/ErectWall.vdcol#_1FD59BD3-74E7-401B-8038-7D944F53D281"/>
+  </ownedVdmlDiagramElement>
+</vdmldi:VDMLDiagram>

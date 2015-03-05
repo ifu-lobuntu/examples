@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VDML:ValueDeliveryModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DC="http://www.omg.org/spec/DD/20131001/DC" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" xmlns:vdmldi="http://www.omg.org/spec/VDML/20131201/DI">
+  <diagram xsi:type="vdmldi:VDMLDiagram" id="_aZWrkOEqEeSscbl9KLghFQ">
+    <localStyle xsi:type="vdmldi:VDMLStyle"/>
+    <vdmlElement xsi:type="VDML:CapabilityMethod" href="platform:/resource/kandu/src/main/resources/OrderFreshProduce.vdcol#kandu.OrderFreshProduce"/>
+    <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_JbMr4OErEeSscbl9KLghFQ">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="30.0" y="5.0" width="570.0" height="250.0"/>
+      <vdmlElement xsi:type="VDML:Performer" href="platform:/resource/kandu/src/main/resources/OrderFreshProduce.vdcol#_F4BEE172-1858-48C1-B218-CEE6492B84C9"/>
+      <ownedShape xsi:type="vdmldi:VDMLShape" id="_JbMr4eErEeSscbl9KLghFQ" boundaryShapes="_JbMr4uErEeSscbl9KLghFQ">
+        <localStyle xsi:type="vdmldi:VDMLStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="75.0" y="70.0" width="107.0" height="70.0"/>
+        <vdmlElement xsi:type="VDML:Activity" href="platform:/resource/kandu/src/main/resources/OrderFreshProduce.vdcol#_33241307-6F3B-4499-9CCE-2D450885F381"/>
+      </ownedShape>
+      <ownedShape xsi:type="vdmldi:VDMLShape" id="_JbMr4uErEeSscbl9KLghFQ" previousWidth="200.0" previousHeight="100.0">
+        <localStyle xsi:type="vdmldi:VDMLStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="155.62502316913907" y="62.80730500149046" width="14.0" height="14.0"/>
+        <vdmlElement xsi:type="VDML:OutputPort" href="platform:/resource/kandu/src/main/resources/OrderFreshProduce.vdcol#_3624BC83-DB37-40CC-AEB2-139D7A0297E8"/>
+        <ownedShape xsi:type="vdmldi:VDMLShape" id="_OlQEAOEtEeSscbl9KLghFQ">
+          <localStyle xsi:type="vdmldi:VDMLStyle">
+            <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+            <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+            <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          </localStyle>
+          <bounds xsi:type="DC:Bounds" x="1.0" y="15.0" width="197.0" height="20.0"/>
+          <vdmlElement xsi:type="VDML:ValueAdd" href="platform:/resource/kandu/src/main/resources/OrderFreshProduce.vdcol#_5564E980-2F72-4055-BDBE-8888886328F7"/>
+        </ownedShape>
+        <ownedShape xsi:type="vdmldi:VDMLShape" id="_Olc4UOEtEeSscbl9KLghFQ">
+          <localStyle xsi:type="vdmldi:VDMLStyle">
+            <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+            <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+            <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          </localStyle>
+          <bounds xsi:type="DC:Bounds" x="1.0" y="36.0" width="197.0" height="20.0"/>
+          <vdmlElement xsi:type="VDML:ValueAdd" href="platform:/resource/kandu/src/main/resources/OrderFreshProduce.vdcol#_A4744ECE-5704-4EA2-B496-4FC145292356"/>
+        </ownedShape>
+      </ownedShape>
+      <ownedShape xsi:type="vdmldi:VDMLShape" id="_z8QskOHDEeSfCLe7fJNumQ">
+        <localStyle xsi:type="vdmldi:VDMLStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="235.0" y="65.0" width="101.0" height="64.0"/>
+        <vdmlElement xsi:type="VDML:Activity" href="platform:/resource/kandu/src/main/resources/OrderFreshProduce.vdcol#_85018DA7-7B55-4594-93A7-0A2C7BD2365E"/>
+      </ownedShape>
+      <ownedShape xsi:type="vdmldi:VDMLShape" id="_z8RToOHDEeSfCLe7fJNumQ">
+        <localStyle xsi:type="vdmldi:VDMLStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="391.5" y="79.5" width="89.0" height="51.0"/>
+        <vdmlElement xsi:type="VDML:Activity" href="platform:/resource/kandu/src/main/resources/OrderFreshProduce.vdcol#_E7510153-F859-418A-9941-FBF7BA62A3DC"/>
+      </ownedShape>
+    </ownedVdmlDiagramElement>
+    <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_JbNS8OErEeSscbl9KLghFQ">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="30.0" y="260.0" width="570.0" height="250.0"/>
+      <vdmlElement xsi:type="VDML:Performer" href="platform:/resource/kandu/src/main/resources/OrderFreshProduce.vdcol#_8E7C7038-7160-4B1C-8C5D-23A0BAC8E517"/>
+      <ownedShape xsi:type="vdmldi:VDMLShape" id="_JbNS8eErEeSscbl9KLghFQ" boundaryShapes="_JbNS8uErEeSscbl9KLghFQ">
+        <localStyle xsi:type="vdmldi:VDMLStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="120.0" y="40.0" width="100.0" height="80.0"/>
+        <vdmlElement xsi:type="VDML:Activity" href="platform:/resource/kandu/src/main/resources/OrderFreshProduce.vdcol#_C185191F-6486-4033-8EDC-D2D36DC181F3"/>
+      </ownedShape>
+      <ownedShape xsi:type="vdmldi:VDMLShape" id="_JbNS8uErEeSscbl9KLghFQ">
+        <localStyle xsi:type="vdmldi:VDMLStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="176.44318089101682" y="32.670457326949474" width="14.0" height="14.0"/>
+        <vdmlElement xsi:type="VDML:InputPort" href="platform:/resource/kandu/src/main/resources/OrderFreshProduce.vdcol#_40F27B02-EFF8-4BC7-AA20-5DD9708B93E6"/>
+      </ownedShape>
+      <ownedShape xsi:type="vdmldi:VDMLShape" id="_z8fWEOHDEeSfCLe7fJNumQ">
+        <localStyle xsi:type="vdmldi:VDMLStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="235.0" y="145.0" width="100.0" height="80.0"/>
+        <vdmlElement xsi:type="VDML:Activity" href="platform:/resource/kandu/src/main/resources/OrderFreshProduce.vdcol#_0D2970A7-3AAB-4DA1-BFD1-E22D26A99788"/>
+      </ownedShape>
+      <ownedShape xsi:type="vdmldi:VDMLShape" id="_z8f9IOHDEeSfCLe7fJNumQ">
+        <localStyle xsi:type="vdmldi:VDMLStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="386.0" y="40.0" width="100.0" height="80.0"/>
+        <vdmlElement xsi:type="VDML:Activity" href="platform:/resource/kandu/src/main/resources/OrderFreshProduce.vdcol#_4DC58CD8-81D8-464D-A46B-E854D4A597B9"/>
+      </ownedShape>
+    </ownedVdmlDiagramElement>
+    <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLEdge" id="_JbN6AOErEeSscbl9KLghFQ" sourceShape="_JbMr4uErEeSscbl9KLghFQ" targetShape="_JbNS8uErEeSscbl9KLghFQ">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <waypoint xsi:type="DC:Point" x="162.62502316913907" y="69.80730500149046"/>
+      <waypoint xsi:type="DC:Point" x="183.44318089101682" y="39.670457326949474"/>
+      <vdmlElement xsi:type="VDML:DeliverableFlow" href="platform:/resource/kandu/src/main/resources/OrderFreshProduce.vdcol#_10A307C9-15F6-4D75-B0D5-432BD5808F8F"/>
+    </ownedVdmlDiagramElement>
+  </diagram>
+</VDML:ValueDeliveryModel>

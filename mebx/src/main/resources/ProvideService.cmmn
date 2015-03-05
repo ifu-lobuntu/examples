@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmmn:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://asdf.com/" xmlns:BaseServiceProvider.vdcol="platform:/resource/mebx/src/main/resources/BaseServiceProvider.vdcol" xmlns:DC="http://www.omg.org/spec/DD/20131001/DC" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" xmlns:cmmn="http://www.omg.org/spec/CMMN/20131201/MODEL" xmlns:cmmndi="http://www.omg.org/spec/CMMN/20131201/DI" xmlns:jbpmext="http://www.jbpm.org/cmmn/jbpmext" xsi:type="cmmn:tDefinitions" id="_uv8S8Oi5EeSWfZ_4xae2EQ" targetNamespace="http://asdf.com/">
+  <diagram xsi:type="cmmndi:CMMNDiagram" id="_uv86AOi5EeSWfZ_4xae2EQ" cmmnElement="#_uv8S8Oi5EeSWfZ_4xae2EQ">
+    <localStyle xsi:type="cmmndi:CMMNStyle"/>
+    <ownedCmmnDiagramElement xsi:type="cmmndi:CMMNShape" id="_uv86Aei5EeSWfZ_4xae2EQ" cmmnElement="#mebx.ProvideService">
+      <localStyle xsi:type="cmmndi:CMMNStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" width="600.0" height="300.0"/>
+      <ownedShape xsi:type="cmmndi:CMMNShape" id="_cJ2FEOi6EeSWfZ_4xae2EQ" boundaryShapes="#_cKAdIOi6EeSWfZ_4xae2EQ" isPlanningTableExpanded="true" cmmnElement="#_50E6C6F9-0A7B-49B4-BD11-0E4D0DEAC6A0">
+        <localStyle xsi:type="cmmndi:CMMNStyle">
+          <fillColor xsi:type="DC:Color" red="102" green="102" blue="153"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="275.0" y="74.5" width="100.0" height="80.0"/>
+      </ownedShape>
+      <ownedShape xsi:type="cmmndi:CMMNShape" id="_cJ2sIOi6EeSWfZ_4xae2EQ" cmmnElement="#_9AD92FA2-FAC5-405D-8047-4305F1182D0D">
+        <localStyle xsi:type="cmmndi:CMMNStyle">
+          <fillColor xsi:type="DC:Color" red="0" green="0" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="45.0" y="80.0" width="99.0" height="69.0"/>
+      </ownedShape>
+      <ownedShape xsi:type="cmmndi:CMMNShape" id="_cKAdIOi6EeSWfZ_4xae2EQ" cmmnElement="#_CD2FBC0D-829F-4B97-8996-85AAF6684E78">
+        <localStyle xsi:type="cmmndi:CMMNStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="268.2488092005745" y="110.68916960968605" width="12.0" height="20.0"/>
+      </ownedShape>
+    </ownedCmmnDiagramElement>
+    <ownedCmmnDiagramElement xsi:type="cmmndi:CMMNEdge" id="_cKAdIei6EeSWfZ_4xae2EQ" sourceShape="#_cJ2sIOi6EeSWfZ_4xae2EQ" targetShape="#_cKAdIOi6EeSWfZ_4xae2EQ" cmmnElement="#_52457121-EA0F-4B72-ADE4-89A0C5F8CC02">
+      <localStyle xsi:type="cmmndi:CMMNStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <waypoint xsi:type="DC:Point" x="94.5" y="114.5"/>
+      <waypoint xsi:type="DC:Point" x="206.12440460028725" y="114.5"/>
+      <waypoint xsi:type="DC:Point" x="206.12440460028725" y="120.68916960968605"/>
+      <waypoint xsi:type="DC:Point" x="274.2488092005745" y="120.68916960968605"/>
+    </ownedCmmnDiagramElement>
+  </diagram>
+  <cmmn:caseFileItemDefinition xsi:type="cmmn:tCaseFileItemDefinition" id="_cKDgcOi6EeSWfZ_4xae2EQ" structureRef="BaseServiceProvider.vdcol:_bRkZQOi6EeSWfZ_4xae2EQ"/>
+  <cmmn:case xsi:type="cmmn:tCase" id="mebx.ProvideService" jbpmext:vdmlElement="VDML:CapabilityMethod ProvideService.vdcol#ProvideService" name="mebx.ProvideService">
+    <cmmn:caseFileModel xsi:type="cmmn:tCaseFile">
+      <cmmn:caseFileItem xsi:type="cmmn:tCaseFileItem" id="_9AD92FA2-FAC5-405D-8047-4305F1182D0D" definitionRef="#_cKDgcOi6EeSWfZ_4xae2EQ" multiplicity="ExactlyOne" name="ServiceSpec"/>
+    </cmmn:caseFileModel>
+    <cmmn:casePlanModel xsi:type="cmmn:tStage" id="_uv8S8ei5EeSWfZ_4xae2EQ" autoComplete="true">
+      <cmmn:planItem xsi:type="cmmn:tPlanItem" id="_50E6C6F9-0A7B-49B4-BD11-0E4D0DEAC6A0" jbpmext:vdmlElement="VDML:Activity ProvideService.vdcol#_2074113C-467A-4619-A40D-A5C7F40DD0F8" definitionRef="#_cKDgcei6EeSWfZ_4xae2EQ" entryCriteriaRefs="#_CD2FBC0D-829F-4B97-8996-85AAF6684E78" name="ProvideService">
+        <cmmn:itemControl xsi:type="cmmn:tPlanItemControl">
+          <cmmn:repetitionRule xsi:type="cmmn:tRepetitionRule">
+            <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"/>
+          </cmmn:repetitionRule>
+          <cmmn:requiredRule xsi:type="cmmn:tRequiredRule">
+            <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"/>
+          </cmmn:requiredRule>
+          <cmmn:manualActivationRule xsi:type="cmmn:tManualActivationRule">
+            <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"/>
+          </cmmn:manualActivationRule>
+        </cmmn:itemControl>
+      </cmmn:planItem>
+      <cmmn:sentry xsi:type="cmmn:tSentry" id="_CD2FBC0D-829F-4B97-8996-85AAF6684E78">
+        <cmmn:onPart xsi:type="cmmn:tCaseFileItemOnPart" id="_52457121-EA0F-4B72-ADE4-89A0C5F8CC02" sourceRef="#_9AD92FA2-FAC5-405D-8047-4305F1182D0D">
+          <cmmn:standardEvent>create</cmmn:standardEvent>
+        </cmmn:onPart>
+        <cmmn:ifPart xsi:type="cmmn:tIfPart">
+          <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"/>
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:planItemDefinition xsi:type="cmmn:tHumanTask" id="_cKDgcei6EeSWfZ_4xae2EQ" name="ProvideService" isBlocking="true">
+        <cmmn:inputs xsi:type="cmmn:tCaseParameter" id="_cKDgcui6EeSWfZ_4xae2EQ" name="spec" bindingRef="#_9AD92FA2-FAC5-405D-8047-4305F1182D0D">
+          <cmmn:bindingRefinement xsi:type="cmmn:tExpression" language=""><cmmn:body></cmmn:body></cmmn:bindingRefinement>
+        </cmmn:inputs>
+      </cmmn:planItemDefinition>
+    </cmmn:casePlanModel>
+  </cmmn:case>
+</cmmn:definitions>

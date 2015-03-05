@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML">
+  <VDML:ValueDeliveryModel name="ConstructionWorkerCommunityValueDeliveryModel">
+    <collaboration xsi:type="VDML:Community" name="ConstructionWorkerCommunity" id="ConstructionWorkerCommunity">
+      <member xsi:type="VDML:Member" name="BrickLayer" id="_6E9BDA07-6C4B-4360-8738-143F93B1CA11"/>
+      <member xsi:type="VDML:Member" name="Plasterer" id="_899FAEFF-AEB5-46AE-801C-F714315D742D"/>
+      <member xsi:type="VDML:Member" name="Painter" id="_5C6260EB-8C53-4EB0-959C-C7FE17D49EE5"/>
+    </collaboration>
+  </VDML:ValueDeliveryModel>
+  <uml:Package xmi:id="_TmOFwOo8EeSmEovWXJk3gw" name="constructionworkercommunity"/>
+</xmi:XMI>

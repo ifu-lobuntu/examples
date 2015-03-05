@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DC="http://www.omg.org/spec/DD/20131001/DC" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:vdmldi="http://www.omg.org/spec/VDML/20131201/DI">
+  <VDML:ValueDeliveryModel>
+    <diagram xsi:type="vdmldi:VDMLDiagram" id="_mwE0kOHCEeSfCLe7fJNumQ">
+      <localStyle xsi:type="vdmldi:VDMLStyle"/>
+      <vdmlElement xsi:type="VDML:OrgUnit" href="platform:/resource/kandu/src/main/resources/Farm.vdcol#kandu.Farm"/>
+      <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_nLtAoOHCEeSfCLe7fJNumQ" boundaryShapes="_dlhhAOH4EeSSe_N913s4mA _T9u6cOHDEeSfCLe7fJNumQ">
+        <localStyle xsi:type="vdmldi:VDMLStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="165.0" y="60.0" width="500.0" height="500.0"/>
+        <ownedShape xsi:type="vdmldi:VDMLShape" id="_T9rQEOHDEeSfCLe7fJNumQ">
+          <localStyle xsi:type="vdmldi:VDMLStyle">
+            <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+            <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+            <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          </localStyle>
+          <bounds xsi:type="DC:Bounds" x="150.0" y="143.0" width="77.0" height="85.0"/>
+          <vdmlElement xsi:type="VDML:Store" href="platform:/resource/kandu/src/main/resources/Farm.vdcol#_410B316A-A95D-4FA6-83F2-35D87AEE32BF"/>
+        </ownedShape>
+        <ownedShape xsi:type="vdmldi:VDMLShape" id="_T9rQEeHDEeSfCLe7fJNumQ">
+          <localStyle xsi:type="vdmldi:VDMLStyle">
+            <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+            <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+            <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          </localStyle>
+          <bounds xsi:type="DC:Bounds" x="30.0" y="189.0" width="64.0" height="71.0"/>
+          <vdmlElement xsi:type="VDML:Store" href="platform:/resource/kandu/src/main/resources/Farm.vdcol#_9FD6B61B-D71C-4F2B-BB63-24EECF0089FF"/>
+        </ownedShape>
+        <ownedShape xsi:type="vdmldi:VDMLShape" id="_T9r3IOHDEeSfCLe7fJNumQ">
+          <localStyle xsi:type="vdmldi:VDMLStyle">
+            <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+            <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+            <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          </localStyle>
+          <bounds xsi:type="DC:Bounds" x="62.5" y="360.0" width="59.0" height="72.0"/>
+          <vdmlElement xsi:type="VDML:Store" href="platform:/resource/kandu/src/main/resources/Farm.vdcol#_12614E94-6117-4BFA-B13B-AC050D077169"/>
+        </ownedShape>
+        <ownedShape xsi:type="vdmldi:VDMLShape" id="_T9tFQOHDEeSfCLe7fJNumQ">
+          <localStyle xsi:type="vdmldi:VDMLStyle">
+            <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+            <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+            <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          </localStyle>
+          <bounds xsi:type="DC:Bounds" x="274.0" y="363.0" width="58.0" height="66.0"/>
+          <vdmlElement xsi:type="VDML:Pool" href="platform:/resource/kandu/src/main/resources/Farm.vdcol#_616DDFCF-2952-46EC-B96A-58224EAF3A79"/>
+        </ownedShape>
+        <ownedShape xsi:type="vdmldi:VDMLShape" id="_T9tsUOHDEeSfCLe7fJNumQ">
+          <localStyle xsi:type="vdmldi:VDMLStyle">
+            <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+            <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+            <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          </localStyle>
+          <bounds xsi:type="DC:Bounds" x="255.0" y="52.97514477546025" width="176.0" height="61.0"/>
+          <vdmlElement xsi:type="VDML:Position" href="platform:/resource/kandu/src/main/resources/Farm.vdcol#_C09FB2F2-3DCD-4875-B04C-9122F7943D67"/>
+        </ownedShape>
+        <ownedShape xsi:type="vdmldi:VDMLShape" id="_T9uTYOHDEeSfCLe7fJNumQ">
+          <localStyle xsi:type="vdmldi:VDMLStyle">
+            <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+            <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+            <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          </localStyle>
+          <bounds xsi:type="DC:Bounds" x="285.0" y="195.0" width="188.0" height="59.0"/>
+          <vdmlElement xsi:type="VDML:Position" href="platform:/resource/kandu/src/main/resources/Farm.vdcol#_219DA137-4CB3-477A-9B14-31B00E21A98E"/>
+        </ownedShape>
+      </ownedVdmlDiagramElement>
+      <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_dlhhAOH4EeSSe_N913s4mA">
+        <localStyle xsi:type="vdmldi:VDMLStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="113.04371648725345" y="337.10693136576793" width="102.00000000000003" height="52.0"/>
+        <vdmlElement xsi:type="VDML:CapabilityOffer" href="platform:/resource/kandu/src/main/resources/Farm.vdcol#_094A130E-7054-4CFA-8114-EB15577BCFC7"/>
+      </ownedVdmlDiagramElement>
+      <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_T9u6cOHDEeSfCLe7fJNumQ">
+        <localStyle xsi:type="vdmldi:VDMLStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="113.94575621871778" y="123.84129014008784" width="102.0" height="52.0"/>
+        <vdmlElement xsi:type="VDML:CapabilityOffer" href="platform:/resource/kandu/src/main/resources/Farm.vdcol#_08E8A4A6-C22F-45FA-AAD8-9C89C9FA323E"/>
+      </ownedVdmlDiagramElement>
+    </diagram>
+  </VDML:ValueDeliveryModel>
+  <uml:Package xmi:id="_0k_IkOIHEeSJuJEOZChNPw" name="kandu.farm">
+    <packagedElement xsi:type="uml:Class" xmi:id="_0k_IkeIHEeSJuJEOZChNPw" name="kandu.Farm">
+      <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib">
+        <references xsi:type="VDML:OrgUnit" href="platform:/resource/kandu/src/main/resources/Farm.vdcol#kandu.Farm"/>
+      </eAnnotations>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_0k_IkuIHEeSJuJEOZChNPw" name="HarvestableFreshProduce">
+      <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib">
+        <references xsi:type="VDML:Store" href="platform:/resource/kandu/src/main/resources/Farm.vdcol#_410B316A-A95D-4FA6-83F2-35D87AEE32BF"/>
+      </eAnnotations>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_0k_Ik-IHEeSJuJEOZChNPw" name="PlantedFreshProduce">
+      <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib">
+        <references xsi:type="VDML:Store" href="platform:/resource/kandu/src/main/resources/Farm.vdcol#_9FD6B61B-D71C-4F2B-BB63-24EECF0089FF"/>
+      </eAnnotations>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_0k_IlOIHEeSJuJEOZChNPw" name="HarvestedFreshProduce">
+      <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib">
+        <references xsi:type="VDML:Store" href="platform:/resource/kandu/src/main/resources/Farm.vdcol#_12614E94-6117-4BFA-B13B-AC050D077169"/>
+      </eAnnotations>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_0k_IleIHEeSJuJEOZChNPw" name="ArableLand">
+      <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib">
+        <references xsi:type="VDML:Pool" href="platform:/resource/kandu/src/main/resources/Farm.vdcol#_616DDFCF-2952-46EC-B96A-58224EAF3A79"/>
+      </eAnnotations>
+    </packagedElement>
+  </uml:Package>
+</xmi:XMI>

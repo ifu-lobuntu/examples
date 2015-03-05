@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<cmmn:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://asdf.com/" xmlns:DC="http://www.omg.org/spec/DD/20131001/DC" xmlns:cmmn="http://www.omg.org/spec/CMMN/20131201/MODEL" xmlns:cmmndi="http://www.omg.org/spec/CMMN/20131201/DI" xsi:type="cmmn:tDefinitions" id="_sZ_vQesqEeSErqW2YLA1zw" targetNamespace="http://asdf.com/">
+  <diagram xsi:type="cmmndi:CMMNDiagram" id="_saA9YOsqEeSErqW2YLA1zw" cmmnElement="#_sZ_vQesqEeSErqW2YLA1zw">
+    <ownedCmmnDiagramElement xsi:type="cmmndi:CMMNShape" id="_saA9YesqEeSErqW2YLA1zw" cmmnElement="#construction.TestCase">
+      <bounds xsi:type="DC:Bounds" x="10.0" y="10.0" width="600.0" height="300.0"/>
+    </ownedCmmnDiagramElement>
+  </diagram>
+  <cmmn:case xsi:type="cmmn:tCase" id="construction.TestCase" name="construction.TestCase">
+    <cmmn:caseFileModel xsi:type="cmmn:tCaseFile"/>
+    <cmmn:casePlanModel xsi:type="cmmn:tStage" id="_saAWUOsqEeSErqW2YLA1zw" autoComplete="true"/>
+  </cmmn:case>
+</cmmn:definitions>

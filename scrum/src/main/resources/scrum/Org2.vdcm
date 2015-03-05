@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VDML:ValueDeliveryModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DC="http://www.omg.org/spec/DD/20131001/DC" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" xmlns:vdmldi="http://www.omg.org/spec/VDML/20131201/DI">
+  <diagram xsi:type="vdmldi:VDMLDiagram" id="_fCOlMN-rEeShZtg_5Jfr1g">
+    <localStyle xsi:type="vdmldi:VDMLStyle"/>
+    <vdmlElement xsi:type="VDML:OrgUnit" href="platform:/resource/scrum/src/main/resources/scrum/Org2.vdcol#scrum.Org2"/>
+    <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_ZDMlgN-sEeShZtg_5Jfr1g">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="10.0" y="10.0" width="500.0" height="500.0"/>
+    </ownedVdmlDiagramElement>
+    <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_6fkOoN-sEeShZtg_5Jfr1g">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="683.0" y="133.0" width="42.0" height="62.0"/>
+      <vdmlElement xsi:type="VDML:Pool" href="platform:/resource/scrum/src/main/resources/scrum/Org2.vdcol#_ABF544A8-7B92-4EDD-AE9A-C7B1BD854FDD"/>
+    </ownedVdmlDiagramElement>
+    <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_6fsxgN-sEeShZtg_5Jfr1g">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="654.0" y="22.0" width="42.0" height="62.0"/>
+      <vdmlElement xsi:type="VDML:Store" href="platform:/resource/scrum/src/main/resources/scrum/Org2.vdcol#_74D76AAF-C2FE-4D02-AA7B-677AE9CCBBD8"/>
+    </ownedVdmlDiagramElement>
+  </diagram>
+</VDML:ValueDeliveryModel>

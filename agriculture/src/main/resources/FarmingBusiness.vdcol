@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SMM="http://www.omg.org/spec/SMM/20150201/SMM.cmof" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML">
+  <VDML:ValueDeliveryModel name="agriculture.FarmingBusinessValueDelivyModel">
+    <collaboration xsi:type="VDML:OrgUnit" name="agriculture.FarmingBusiness" id="agriculture.FarmingBusiness">
+      <attribute xsi:type="VDML:Attribute" name="isTemplate" tag="isTemplate" value=""/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.1"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.2"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.3"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.4"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.5"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.6"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.7"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.8"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.9"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.10"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.11"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.12"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.13"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.14"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.15"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.16"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.17"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.18"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.19"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.20"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.21"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.22"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.23"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.24"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.25"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.26"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.27"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.28"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.29"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.30"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.31"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.32"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.33"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.34"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.35"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.36"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.37"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.38"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.39"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.40"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.41"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.42"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.43"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.44"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.45"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.46"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.47"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.48"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.49"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.50"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.51"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.52"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.53"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.54"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.55"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.56"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.57"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.58"/>
+      <assignment xsi:type="VDML:Assignment" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#//@collaboration.0/@ownedAssignment.59"/>
+      <ownedStore xsi:type="VDML:Pool" name="ArrableLand" id="_728FC325-DFE2-4C66-9275-8267A00BBFB8">
+        <measuredCharacteristic xsi:type="VDML:MeasuredCharacteristic" name="ProjectedYield">
+          <characteristicDefinition xsi:type="SMM:Characteristic" href="platform:/resource/agriculture/src/main/resources/GardenMeasures.meas#_CF8E8B7C-E7EB-41DC-908A-8B4D6E53485Ctrait"/>
+        </measuredCharacteristic>
+        <measuredCharacteristic xsi:type="VDML:MeasuredCharacteristic" name="VegetationDensity">
+          <characteristicDefinition xsi:type="SMM:Characteristic" href="platform:/resource/agriculture/src/main/resources/GardenMeasures.meas#_925D58F2-FCA5-4CFD-BEB8-EB2FF9A30CBCtrait"/>
+        </measuredCharacteristic>
+        <measuredCharacteristic xsi:type="VDML:MeasuredCharacteristic" name="LandSize">
+          <characteristicDefinition xsi:type="SMM:Characteristic" href="platform:/resource/agriculture/src/main/resources/GardenMeasures.meas#_EBF7E7C9-1BE1-4EDF-9CEE-8A5724BB5C9Btrait"/>
+        </measuredCharacteristic>
+      </ownedStore>
+      <ownedStore xsi:type="VDML:Store" name="Account" id="_6F458540-89FD-4B31-BE93-FE2A63A9AB77">
+        <containedPort xsi:type="VDML:InputPort" id="_7DE6EBA6-4DB5-4865-8743-AE3A4846172D">
+          <input xsi:type="VDML:DeliverableFlow" href="platform:/resource/agriculture/src/main/resources/BuyFreshProduce.vdcol#_34E6ED31-507A-497A-867D-A8E03C3CBDF6"/>
+        </containedPort>
+      </ownedStore>
+      <ownedStore xsi:type="VDML:Store" name="HarvestedFreshProduce" id="_67E11F2D-2149-4EFB-BE2A-311BF04D7CA8"/>
+      <ownedStore xsi:type="VDML:Store" name="Account" id="_8095D274-912C-4CE3-A7DD-134AE3C659BB"/>
+    </collaboration>
+  </VDML:ValueDeliveryModel>
+  <uml:Package xmi:id="_sHSHoOQkEeS4HskRqikVKw" name="agriculture.farmingbusiness">
+    <packagedElement xsi:type="uml:Class" xmi:id="agriculture.FarmingBusinessClass" name="agriculture.FarmingBusiness">
+      <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="agriculture.FarmingBusiness"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_728FC325-DFE2-4C66-9275-8267A00BBFB8Class" name="ArrableLand">
+      <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_728FC325-DFE2-4C66-9275-8267A00BBFB8"/>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_CF8E8B7C-E7EB-41DC-908A-8B4D6E53485Cprop" name="projectedYield">
+        <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib">
+          <references xsi:type="SMM:Characteristic" href="platform:/resource/agriculture/src/main/resources/GardenMeasures.meas#_CF8E8B7C-E7EB-41DC-908A-8B4D6E53485Ctrait"/>
+        </eAnnotations>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_CF8E8B7C-E7EB-41DC-908A-8B4D6E53485Cprop" name="projectedYield">
+        <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib">
+          <references xsi:type="SMM:Characteristic" href="platform:/resource/agriculture/src/main/resources/GardenMeasures.meas#_CF8E8B7C-E7EB-41DC-908A-8B4D6E53485Ctrait"/>
+        </eAnnotations>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_925D58F2-FCA5-4CFD-BEB8-EB2FF9A30CBCprop" name="CharacteristicDefinition1">
+        <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib">
+          <references xsi:type="SMM:Characteristic" href="platform:/resource/agriculture/src/main/resources/GardenMeasures.meas#_925D58F2-FCA5-4CFD-BEB8-EB2FF9A30CBCtrait"/>
+        </eAnnotations>
+        <type xsi:type="uml:Enumeration" href="platform:/resource/agriculture/src/main/resources/GardenMeasures.meas#_925D58F2-FCA5-4CFD-BEB8-EB2FF9A30CBCMEAS"/>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_EBF7E7C9-1BE1-4EDF-9CEE-8A5724BB5C9Bprop" name="CharacteristicDefinition1">
+        <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib">
+          <references xsi:type="SMM:Characteristic" href="platform:/resource/agriculture/src/main/resources/GardenMeasures.meas#_EBF7E7C9-1BE1-4EDF-9CEE-8A5724BB5C9Btrait"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://jbpm-cmmn/libraries/cmmntypes.uml#_Lr8ZIMGzEeSOM_pby657_g"/>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_CF8E8B7C-E7EB-41DC-908A-8B4D6E53485Cprop" name="projectedYield">
+        <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib">
+          <references xsi:type="SMM:Characteristic" href="platform:/resource/agriculture/src/main/resources/GardenMeasures.meas#_CF8E8B7C-E7EB-41DC-908A-8B4D6E53485Ctrait"/>
+        </eAnnotations>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_925D58F2-FCA5-4CFD-BEB8-EB2FF9A30CBCprop" name="CharacteristicDefinition1">
+        <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib">
+          <references xsi:type="SMM:Characteristic" href="platform:/resource/agriculture/src/main/resources/GardenMeasures.meas#_925D58F2-FCA5-4CFD-BEB8-EB2FF9A30CBCtrait"/>
+        </eAnnotations>
+        <type xsi:type="uml:Enumeration" href="platform:/resource/agriculture/src/main/resources/GardenMeasures.meas#_925D58F2-FCA5-4CFD-BEB8-EB2FF9A30CBCMEAS"/>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_EBF7E7C9-1BE1-4EDF-9CEE-8A5724BB5C9Bprop" name="CharacteristicDefinition1">
+        <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib">
+          <references xsi:type="SMM:Characteristic" href="platform:/resource/agriculture/src/main/resources/GardenMeasures.meas#_EBF7E7C9-1BE1-4EDF-9CEE-8A5724BB5C9Btrait"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://jbpm-cmmn/libraries/cmmntypes.uml#_Lr8ZIMGzEeSOM_pby657_g"/>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_CF8E8B7C-E7EB-41DC-908A-8B4D6E53485Cprop" name="projectedYield">
+        <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib">
+          <references xsi:type="SMM:Characteristic" href="platform:/resource/agriculture/src/main/resources/GardenMeasures.meas#_CF8E8B7C-E7EB-41DC-908A-8B4D6E53485Ctrait"/>
+        </eAnnotations>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_925D58F2-FCA5-4CFD-BEB8-EB2FF9A30CBCprop" name="CharacteristicDefinition1">
+        <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib">
+          <references xsi:type="SMM:Characteristic" href="platform:/resource/agriculture/src/main/resources/GardenMeasures.meas#_925D58F2-FCA5-4CFD-BEB8-EB2FF9A30CBCtrait"/>
+        </eAnnotations>
+        <type xsi:type="uml:Enumeration" href="platform:/resource/agriculture/src/main/resources/GardenMeasures.meas#_925D58F2-FCA5-4CFD-BEB8-EB2FF9A30CBCMEAS"/>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_EBF7E7C9-1BE1-4EDF-9CEE-8A5724BB5C9Bprop" name="CharacteristicDefinition1">
+        <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib">
+          <references xsi:type="SMM:Characteristic" href="platform:/resource/agriculture/src/main/resources/GardenMeasures.meas#_EBF7E7C9-1BE1-4EDF-9CEE-8A5724BB5C9Btrait"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://jbpm-cmmn/libraries/cmmntypes.uml#_Lr8ZIMGzEeSOM_pby657_g"/>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_CF8E8B7C-E7EB-41DC-908A-8B4D6E53485Cprop" name="projectedYield">
+        <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib">
+          <references xsi:type="SMM:Characteristic" href="platform:/resource/agriculture/src/main/resources/GardenMeasures.meas#_CF8E8B7C-E7EB-41DC-908A-8B4D6E53485Ctrait"/>
+        </eAnnotations>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_925D58F2-FCA5-4CFD-BEB8-EB2FF9A30CBCprop" name="CharacteristicDefinition1">
+        <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib">
+          <references xsi:type="SMM:Characteristic" href="platform:/resource/agriculture/src/main/resources/GardenMeasures.meas#_925D58F2-FCA5-4CFD-BEB8-EB2FF9A30CBCtrait"/>
+        </eAnnotations>
+        <type xsi:type="uml:Enumeration" href="platform:/resource/agriculture/src/main/resources/GardenMeasures.meas#_925D58F2-FCA5-4CFD-BEB8-EB2FF9A30CBCMEAS"/>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_EBF7E7C9-1BE1-4EDF-9CEE-8A5724BB5C9Bprop" name="CharacteristicDefinition1">
+        <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib">
+          <references xsi:type="SMM:Characteristic" href="platform:/resource/agriculture/src/main/resources/GardenMeasures.meas#_EBF7E7C9-1BE1-4EDF-9CEE-8A5724BB5C9Btrait"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://jbpm-cmmn/libraries/cmmntypes.uml#_Lr8ZIMGzEeSOM_pby657_g"/>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_CF8E8B7C-E7EB-41DC-908A-8B4D6E53485Cprop" name="projectedYield">
+        <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib">
+          <references xsi:type="SMM:Characteristic" href="platform:/resource/agriculture/src/main/resources/GardenMeasures.meas#_CF8E8B7C-E7EB-41DC-908A-8B4D6E53485Ctrait"/>
+        </eAnnotations>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_925D58F2-FCA5-4CFD-BEB8-EB2FF9A30CBCprop" name="CharacteristicDefinition1">
+        <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib">
+          <references xsi:type="SMM:Characteristic" href="platform:/resource/agriculture/src/main/resources/GardenMeasures.meas#_925D58F2-FCA5-4CFD-BEB8-EB2FF9A30CBCtrait"/>
+        </eAnnotations>
+        <type xsi:type="uml:Enumeration" href="platform:/resource/agriculture/src/main/resources/GardenMeasures.meas#_925D58F2-FCA5-4CFD-BEB8-EB2FF9A30CBCMEAS"/>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_EBF7E7C9-1BE1-4EDF-9CEE-8A5724BB5C9Bprop" name="CharacteristicDefinition1">
+        <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib">
+          <references xsi:type="SMM:Characteristic" href="platform:/resource/agriculture/src/main/resources/GardenMeasures.meas#_EBF7E7C9-1BE1-4EDF-9CEE-8A5724BB5C9Btrait"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://jbpm-cmmn/libraries/cmmntypes.uml#_Lr8ZIMGzEeSOM_pby657_g"/>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_CF8E8B7C-E7EB-41DC-908A-8B4D6E53485Cprop" name="projectedYield">
+        <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib">
+          <references xsi:type="SMM:Characteristic" href="platform:/resource/agriculture/src/main/resources/GardenMeasures.meas#_CF8E8B7C-E7EB-41DC-908A-8B4D6E53485Ctrait"/>
+        </eAnnotations>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_CF8E8B7C-E7EB-41DC-908A-8B4D6E53485Cprop" name="projectedYield">
+        <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib">
+          <references xsi:type="SMM:Characteristic" href="platform:/resource/agriculture/src/main/resources/GardenMeasures.meas#_CF8E8B7C-E7EB-41DC-908A-8B4D6E53485Ctrait"/>
+        </eAnnotations>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_6F458540-89FD-4B31-BE93-FE2A63A9AB77Class" name="HarvestableFreshProduce">
+      <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_6F458540-89FD-4B31-BE93-FE2A63A9AB77"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_67E11F2D-2149-4EFB-BE2A-311BF04D7CA8Class" name="HarvestedFreshProduce">
+      <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_67E11F2D-2149-4EFB-BE2A-311BF04D7CA8"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_8095D274-912C-4CE3-A7DD-134AE3C659BBClass" name="Account">
+      <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_8095D274-912C-4CE3-A7DD-134AE3C659BB"/>
+    </packagedElement>
+  </uml:Package>
+</xmi:XMI>

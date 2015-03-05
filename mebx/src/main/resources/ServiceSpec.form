@@ -1,0 +1,15 @@
+
+<form id="682232811">
+<property name="name" value="ServiceSpec.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="Description" type="InputText" id="1802363926">
+<property name="fieldRequired" value="true"/>
+<property name="label" value="quot;enquot;,quot;Descriptionquot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="serviceSpecIn/Description"/>
+<property name="outputBinding" value="serviceSpecOut/Description"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="serviceSpecIn" name="#0099FF" type="umlClassEntry" outId="serviceSpecOut" value="platform:/resource/mebx/src/main/resources/BaseServiceProvider.vdcol#_bRkZQOi6EeSWfZ_4xae2EQ" id="serviceSpec"/>
+</form>

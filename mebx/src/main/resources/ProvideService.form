@@ -1,0 +1,24 @@
+
+<form id="2133956846">
+<property name="name" value="ProvideService.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="1" name="ServiceDeliverable" type="Subform" id="463620469">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ServiceDeliverablequot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="ServiceDeliverableIn"/>
+<property name="outputBinding" value="ServiceDeliverableOut"/>
+<property name="defaultSubform" value="PerformService_ServiceDeliverable.form"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="0" name="spec" type="Subform" id="1741422558">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Specquot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="specIn"/>
+<property name="outputBinding" value="specOut"/>
+<property name="defaultSubform" value="ServiceSpec.form"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+</form>

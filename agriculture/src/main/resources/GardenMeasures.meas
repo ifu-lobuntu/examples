@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DC="http://www.omg.org/spec/DD/20131001/DC" xmlns:SMM="http://www.omg.org/spec/SMM/20150201/SMM.cmof" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:smmdi="http://www.omg.org/spec/SMM/20150201/DI" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML">
+  <SMM:MeasureLibrary xmi:id="agriculture.GardenMeasures" name="agriculture.GardenMeasures">
+    <measureElements xsi:type="SMM:RankingMeasure" xmi:id="_925D58F2-FCA5-4CFD-BEB8-EB2FF9A30CBC" name="VegetationDensity" trait="_925D58F2-FCA5-4CFD-BEB8-EB2FF9A30CBCtrait" unit="_FE7B4911-9225-4CD7-818B-97872A40F376">
+      <interval xsi:type="SMM:RankingInterval" xmi:id="_A443FEFD-8EAB-4B15-B26E-AFC8B8C036B5" name="Dense"/>
+      <interval xsi:type="SMM:RankingInterval" xmi:id="_49EB76B6-BF20-4E60-8A9D-D844D34E2ED4" name="Normal"/>
+      <interval xsi:type="SMM:RankingInterval" xmi:id="_D161C0FD-CE8D-47AF-98D8-0E475EFD13B4" name="Sparse"/>
+      <interval xsi:type="SMM:RankingInterval" xmi:id="_56BE6DA3-207D-4ABA-9E7D-8A671DEB98D0" name="None"/>
+      <rankingTo xsi:type="SMM:RankingMeasureRelationship" xmi:id="_F5E8901E-822F-4341-8715-46C4F0502137" toDimensionalMeasure="_DD46FABD-A6D4-4C74-9AA3-013F1A505D3D"/>
+    </measureElements>
+    <measureElements xsi:type="SMM:DirectMeasure" xmi:id="_EBF7E7C9-1BE1-4EDF-9CEE-8A5724BB5C9B" name="LandSize" trait="_EBF7E7C9-1BE1-4EDF-9CEE-8A5724BB5C9Btrait" unit="_3E1DDDD1-2D5A-4F8A-9695-B751649126F0"/>
+    <measureElements xsi:type="SMM:UnitOfMeasure" xmi:id="_3E1DDDD1-2D5A-4F8A-9695-B751649126F0" name="SquareMetre"/>
+    <measureElements xsi:type="SMM:UnitOfMeasure" xmi:id="_FE7B4911-9225-4CD7-818B-97872A40F376" name="Density"/>
+    <measureElements xsi:type="SMM:BinaryMeasure" xmi:id="_CF8E8B7C-E7EB-41DC-908A-8B4D6E53485C" name="ProjectedYield" trait="_CF8E8B7C-E7EB-41DC-908A-8B4D6E53485Ctrait" functor="multiply">
+      <baseMeasure1To xsi:type="SMM:Base1MeasureRelationship" xmi:id="_32C18D0D-335B-4707-AE83-05E1DDBEEB9F" toDimensionalMeasure="_925D58F2-FCA5-4CFD-BEB8-EB2FF9A30CBC"/>
+      <baseMeasure2To xsi:type="SMM:Base2MeasureRelationship" xmi:id="_8FD2FA09-729F-4F25-BB55-CE67EF16047D" toDimensionalMeasure="_EBF7E7C9-1BE1-4EDF-9CEE-8A5724BB5C9B"/>
+    </measureElements>
+    <measureElements xsi:type="SMM:DirectMeasure" xmi:id="_DD46FABD-A6D4-4C74-9AA3-013F1A505D3D" name="BoxesPerSquareMetre" trait="_DD46FABD-A6D4-4C74-9AA3-013F1A505D3Dtrait"/>
+    <measureElements xsi:type="SMM:Characteristic" xmi:id="_925D58F2-FCA5-4CFD-BEB8-EB2FF9A30CBCtrait" name="VegetationDensity" measure="_925D58F2-FCA5-4CFD-BEB8-EB2FF9A30CBC"/>
+    <measureElements xsi:type="SMM:Characteristic" xmi:id="_EBF7E7C9-1BE1-4EDF-9CEE-8A5724BB5C9Btrait" name="LandSize" measure="_EBF7E7C9-1BE1-4EDF-9CEE-8A5724BB5C9B"/>
+    <measureElements xsi:type="SMM:Characteristic" xmi:id="_CF8E8B7C-E7EB-41DC-908A-8B4D6E53485Ctrait" name="ProjectedYield" measure="_CF8E8B7C-E7EB-41DC-908A-8B4D6E53485C"/>
+    <measureElements xsi:type="SMM:Characteristic" xmi:id="_DD46FABD-A6D4-4C74-9AA3-013F1A505D3Dtrait" name="BoxesPerSquareMetre" measure="_DD46FABD-A6D4-4C74-9AA3-013F1A505D3D"/>
+    <ownedDiagram xsi:type="smmdi:SMMDiagram" xmi:id="_r7wCgOQjEeS4HskRqikVKw" smmElement="agriculture.GardenMeasures">
+      <ownedSmmDiagramElement xsi:type="smmdi:SMMShape" xmi:id="_cwbSYuQkEeS4HskRqikVKw" smmElement="_925D58F2-FCA5-4CFD-BEB8-EB2FF9A30CBC">
+        <localStyle xsi:type="smmdi:SMMStyle" xmi:id="_Zl5uweQyEeS4HskRqikVKw">
+          <fillColor xsi:type="DC:Color" xmi:id="_Zl5uxeQyEeS4HskRqikVKw" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_Zl5uw-QyEeS4HskRqikVKw" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_Zl5uxOQyEeS4HskRqikVKw" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" xmi:id="_Zl5uwuQyEeS4HskRqikVKw" x="270.0" y="375.0" width="200.0" height="134.0"/>
+        <ownedShape xsi:type="smmdi:SMMShape" xmi:id="_cwcgg-QkEeS4HskRqikVKw" smmElement="_A443FEFD-8EAB-4B15-B26E-AFC8B8C036B5">
+          <localStyle xsi:type="smmdi:SMMStyle" xmi:id="_Zl5ux-QyEeS4HskRqikVKw">
+            <fillColor xsi:type="DC:Color" xmi:id="_Zl5uy-QyEeS4HskRqikVKw" red="255" green="255" blue="255"/>
+            <strokeColor xsi:type="DC:Color" xmi:id="_Zl5uyeQyEeS4HskRqikVKw" red="0" green="0" blue="0"/>
+            <fontColor xsi:type="DC:Color" xmi:id="_Zl5uyuQyEeS4HskRqikVKw" red="0" green="0" blue="0"/>
+          </localStyle>
+          <bounds xsi:type="DC:Bounds" xmi:id="_Zl5uyOQyEeS4HskRqikVKw" x="1.0" y="40.0" width="197.0" height="20.0"/>
+        </ownedShape>
+        <ownedShape xsi:type="smmdi:SMMShape" xmi:id="_cwcgiuQkEeS4HskRqikVKw" smmElement="_49EB76B6-BF20-4E60-8A9D-D844D34E2ED4">
+          <localStyle xsi:type="smmdi:SMMStyle" xmi:id="_Zl5uzeQyEeS4HskRqikVKw">
+            <fillColor xsi:type="DC:Color" xmi:id="_Zl5u0eQyEeS4HskRqikVKw" red="255" green="255" blue="255"/>
+            <strokeColor xsi:type="DC:Color" xmi:id="_Zl5uz-QyEeS4HskRqikVKw" red="0" green="0" blue="0"/>
+            <fontColor xsi:type="DC:Color" xmi:id="_Zl5u0OQyEeS4HskRqikVKw" red="0" green="0" blue="0"/>
+          </localStyle>
+          <bounds xsi:type="DC:Bounds" xmi:id="_Zl5uzuQyEeS4HskRqikVKw" x="1.0" y="61.0" width="197.0" height="20.0"/>
+        </ownedShape>
+        <ownedShape xsi:type="smmdi:SMMShape" xmi:id="_cwcgkeQkEeS4HskRqikVKw" smmElement="_D161C0FD-CE8D-47AF-98D8-0E475EFD13B4">
+          <localStyle xsi:type="smmdi:SMMStyle" xmi:id="_Zl5u0-QyEeS4HskRqikVKw">
+            <fillColor xsi:type="DC:Color" xmi:id="_Zl5u1-QyEeS4HskRqikVKw" red="255" green="255" blue="255"/>
+            <strokeColor xsi:type="DC:Color" xmi:id="_Zl5u1eQyEeS4HskRqikVKw" red="0" green="0" blue="0"/>
+            <fontColor xsi:type="DC:Color" xmi:id="_Zl5u1uQyEeS4HskRqikVKw" red="0" green="0" blue="0"/>
+          </localStyle>
+          <bounds xsi:type="DC:Bounds" xmi:id="_Zl5u1OQyEeS4HskRqikVKw" x="1.0" y="82.0" width="197.0" height="20.0"/>
+        </ownedShape>
+        <ownedShape xsi:type="smmdi:SMMShape" xmi:id="_Zl6V0-QyEeS4HskRqikVKw" smmElement="_56BE6DA3-207D-4ABA-9E7D-8A671DEB98D0">
+          <localStyle xsi:type="smmdi:SMMStyle" xmi:id="_Zl6V0eQyEeS4HskRqikVKw">
+            <fillColor xsi:type="DC:Color" xmi:id="_Zl6V1uQyEeS4HskRqikVKw" red="255" green="255" blue="255"/>
+            <strokeColor xsi:type="DC:Color" xmi:id="_Zl6V1OQyEeS4HskRqikVKw" red="0" green="0" blue="0"/>
+            <fontColor xsi:type="DC:Color" xmi:id="_Zl6V1eQyEeS4HskRqikVKw" red="0" green="0" blue="0"/>
+          </localStyle>
+          <bounds xsi:type="DC:Bounds" xmi:id="_Zl6V0uQyEeS4HskRqikVKw" x="1.0" y="103.0" width="197.0" height="20.0"/>
+        </ownedShape>
+      </ownedSmmDiagramElement>
+      <ownedSmmDiagramElement xsi:type="smmdi:SMMShape" xmi:id="_cwdHk-QkEeS4HskRqikVKw" smmElement="_EBF7E7C9-1BE1-4EDF-9CEE-8A5724BB5C9B">
+        <localStyle xsi:type="smmdi:SMMStyle" xmi:id="_Zl6V2OQyEeS4HskRqikVKw">
+          <fillColor xsi:type="DC:Color" xmi:id="_Zl6V3OQyEeS4HskRqikVKw" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_Zl6V2uQyEeS4HskRqikVKw" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_Zl6V2-QyEeS4HskRqikVKw" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" xmi:id="_Zl6V2eQyEeS4HskRqikVKw" x="360.0" y="42.0" width="100.0" height="80.0"/>
+      </ownedSmmDiagramElement>
+      <ownedSmmDiagramElement xsi:type="smmdi:SMMShape" xmi:id="_cwduo-QkEeS4HskRqikVKw" smmElement="_3E1DDDD1-2D5A-4F8A-9695-B751649126F0">
+        <localStyle xsi:type="smmdi:SMMStyle" xmi:id="_Zl6V3uQyEeS4HskRqikVKw">
+          <fillColor xsi:type="DC:Color" xmi:id="_Zl6V4uQyEeS4HskRqikVKw" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_Zl6V4OQyEeS4HskRqikVKw" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_Zl6V4eQyEeS4HskRqikVKw" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" xmi:id="_Zl6V3-QyEeS4HskRqikVKw" x="810.0" y="42.0" width="100.0" height="80.0"/>
+      </ownedSmmDiagramElement>
+      <ownedSmmDiagramElement xsi:type="smmdi:SMMEdge" xmi:id="_cwe8wuQkEeS4HskRqikVKw" sourceShape="_cwdHk-QkEeS4HskRqikVKw" targetShape="_cwduo-QkEeS4HskRqikVKw">
+        <localStyle xsi:type="smmdi:SMMStyle" xmi:id="_Zl6V5OQyEeS4HskRqikVKw">
+          <fillColor xsi:type="DC:Color" xmi:id="_Zl6V5-QyEeS4HskRqikVKw" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_Zl6V5eQyEeS4HskRqikVKw" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_Zl6V5uQyEeS4HskRqikVKw" red="0" green="0" blue="0"/>
+        </localStyle>
+        <waypoint xsi:type="DC:Point" xmi:id="_ZmC4s-QyEeS4HskRqikVKw" x="410.0" y="82.0"/>
+        <waypoint xsi:type="DC:Point" xmi:id="_ZmC4tOQyEeS4HskRqikVKw" x="860.0" y="82.0"/>
+      </ownedSmmDiagramElement>
+      <ownedSmmDiagramElement xsi:type="smmdi:SMMShape" xmi:id="_cwe8yeQkEeS4HskRqikVKw" smmElement="_FE7B4911-9225-4CD7-818B-97872A40F376">
+        <localStyle xsi:type="smmdi:SMMStyle" xmi:id="_Zl6V6eQyEeS4HskRqikVKw">
+          <fillColor xsi:type="DC:Color" xmi:id="_Zl6V7eQyEeS4HskRqikVKw" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_Zl6V6-QyEeS4HskRqikVKw" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_Zl6V7OQyEeS4HskRqikVKw" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" xmi:id="_Zl6V6uQyEeS4HskRqikVKw" x="840.0" y="345.0" width="100.0" height="80.0"/>
+      </ownedSmmDiagramElement>
+      <ownedSmmDiagramElement xsi:type="smmdi:SMMEdge" xmi:id="_cwe8z-QkEeS4HskRqikVKw" sourceShape="_cwbSYuQkEeS4HskRqikVKw" targetShape="_cwe8yeQkEeS4HskRqikVKw">
+        <localStyle xsi:type="smmdi:SMMStyle" xmi:id="_Zl684eQyEeS4HskRqikVKw">
+          <fillColor xsi:type="DC:Color" xmi:id="_Zl685OQyEeS4HskRqikVKw" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_Zl684uQyEeS4HskRqikVKw" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_Zl684-QyEeS4HskRqikVKw" red="0" green="0" blue="0"/>
+        </localStyle>
+        <waypoint xsi:type="DC:Point" xmi:id="_ZmC4teQyEeS4HskRqikVKw" x="370.0" y="442.0"/>
+        <waypoint xsi:type="DC:Point" xmi:id="_ZmC4tuQyEeS4HskRqikVKw" x="647.5" y="443.0"/>
+        <waypoint xsi:type="DC:Point" xmi:id="_ZmC4t-QyEeS4HskRqikVKw" x="647.5" y="385.0"/>
+        <waypoint xsi:type="DC:Point" xmi:id="_ZmC4uOQyEeS4HskRqikVKw" x="890.0" y="385.0"/>
+      </ownedSmmDiagramElement>
+      <ownedSmmDiagramElement xsi:type="smmdi:SMMShape" xmi:id="_cwgK4-QkEeS4HskRqikVKw" smmElement="_CF8E8B7C-E7EB-41DC-908A-8B4D6E53485C">
+        <localStyle xsi:type="smmdi:SMMStyle" xmi:id="_Zl685uQyEeS4HskRqikVKw">
+          <fillColor xsi:type="DC:Color" xmi:id="_Zl686uQyEeS4HskRqikVKw" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_Zl686OQyEeS4HskRqikVKw" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_Zl686eQyEeS4HskRqikVKw" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" xmi:id="_Zl685-QyEeS4HskRqikVKw" x="53.0" y="148.0" width="100.0" height="80.0"/>
+      </ownedSmmDiagramElement>
+      <ownedSmmDiagramElement xsi:type="smmdi:SMMEdge" xmi:id="_cwiAEuQkEeS4HskRqikVKw" smmElement="_8FD2FA09-729F-4F25-BB55-CE67EF16047D" sourceShape="_cwgK4-QkEeS4HskRqikVKw" targetShape="_cwdHk-QkEeS4HskRqikVKw">
+        <localStyle xsi:type="smmdi:SMMStyle" xmi:id="_Zl687OQyEeS4HskRqikVKw">
+          <fillColor xsi:type="DC:Color" xmi:id="_Zl687-QyEeS4HskRqikVKw" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_Zl687eQyEeS4HskRqikVKw" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_Zl687uQyEeS4HskRqikVKw" red="0" green="0" blue="0"/>
+        </localStyle>
+        <waypoint xsi:type="DC:Point" xmi:id="_ZmC4uuQyEeS4HskRqikVKw" x="103.0" y="188.0"/>
+        <waypoint xsi:type="DC:Point" xmi:id="_ZmC4u-QyEeS4HskRqikVKw" x="410.0" y="82.0"/>
+      </ownedSmmDiagramElement>
+      <ownedSmmDiagramElement xsi:type="smmdi:SMMEdge" xmi:id="_cwjOMuQkEeS4HskRqikVKw" smmElement="_32C18D0D-335B-4707-AE83-05E1DDBEEB9F" sourceShape="_cwgK4-QkEeS4HskRqikVKw" targetShape="_cwbSYuQkEeS4HskRqikVKw">
+        <localStyle xsi:type="smmdi:SMMStyle" xmi:id="_Zl688eQyEeS4HskRqikVKw">
+          <fillColor xsi:type="DC:Color" xmi:id="_Zl689OQyEeS4HskRqikVKw" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_Zl688uQyEeS4HskRqikVKw" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_Zl688-QyEeS4HskRqikVKw" red="0" green="0" blue="0"/>
+        </localStyle>
+        <waypoint xsi:type="DC:Point" xmi:id="_ZmC4vOQyEeS4HskRqikVKw" x="103.0" y="188.0"/>
+        <waypoint xsi:type="DC:Point" xmi:id="_ZmC4veQyEeS4HskRqikVKw" x="255.67343810544855" y="329.55094616910753"/>
+        <waypoint xsi:type="DC:Point" xmi:id="_ZmC4vuQyEeS4HskRqikVKw" x="370.0" y="442.0"/>
+      </ownedSmmDiagramElement>
+      <ownedSmmDiagramElement xsi:type="smmdi:SMMShape" xmi:id="_Zl68-OQyEeS4HskRqikVKw" smmElement="_DD46FABD-A6D4-4C74-9AA3-013F1A505D3D">
+        <localStyle xsi:type="smmdi:SMMStyle" xmi:id="_Zl689uQyEeS4HskRqikVKw">
+          <fillColor xsi:type="DC:Color" xmi:id="_Zl68--QyEeS4HskRqikVKw" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_Zl68-eQyEeS4HskRqikVKw" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_Zl68-uQyEeS4HskRqikVKw" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" xmi:id="_Zl689-QyEeS4HskRqikVKw" x="540.0" y="585.0" width="100.0" height="80.0"/>
+      </ownedSmmDiagramElement>
+      <ownedSmmDiagramElement xsi:type="smmdi:SMMEdge" xmi:id="_Zl8LAuQyEeS4HskRqikVKw" smmElement="_F5E8901E-822F-4341-8715-46C4F0502137" sourceShape="_cwbSYuQkEeS4HskRqikVKw" targetShape="_Zl68-OQyEeS4HskRqikVKw">
+        <localStyle xsi:type="smmdi:SMMStyle" xmi:id="_Zl8LAeQyEeS4HskRqikVKw">
+          <fillColor xsi:type="DC:Color" xmi:id="_Zl8LBeQyEeS4HskRqikVKw" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_Zl8LA-QyEeS4HskRqikVKw" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_Zl8LBOQyEeS4HskRqikVKw" red="0" green="0" blue="0"/>
+        </localStyle>
+        <waypoint xsi:type="DC:Point" xmi:id="_ZmDfwOQyEeS4HskRqikVKw" x="370.0" y="442.0"/>
+        <waypoint xsi:type="DC:Point" xmi:id="_ZmDfweQyEeS4HskRqikVKw" x="370.0" y="625.0"/>
+        <waypoint xsi:type="DC:Point" xmi:id="_ZmDfwuQyEeS4HskRqikVKw" x="590.0" y="625.0"/>
+      </ownedSmmDiagramElement>
+    </ownedDiagram>
+  </SMM:MeasureLibrary>
+  <uml:Package xmi:id="_Zl5HsuQyEeS4HskRqikVKw" name="agriculture.GardenMeasures">
+    <packagedElement xsi:type="uml:Enumeration" xmi:id="_925D58F2-FCA5-4CFD-BEB8-EB2FF9A30CBCMEAS" name="VegetationDensity">
+      <eAnnotations xsi:type="ecore:EAnnotation" xmi:id="_Zl-AMOQyEeS4HskRqikVKw" source="http://www.omg.org/spec/SMM/20150201/SMM.cmof" references="_925D58F2-FCA5-4CFD-BEB8-EB2FF9A30CBC"/>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_Zl-AMeQyEeS4HskRqikVKw" name="minimumOpen">
+        <type xsi:type="uml:PrimitiveType" href="pathmap://jbpm-cmmn/libraries/cmmntypes.uml#_LI59gMGzEeSOM_pby657_g"/>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_Zl-AMuQyEeS4HskRqikVKw" name="maximumOpen">
+        <type xsi:type="uml:PrimitiveType" href="pathmap://jbpm-cmmn/libraries/cmmntypes.uml#_LI59gMGzEeSOM_pby657_g"/>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_Zl-AM-QyEeS4HskRqikVKw" name="maximumEndpoint">
+        <type xsi:type="uml:PrimitiveType" href="pathmap://jbpm-cmmn/libraries/cmmntypes.uml#_Lr8ZIMGzEeSOM_pby657_g"/>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_Zl-ANOQyEeS4HskRqikVKw" name="minimumEndpoint">
+        <type xsi:type="uml:PrimitiveType" href="pathmap://jbpm-cmmn/libraries/cmmntypes.uml#_Lr8ZIMGzEeSOM_pby657_g"/>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_Zl-ANeQyEeS4HskRqikVKw" name="value">
+        <type xsi:type="uml:PrimitiveType" href="pathmap://jbpm-cmmn/libraries/cmmntypes.uml#_Lr8ZIMGzEeSOM_pby657_g"/>
+      </ownedAttribute>
+      <ownedLiteral xsi:type="uml:EnumerationLiteral" xmi:id="_A443FEFD-8EAB-4B15-B26E-AFC8B8C036B5MEAS" name="Dense">
+        <eAnnotations xsi:type="ecore:EAnnotation" xmi:id="_Zl_1YeQyEeS4HskRqikVKw" source="http://www.omg.org/spec/SMM/20150201/SMM.cmof" references="_A443FEFD-8EAB-4B15-B26E-AFC8B8C036B5"/>
+        <slot xsi:type="uml:Slot" xmi:id="_Zl_1YuQyEeS4HskRqikVKw" definingFeature="_Zl-AMeQyEeS4HskRqikVKw">
+          <value xsi:type="uml:LiteralBoolean" xmi:id="_Zl_1Y-QyEeS4HskRqikVKw"/>
+        </slot>
+        <slot xsi:type="uml:Slot" xmi:id="_Zl_1ZOQyEeS4HskRqikVKw" definingFeature="_Zl-AMuQyEeS4HskRqikVKw">
+          <value xsi:type="uml:LiteralBoolean" xmi:id="_Zl_1ZeQyEeS4HskRqikVKw"/>
+        </slot>
+        <slot xsi:type="uml:Slot" xmi:id="_Zl_1ZuQyEeS4HskRqikVKw" definingFeature="_Zl-AM-QyEeS4HskRqikVKw">
+          <value xsi:type="uml:LiteralNull" xmi:id="_ZmAccOQyEeS4HskRqikVKw"/>
+        </slot>
+        <slot xsi:type="uml:Slot" xmi:id="_ZmAcceQyEeS4HskRqikVKw" definingFeature="_Zl-ANOQyEeS4HskRqikVKw">
+          <value xsi:type="uml:LiteralNull" xmi:id="_ZmAccuQyEeS4HskRqikVKw"/>
+        </slot>
+        <slot xsi:type="uml:Slot" xmi:id="_ZmAcc-QyEeS4HskRqikVKw" definingFeature="_Zl-ANeQyEeS4HskRqikVKw">
+          <value xsi:type="uml:LiteralNull" xmi:id="_ZmAcdOQyEeS4HskRqikVKw"/>
+        </slot>
+      </ownedLiteral>
+      <ownedLiteral xsi:type="uml:EnumerationLiteral" xmi:id="_49EB76B6-BF20-4E60-8A9D-D844D34E2ED4MEAS" name="Normal">
+        <eAnnotations xsi:type="ecore:EAnnotation" xmi:id="_ZmAcdeQyEeS4HskRqikVKw" source="http://www.omg.org/spec/SMM/20150201/SMM.cmof" references="_49EB76B6-BF20-4E60-8A9D-D844D34E2ED4"/>
+        <slot xsi:type="uml:Slot" xmi:id="_ZmAcduQyEeS4HskRqikVKw" definingFeature="_Zl-AMeQyEeS4HskRqikVKw">
+          <value xsi:type="uml:LiteralBoolean" xmi:id="_ZmAcd-QyEeS4HskRqikVKw"/>
+        </slot>
+        <slot xsi:type="uml:Slot" xmi:id="_ZmAceOQyEeS4HskRqikVKw" definingFeature="_Zl-AMuQyEeS4HskRqikVKw">
+          <value xsi:type="uml:LiteralBoolean" xmi:id="_ZmBDgOQyEeS4HskRqikVKw"/>
+        </slot>
+        <slot xsi:type="uml:Slot" xmi:id="_ZmBDgeQyEeS4HskRqikVKw" definingFeature="_Zl-AM-QyEeS4HskRqikVKw">
+          <value xsi:type="uml:LiteralNull" xmi:id="_ZmBDguQyEeS4HskRqikVKw"/>
+        </slot>
+        <slot xsi:type="uml:Slot" xmi:id="_ZmBDg-QyEeS4HskRqikVKw" definingFeature="_Zl-ANOQyEeS4HskRqikVKw">
+          <value xsi:type="uml:LiteralNull" xmi:id="_ZmBDhOQyEeS4HskRqikVKw"/>
+        </slot>
+        <slot xsi:type="uml:Slot" xmi:id="_ZmBDheQyEeS4HskRqikVKw" definingFeature="_Zl-ANeQyEeS4HskRqikVKw">
+          <value xsi:type="uml:LiteralNull" xmi:id="_ZmBDhuQyEeS4HskRqikVKw"/>
+        </slot>
+      </ownedLiteral>
+      <ownedLiteral xsi:type="uml:EnumerationLiteral" xmi:id="_D161C0FD-CE8D-47AF-98D8-0E475EFD13B4MEAS" name="Sparse">
+        <eAnnotations xsi:type="ecore:EAnnotation" xmi:id="_ZmBqkOQyEeS4HskRqikVKw" source="http://www.omg.org/spec/SMM/20150201/SMM.cmof" references="_D161C0FD-CE8D-47AF-98D8-0E475EFD13B4"/>
+        <slot xsi:type="uml:Slot" xmi:id="_ZmBqkeQyEeS4HskRqikVKw" definingFeature="_Zl-AMeQyEeS4HskRqikVKw">
+          <value xsi:type="uml:LiteralBoolean" xmi:id="_ZmBqkuQyEeS4HskRqikVKw"/>
+        </slot>
+        <slot xsi:type="uml:Slot" xmi:id="_ZmBqk-QyEeS4HskRqikVKw" definingFeature="_Zl-AMuQyEeS4HskRqikVKw">
+          <value xsi:type="uml:LiteralBoolean" xmi:id="_ZmBqlOQyEeS4HskRqikVKw"/>
+        </slot>
+        <slot xsi:type="uml:Slot" xmi:id="_ZmBqleQyEeS4HskRqikVKw" definingFeature="_Zl-AM-QyEeS4HskRqikVKw">
+          <value xsi:type="uml:LiteralNull" xmi:id="_ZmBqluQyEeS4HskRqikVKw"/>
+        </slot>
+        <slot xsi:type="uml:Slot" xmi:id="_ZmBql-QyEeS4HskRqikVKw" definingFeature="_Zl-ANOQyEeS4HskRqikVKw">
+          <value xsi:type="uml:LiteralNull" xmi:id="_ZmBqmOQyEeS4HskRqikVKw"/>
+        </slot>
+        <slot xsi:type="uml:Slot" xmi:id="_ZmBqmeQyEeS4HskRqikVKw" definingFeature="_Zl-ANeQyEeS4HskRqikVKw">
+          <value xsi:type="uml:LiteralNull" xmi:id="_ZmBqmuQyEeS4HskRqikVKw"/>
+        </slot>
+      </ownedLiteral>
+      <ownedLiteral xsi:type="uml:EnumerationLiteral" xmi:id="_56BE6DA3-207D-4ABA-9E7D-8A671DEB98D0MEAS" name="None">
+        <eAnnotations xsi:type="ecore:EAnnotation" xmi:id="_ZmCRoOQyEeS4HskRqikVKw" source="http://www.omg.org/spec/SMM/20150201/SMM.cmof" references="_56BE6DA3-207D-4ABA-9E7D-8A671DEB98D0"/>
+        <slot xsi:type="uml:Slot" xmi:id="_ZmCRoeQyEeS4HskRqikVKw" definingFeature="_Zl-AMeQyEeS4HskRqikVKw">
+          <value xsi:type="uml:LiteralBoolean" xmi:id="_ZmCRouQyEeS4HskRqikVKw"/>
+        </slot>
+        <slot xsi:type="uml:Slot" xmi:id="_ZmCRo-QyEeS4HskRqikVKw" definingFeature="_Zl-AMuQyEeS4HskRqikVKw">
+          <value xsi:type="uml:LiteralBoolean" xmi:id="_ZmCRpOQyEeS4HskRqikVKw"/>
+        </slot>
+        <slot xsi:type="uml:Slot" xmi:id="_ZmCRpeQyEeS4HskRqikVKw" definingFeature="_Zl-AM-QyEeS4HskRqikVKw">
+          <value xsi:type="uml:LiteralNull" xmi:id="_ZmCRpuQyEeS4HskRqikVKw"/>
+        </slot>
+        <slot xsi:type="uml:Slot" xmi:id="_ZmCRp-QyEeS4HskRqikVKw" definingFeature="_Zl-ANOQyEeS4HskRqikVKw">
+          <value xsi:type="uml:LiteralNull" xmi:id="_ZmCRqOQyEeS4HskRqikVKw"/>
+        </slot>
+        <slot xsi:type="uml:Slot" xmi:id="_ZmC4sOQyEeS4HskRqikVKw" definingFeature="_Zl-ANeQyEeS4HskRqikVKw">
+          <value xsi:type="uml:LiteralNull" xmi:id="_ZmC4seQyEeS4HskRqikVKw"/>
+        </slot>
+      </ownedLiteral>
+    </packagedElement>
+  </uml:Package>
+</xmi:XMI>

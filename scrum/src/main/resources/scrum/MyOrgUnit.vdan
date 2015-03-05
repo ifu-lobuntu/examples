@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VDML:ValueDeliveryModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" xmlns:vdmldi="http://www.omg.org/spec/VDML/20131201/DI" name="scrum.MyOrgUnitvdan" id="scrum.MyOrgUnitvdan">
+  <diagram xsi:type="vdmldi:VDMLDiagram" id="_5Ruw8N6YEeSBZ-evCtSdVw">
+    <vdmlElement xsi:type="VDML:OrgUnit" href="platform:/resource/scrum/src/main/resources/scrum/MyOrgUnit.vdcol#scrum.MyOrgUnit"/>
+  </diagram>
+</VDML:ValueDeliveryModel>

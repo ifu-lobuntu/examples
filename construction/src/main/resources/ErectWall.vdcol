@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML">
+  <VDML:ValueDeliveryModel name="ErectWallValueDeliveryModel">
+    <capabilitylibrary xsi:type="VDML:CapabilityLibrary" name="constructionnetwork" id="_e1aJAOmiEeSV9rF8V4ExFAcl"/>
+    <businessItemLibrary xsi:type="VDML:BusinessItemLibrary" name="constructionnetwork" id="_e1aJAOmiEeSV9rF8V4ExFAbil">
+      <businessItemLibraryElement xsi:type="VDML:BusinessItemDefinition" name="Payment" id="_HVeSkOpMEeSmEovWXJk3gw"/>
+      <businessItemLibraryElement xsi:type="VDML:BusinessItemDefinition" name="Paint" id="_HVeSkepMEeSmEovWXJk3gw"/>
+      <businessItemLibraryElement xsi:type="VDML:BusinessItemDefinition" name="PlasterMixx" id="_HVeSkupMEeSmEovWXJk3gw"/>
+      <businessItemLibraryElement xsi:type="VDML:BusinessItemDefinition" name="Bricks" id="_HVeSk-pMEeSmEovWXJk3gw"/>
+      <businessItemLibraryElement xsi:type="VDML:BusinessItemDefinition" name="PlasteredWall" id="_HVeSlOpMEeSmEovWXJk3gw"/>
+      <businessItemLibraryElement xsi:type="VDML:BusinessItemDefinition" name="BuildingMix" id="_HVeSlepMEeSmEovWXJk3gw"/>
+      <businessItemLibraryElement xsi:type="VDML:BusinessItemDefinition" name="BrickWall" id="_HVeSlupMEeSmEovWXJk3gw"/>
+      <businessItemLibraryElement xsi:type="VDML:BusinessItemDefinition" name="PaintedWall" id="_HVeSl-pMEeSmEovWXJk3gw"/>
+    </businessItemLibrary>
+    <collaboration xsi:type="VDML:CapabilityMethod" name="ErectWall" id="ErectWall">
+      <activity xsi:type="VDML:Activity" name="PayForPaintWork" id="__WgRUunREeSqB9B_4YIk0g" performingRole="_A598C1D9-3224-4B6B-ABE3-2003BD63CB88">
+        <containedPort xsi:type="VDML:OutputPort" name="payment" id="_w76-AOpIEeSmEovWXJk3gw" handler="_A598C1D9-3224-4B6B-ABE3-2003BD63CB88" output="_22B50E2F-08F3-4C30-8B94-0D47FBDDE1D7"/>
+        <containedPort xsi:type="VDML:InputPort" name="paintedWall" id="_w76-A-pIEeSmEovWXJk3gw" handler="_A598C1D9-3224-4B6B-ABE3-2003BD63CB88" input="_C0AC32A8-BCC4-4D0A-BD78-A58E22EE35EA"/>
+      </activity>
+      <activity xsi:type="VDML:Activity" name="ProviderBuildingMaterial" id="__Wg4YOnREeSqB9B_4YIk0g" performingRole="_B7C4D03E-A35C-4DD2-B047-2AC282F189AA">
+        <containedPort xsi:type="VDML:OutputPort" name="paint" id="__Wg4YenREeSqB9B_4YIk0g" handler="_B7C4D03E-A35C-4DD2-B047-2AC282F189AA" output="_E39E7C5E-DCB2-4B31-B7BC-2C434A4A5FFA"/>
+        <containedPort xsi:type="VDML:InputPort" name="paymentFromBuildingOwner" id="__Wg4YunREeSqB9B_4YIk0g" handler="_B7C4D03E-A35C-4DD2-B047-2AC282F189AA" input="_A672E966-FC21-4F71-8C66-38DD559E2262"/>
+        <containedPort xsi:type="VDML:OutputPort" name="plasterMix" id="_G09fkOnVEeSqB9B_4YIk0g" handler="_B7C4D03E-A35C-4DD2-B047-2AC282F189AA" output="_3BBFA93C-7330-47CD-BF96-BDD7033D6CFF"/>
+        <containedPort xsi:type="VDML:OutputPort" name="bricks" id="_G09fk-nVEeSqB9B_4YIk0g" handler="_B7C4D03E-A35C-4DD2-B047-2AC282F189AA" output="_9363EADA-55FC-4B01-94B7-BDF620539653"/>
+        <containedPort xsi:type="VDML:OutputPort" name="buildingMix" id="_w76-BOpIEeSmEovWXJk3gw" handler="_B7C4D03E-A35C-4DD2-B047-2AC282F189AA" output="_B6F6BCD3-0865-4844-B21B-F1ED0242E49D"/>
+      </activity>
+      <activity xsi:type="VDML:Activity" name="PaintWall" id="__Wg4Y-nREeSqB9B_4YIk0g" performingRole="_E9E32C0D-D08D-4D46-99F2-3CCA2E7E11A0">
+        <containedPort xsi:type="VDML:InputPort" name="fromPaint" id="__Wg4ZOnREeSqB9B_4YIk0g" handler="_E9E32C0D-D08D-4D46-99F2-3CCA2E7E11A0" input="_E39E7C5E-DCB2-4B31-B7BC-2C434A4A5FFA"/>
+        <containedPort xsi:type="VDML:OutputPort" name="paintedWall" id="_w76-BepIEeSmEovWXJk3gw" handler="_E9E32C0D-D08D-4D46-99F2-3CCA2E7E11A0" output="_C0AC32A8-BCC4-4D0A-BD78-A58E22EE35EA"/>
+        <containedPort xsi:type="VDML:InputPort" name="payment" id="_w76-BupIEeSmEovWXJk3gw" handler="_E9E32C0D-D08D-4D46-99F2-3CCA2E7E11A0" input="_22B50E2F-08F3-4C30-8B94-0D47FBDDE1D7"/>
+        <containedPort xsi:type="VDML:InputPort" name="plasteredWall" id="_G084genVEeSqB9B_4YIk0g" handler="_E9E32C0D-D08D-4D46-99F2-3CCA2E7E11A0" input="_256F71FE-0475-4333-856B-DECBA248DECB"/>
+      </activity>
+      <activity xsi:type="VDML:Activity" name="PlastererWall" id="_1sO5hunTEeSqB9B_4YIk0g" performingRole="_8E0BA72E-BF2A-4149-9749-9B7A13C651B5">
+        <containedPort xsi:type="VDML:OutputPort" name="plasteredWall" id="_G09flenVEeSqB9B_4YIk0g" handler="_8E0BA72E-BF2A-4149-9749-9B7A13C651B5" output="_256F71FE-0475-4333-856B-DECBA248DECB"/>
+        <containedPort xsi:type="VDML:InputPort" name="plasterMix" id="_G09flunVEeSqB9B_4YIk0g" handler="_8E0BA72E-BF2A-4149-9749-9B7A13C651B5" input="_3BBFA93C-7330-47CD-BF96-BDD7033D6CFF"/>
+        <containedPort xsi:type="VDML:InputPort" name="brickWall" id="_w76-B-pIEeSmEovWXJk3gw" handler="_8E0BA72E-BF2A-4149-9749-9B7A13C651B5" input="_1D94D988-4D2D-4586-8400-0D17BBC55428"/>
+        <containedPort xsi:type="VDML:InputPort" name="payment" id="_w76-COpIEeSmEovWXJk3gw" handler="_8E0BA72E-BF2A-4149-9749-9B7A13C651B5" input="_58AF7835-ECA9-4AB9-9CC6-2D8C3B05C8D2"/>
+      </activity>
+      <activity xsi:type="VDML:Activity" name="LayBricks" id="_okWn0-nUEeSqB9B_4YIk0g" performingRole="_56C9C961-1EC6-446B-A03B-04444A910566">
+        <containedPort xsi:type="VDML:InputPort" name="bricks" id="_G0-GoenVEeSqB9B_4YIk0g" handler="_56C9C961-1EC6-446B-A03B-04444A910566" input="_9363EADA-55FC-4B01-94B7-BDF620539653"/>
+        <containedPort xsi:type="VDML:OutputPort" name="brickWall" id="_w76-CepIEeSmEovWXJk3gw" handler="_56C9C961-1EC6-446B-A03B-04444A910566" output="_1D94D988-4D2D-4586-8400-0D17BBC55428"/>
+        <containedPort xsi:type="VDML:InputPort" name="buildingMix" id="_w76-CupIEeSmEovWXJk3gw" handler="_56C9C961-1EC6-446B-A03B-04444A910566" input="_B6F6BCD3-0865-4844-B21B-F1ED0242E49D"/>
+        <containedPort xsi:type="VDML:InputPort" name="fromPayment" id="_w76-C-pIEeSmEovWXJk3gw" handler="_56C9C961-1EC6-446B-A03B-04444A910566" input="_1FD59BD3-74E7-401B-8038-7D944F53D281"/>
+      </activity>
+      <activity xsi:type="VDML:Activity" name="PayBuildingMaterialProvider" id="_AD056699-0BDB-4DC5-A649-3A9F4B1FE4C4" performingRole="_A598C1D9-3224-4B6B-ABE3-2003BD63CB88">
+        <containedPort xsi:type="VDML:OutputPort" name="paymentToBuildingMaterialProvider" id="__WgRU-nREeSqB9B_4YIk0g" handler="_A598C1D9-3224-4B6B-ABE3-2003BD63CB88" output="_A672E966-FC21-4F71-8C66-38DD559E2262"/>
+      </activity>
+      <activity xsi:type="VDML:Activity" name="PayForBrickWall" id="_412A0D7A-9EA2-4130-8598-1C0DBC116EBB" performingRole="_A598C1D9-3224-4B6B-ABE3-2003BD63CB88">
+        <containedPort xsi:type="VDML:OutputPort" name="paymentToBrickLayer" id="_w76-AupIEeSmEovWXJk3gw" handler="_A598C1D9-3224-4B6B-ABE3-2003BD63CB88" output="_1FD59BD3-74E7-401B-8038-7D944F53D281">
+          <valueAdd xsi:type="VDML:ValueAdd" name="ValueAdd1" id="_A5F7B4F8-E2C8-4790-A6F2-E7BFA6052605"/>
+        </containedPort>
+      </activity>
+      <activity xsi:type="VDML:Activity" name="PayForPlasterWork" id="_A6FA37BD-31E9-4B0C-9D46-A7EF353E86F5" performingRole="_A598C1D9-3224-4B6B-ABE3-2003BD63CB88">
+        <containedPort xsi:type="VDML:OutputPort" name="payment" id="_w76-AepIEeSmEovWXJk3gw" handler="_A598C1D9-3224-4B6B-ABE3-2003BD63CB88" output="_58AF7835-ECA9-4AB9-9CC6-2D8C3B05C8D2"/>
+      </activity>
+      <flow xsi:type="VDML:DeliverableFlow" name="Payment" id="_A672E966-FC21-4F71-8C66-38DD559E2262" recipient="__Wg4YunREeSqB9B_4YIk0g" deliverable="_HVeSmOpMEeSmEovWXJk3gw" provider="__WgRU-nREeSqB9B_4YIk0g"/>
+      <flow xsi:type="VDML:DeliverableFlow" name="Paint" id="_E39E7C5E-DCB2-4B31-B7BC-2C434A4A5FFA" recipient="__Wg4ZOnREeSqB9B_4YIk0g" deliverable="_HVeSmepMEeSmEovWXJk3gw" provider="__Wg4YenREeSqB9B_4YIk0g"/>
+      <flow xsi:type="VDML:DeliverableFlow" name="PlasterMixx" id="_3BBFA93C-7330-47CD-BF96-BDD7033D6CFF" recipient="_G09flunVEeSqB9B_4YIk0g" deliverable="_HVeSmupMEeSmEovWXJk3gw" provider="_G09fkOnVEeSqB9B_4YIk0g"/>
+      <flow xsi:type="VDML:DeliverableFlow" name="Bricks" id="_9363EADA-55FC-4B01-94B7-BDF620539653" recipient="_G0-GoenVEeSqB9B_4YIk0g" deliverable="_HVeSm-pMEeSmEovWXJk3gw" provider="_G09fk-nVEeSqB9B_4YIk0g"/>
+      <flow xsi:type="VDML:DeliverableFlow" name="PlasteredWall" id="_256F71FE-0475-4333-856B-DECBA248DECB" recipient="_G084genVEeSqB9B_4YIk0g" deliverable="_HVeSnOpMEeSmEovWXJk3gw" provider="_G09flenVEeSqB9B_4YIk0g"/>
+      <flow xsi:type="VDML:DeliverableFlow" name="BuildingMix" id="_B6F6BCD3-0865-4844-B21B-F1ED0242E49D" recipient="_w76-CupIEeSmEovWXJk3gw" deliverable="_HVeSnepMEeSmEovWXJk3gw" provider="_w76-BOpIEeSmEovWXJk3gw"/>
+      <flow xsi:type="VDML:DeliverableFlow" name="BrickWall" id="_1D94D988-4D2D-4586-8400-0D17BBC55428" recipient="_w76-B-pIEeSmEovWXJk3gw" deliverable="_HVeSnupMEeSmEovWXJk3gw" provider="_w76-CepIEeSmEovWXJk3gw"/>
+      <flow xsi:type="VDML:DeliverableFlow" name="PaintedWall" id="_C0AC32A8-BCC4-4D0A-BD78-A58E22EE35EA" recipient="_w76-A-pIEeSmEovWXJk3gw" deliverable="_HVeSn-pMEeSmEovWXJk3gw" provider="_w76-BepIEeSmEovWXJk3gw"/>
+      <flow xsi:type="VDML:DeliverableFlow" name="Payment" id="_22B50E2F-08F3-4C30-8B94-0D47FBDDE1D7" recipient="_w76-BupIEeSmEovWXJk3gw" deliverable="_HVeSmOpMEeSmEovWXJk3gw" provider="_w76-AOpIEeSmEovWXJk3gw"/>
+      <flow xsi:type="VDML:DeliverableFlow" name="Payment" id="_58AF7835-ECA9-4AB9-9CC6-2D8C3B05C8D2" recipient="_w76-COpIEeSmEovWXJk3gw" deliverable="_HVeSmOpMEeSmEovWXJk3gw" provider="_w76-AepIEeSmEovWXJk3gw"/>
+      <flow xsi:type="VDML:DeliverableFlow" name="Payment" id="_1FD59BD3-74E7-401B-8038-7D944F53D281" recipient="_w76-C-pIEeSmEovWXJk3gw" deliverable="_HVeSmOpMEeSmEovWXJk3gw" provider="_w76-AupIEeSmEovWXJk3gw"/>
+      <businessItem xsi:type="VDML:BusinessItem" name="Payment" id="_HVeSmOpMEeSmEovWXJk3gw" definition="_HVeSkOpMEeSmEovWXJk3gw" flow="_A672E966-FC21-4F71-8C66-38DD559E2262 _22B50E2F-08F3-4C30-8B94-0D47FBDDE1D7 _58AF7835-ECA9-4AB9-9CC6-2D8C3B05C8D2 _1FD59BD3-74E7-401B-8038-7D944F53D281"/>
+      <businessItem xsi:type="VDML:BusinessItem" name="Paint" id="_HVeSmepMEeSmEovWXJk3gw" definition="_HVeSkepMEeSmEovWXJk3gw" flow="_E39E7C5E-DCB2-4B31-B7BC-2C434A4A5FFA"/>
+      <businessItem xsi:type="VDML:BusinessItem" name="PlasterMixx" id="_HVeSmupMEeSmEovWXJk3gw" definition="_HVeSkupMEeSmEovWXJk3gw" flow="_3BBFA93C-7330-47CD-BF96-BDD7033D6CFF"/>
+      <businessItem xsi:type="VDML:BusinessItem" name="Bricks" id="_HVeSm-pMEeSmEovWXJk3gw" definition="_HVeSk-pMEeSmEovWXJk3gw" flow="_9363EADA-55FC-4B01-94B7-BDF620539653"/>
+      <businessItem xsi:type="VDML:BusinessItem" name="PlasteredWall" id="_HVeSnOpMEeSmEovWXJk3gw" definition="_HVeSlOpMEeSmEovWXJk3gw" flow="_256F71FE-0475-4333-856B-DECBA248DECB"/>
+      <businessItem xsi:type="VDML:BusinessItem" name="BuildingMix" id="_HVeSnepMEeSmEovWXJk3gw" definition="_HVeSlepMEeSmEovWXJk3gw" flow="_B6F6BCD3-0865-4844-B21B-F1ED0242E49D"/>
+      <businessItem xsi:type="VDML:BusinessItem" name="BrickWall" id="_HVeSnupMEeSmEovWXJk3gw" definition="_HVeSlupMEeSmEovWXJk3gw" flow="_1D94D988-4D2D-4586-8400-0D17BBC55428"/>
+      <businessItem xsi:type="VDML:BusinessItem" name="PaintedWall" id="_HVeSn-pMEeSmEovWXJk3gw" definition="_HVeSl-pMEeSmEovWXJk3gw" flow="_C0AC32A8-BCC4-4D0A-BD78-A58E22EE35EA"/>
+      <performer xsi:type="VDML:Performer" name="BuildingOwner" id="_A598C1D9-3224-4B6B-ABE3-2003BD63CB88" performedWork="__WgRUunREeSqB9B_4YIk0g _AD056699-0BDB-4DC5-A649-3A9F4B1FE4C4 _412A0D7A-9EA2-4130-8598-1C0DBC116EBB _A6FA37BD-31E9-4B0C-9D46-A7EF353E86F5" port="_w76-AOpIEeSmEovWXJk3gw __WgRU-nREeSqB9B_4YIk0g _w76-AupIEeSmEovWXJk3gw _w76-AepIEeSmEovWXJk3gw _w76-A-pIEeSmEovWXJk3gw"/>
+      <performer xsi:type="VDML:Performer" name="BrickLayer" id="_56C9C961-1EC6-446B-A03B-04444A910566" performedWork="_okWn0-nUEeSqB9B_4YIk0g" port="_w76-CepIEeSmEovWXJk3gw _w76-CupIEeSmEovWXJk3gw _w76-C-pIEeSmEovWXJk3gw _G0-GoenVEeSqB9B_4YIk0g"/>
+      <performer xsi:type="VDML:Performer" name="Painter" id="_E9E32C0D-D08D-4D46-99F2-3CCA2E7E11A0" performedWork="__Wg4Y-nREeSqB9B_4YIk0g" port="_w76-BepIEeSmEovWXJk3gw _w76-BupIEeSmEovWXJk3gw _G084genVEeSqB9B_4YIk0g __Wg4ZOnREeSqB9B_4YIk0g"/>
+      <performer xsi:type="VDML:Performer" name="Plasterer" id="_8E0BA72E-BF2A-4149-9749-9B7A13C651B5" performedWork="_1sO5hunTEeSqB9B_4YIk0g" port="_G09flunVEeSqB9B_4YIk0g _w76-COpIEeSmEovWXJk3gw _w76-B-pIEeSmEovWXJk3gw _G09flenVEeSqB9B_4YIk0g"/>
+      <performer xsi:type="VDML:Performer" name="BuildingMaterialProvider" id="_B7C4D03E-A35C-4DD2-B047-2AC282F189AA" performedWork="__Wg4YOnREeSqB9B_4YIk0g" port="__Wg4YunREeSqB9B_4YIk0g __Wg4YenREeSqB9B_4YIk0g _G09fk-nVEeSqB9B_4YIk0g _w76-BOpIEeSmEovWXJk3gw _G09fkOnVEeSqB9B_4YIk0g"/>
+    </collaboration>
+  </VDML:ValueDeliveryModel>
+  <uml:Package xmi:id="_e1aJAOmiEeSV9rF8V4ExFA" name="constructionnetwork">
+    <packagedElement xsi:type="uml:Class" xmi:id="_HVeSoOpMEeSmEovWXJk3gw" name="Payment">
+      <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_HVeSkOpMEeSmEovWXJk3gw"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_HVeSoepMEeSmEovWXJk3gw" name="Paint">
+      <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_HVeSkepMEeSmEovWXJk3gw"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_HVeSoupMEeSmEovWXJk3gw" name="PlasterMixx">
+      <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_HVeSkupMEeSmEovWXJk3gw"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_HVeSo-pMEeSmEovWXJk3gw" name="Bricks">
+      <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_HVeSk-pMEeSmEovWXJk3gw"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_HVeSpOpMEeSmEovWXJk3gw" name="PlasteredWall">
+      <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_HVeSlOpMEeSmEovWXJk3gw"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_HVe5oOpMEeSmEovWXJk3gw" name="BuildingMix">
+      <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_HVeSlepMEeSmEovWXJk3gw"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_HVe5oepMEeSmEovWXJk3gw" name="BrickWall">
+      <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_HVeSlupMEeSmEovWXJk3gw"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_HVe5oupMEeSmEovWXJk3gw" name="PaintedWall">
+      <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_HVeSl-pMEeSmEovWXJk3gw"/>
+    </packagedElement>
+  </uml:Package>
+</xmi:XMI>

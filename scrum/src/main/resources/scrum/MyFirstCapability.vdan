@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VDML:ValueDeliveryModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DC="http://www.omg.org/spec/DD/20131001/DC" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" xmlns:vdmldi="http://www.omg.org/spec/VDML/20131201/DI">
+  <diagram xsi:type="vdmldi:VDMLDiagram" id="_hOYmUN6QEeS_xpM3jkjM0g">
+    <localStyle xsi:type="vdmldi:VDMLStyle"/>
+    <vdmlElement xsi:type="VDML:CapabilityMethod" href="platform:/resource/scrum/src/main/resources/scrum/MyFirstCapability.vdcol#scrum.MyFirstCapability"/>
+    <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_z_7Vkd6XEeSBZ-evCtSdVw">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="30.0" y="5.0" width="770.0" height="200.0"/>
+      <vdmlElement xsi:type="VDML:Performer" href="platform:/resource/scrum/src/main/resources/scrum/MyFirstCapability.vdcol#_FBFC4472-7E6B-421D-9E9C-7B5937398EDE"/>
+      <ownedShape xsi:type="vdmldi:VDMLShape" id="_FCCLsN6YEeSBZ-evCtSdVw" boundaryShapes="_FCEA4N6YEeSBZ-evCtSdVw">
+        <localStyle xsi:type="vdmldi:VDMLStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="150.0" y="60.0" width="100.0" height="80.0"/>
+        <vdmlElement xsi:type="VDML:Activity" href="platform:/resource/scrum/src/main/resources/scrum/MyFirstCapability.vdcol#_9ADF7FA6-DCC6-4FF2-AB94-CD83540D7CA4"/>
+      </ownedShape>
+      <ownedShape xsi:type="vdmldi:VDMLShape" id="_FCEA4N6YEeSBZ-evCtSdVw" isExpanded="true" previousWidth="20.0" previousHeight="20.0">
+        <localStyle xsi:type="vdmldi:VDMLStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="243.40353500090214" y="125.61405205940727" width="200.0" height="100.0"/>
+        <vdmlElement xsi:type="VDML:OutputPort" href="platform:/resource/scrum/src/main/resources/scrum/MyFirstCapability.vdcol#_5B23EB34-DB2C-4EFB-A58B-26D461477617"/>
+        <ownedShape xsi:type="vdmldi:VDMLShape" id="_1pgtEN6YEeSBZ-evCtSdVw">
+          <localStyle xsi:type="vdmldi:VDMLStyle">
+            <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+            <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+            <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          </localStyle>
+          <bounds xsi:type="DC:Bounds" x="1.0" y="15.0" width="197.0" height="20.0"/>
+          <vdmlElement xsi:type="VDML:ValueAdd" href="platform:/resource/scrum/src/main/resources/scrum/MyFirstCapability.vdcol#_72C67566-4FFF-4991-A26F-624FB225095E"/>
+        </ownedShape>
+      </ownedShape>
+    </ownedVdmlDiagramElement>
+    <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_z_-Y4N6XEeSBZ-evCtSdVw">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="30.0" y="210.0" width="770.0" height="200.0"/>
+      <vdmlElement xsi:type="VDML:Performer" href="platform:/resource/scrum/src/main/resources/scrum/MyFirstCapability.vdcol#_01262CB5-8992-45E1-BE3E-D824C1A9BBA7"/>
+      <ownedShape xsi:type="vdmldi:VDMLShape" id="_FCEn8N6YEeSBZ-evCtSdVw" boundaryShapes="_FCF2EN6YEeSBZ-evCtSdVw">
+        <localStyle xsi:type="vdmldi:VDMLStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="360.0" y="51.0" width="100.0" height="80.0"/>
+        <vdmlElement xsi:type="VDML:Activity" href="platform:/resource/scrum/src/main/resources/scrum/MyFirstCapability.vdcol#_6BE7D706-71FC-4B9A-892F-96BB7E5E38F2"/>
+      </ownedShape>
+      <ownedShape xsi:type="vdmldi:VDMLShape" id="_FCF2EN6YEeSBZ-evCtSdVw">
+        <localStyle xsi:type="vdmldi:VDMLStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="392.87465187496366" y="43.49860749985464" width="14.0" height="14.0"/>
+        <vdmlElement xsi:type="VDML:InputPort" href="platform:/resource/scrum/src/main/resources/scrum/MyFirstCapability.vdcol#_71532CF9-1848-4B7E-BA45-1985D095DB9F"/>
+      </ownedShape>
+    </ownedVdmlDiagramElement>
+    <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLEdge" id="_FCISUN6YEeSBZ-evCtSdVw" sourceShape="_FCEA4N6YEeSBZ-evCtSdVw" targetShape="_FCF2EN6YEeSBZ-evCtSdVw">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <waypoint xsi:type="DC:Point" x="343.40353500090214" y="175.61405205940727"/>
+      <waypoint xsi:type="DC:Point" x="399.87465187496366" y="50.49860749985464"/>
+      <vdmlElement xsi:type="VDML:DeliverableFlow" href="platform:/resource/scrum/src/main/resources/scrum/MyFirstCapability.vdcol#_F9C0C8A5-F608-4BE3-870B-24940E668DB2"/>
+    </ownedVdmlDiagramElement>
+  </diagram>
+</VDML:ValueDeliveryModel>

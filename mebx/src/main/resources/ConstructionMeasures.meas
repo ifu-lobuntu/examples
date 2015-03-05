@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DC="http://www.omg.org/spec/DD/20131001/DC" xmlns:SMM="http://www.omg.org/spec/SMM/20150201/SMM.cmof" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:smmdi="http://www.omg.org/spec/SMM/20150201/DI" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML">
+  <SMM:MeasureLibrary xmi:id="mebx.ConstructionMeasures" name="mebx.ConstructionMeasures">
+    <measureElements xsi:type="SMM:DirectMeasure" xmi:id="_1D87B4A4-D7E1-44A0-91A0-8ABE10A95A18" name="NumberOfWalls" trait="_1D87B4A4-D7E1-44A0-91A0-8ABE10A95A18trait" unit="_58043313-07AA-475D-A25B-51E972C795AB"/>
+    <measureElements xsi:type="SMM:UnitOfMeasure" xmi:id="_58043313-07AA-475D-A25B-51E972C795AB" name="WallCount"/>
+    <measureElements xsi:type="SMM:DirectMeasure" xmi:id="_8F7C0DC8-AE01-4044-A1D3-0D8467DF8076" name="DurationOfConstruction" trait="_8F7C0DC8-AE01-4044-A1D3-0D8467DF8076trait" unit="_2B646AF9-4C89-4711-A20C-EB8C94A81A24"/>
+    <measureElements xsi:type="SMM:UnitOfMeasure" xmi:id="_2B646AF9-4C89-4711-A20C-EB8C94A81A24" name="Days"/>
+    <measureElements xsi:type="SMM:BinaryMeasure" xmi:id="_21A8A892-5252-4668-A836-63EB2B00D172" name="NumberOfWallsPerDay" trait="_21A8A892-5252-4668-A836-63EB2B00D172trait" functor="divide">
+      <baseMeasure1To xsi:type="SMM:Base1MeasureRelationship" xmi:id="_714FE13A-3A4A-43D9-859E-A6F5072C2D43" toDimensionalMeasure="_1D87B4A4-D7E1-44A0-91A0-8ABE10A95A18"/>
+      <baseMeasure2To xsi:type="SMM:Base2MeasureRelationship" xmi:id="_BD3B44FF-4A85-4E3B-9A6E-C6C9EED226D4" toDimensionalMeasure="_8F7C0DC8-AE01-4044-A1D3-0D8467DF8076"/>
+    </measureElements>
+    <measureElements xsi:type="SMM:RankingMeasure" xmi:id="_DA335DC2-92B7-421A-92DB-373EAE3DDBF2" name="StraightnessOfWall" trait="_DA335DC2-92B7-421A-92DB-373EAE3DDBF2trait">
+      <interval xsi:type="SMM:RankingInterval" xmi:id="_C0D52001-0360-4C56-A187-968D393D6E0B" name="Straight" value="1.0"/>
+      <interval xsi:type="SMM:RankingInterval" xmi:id="_31BA22CC-30C8-4CB1-AE60-0395440B3C25" name="Skew" value="2.0"/>
+    </measureElements>
+    <measureElements xsi:type="SMM:DirectMeasure" xmi:id="_F1474FC6-B773-4D1C-8068-0689F7CF658F" name="WallDistance" trait="_F1474FC6-B773-4D1C-8068-0689F7CF658Ftrait" unit="_C8180E13-10D7-41FA-A730-B08BFDE264BD"/>
+    <measureElements xsi:type="SMM:UnitOfMeasure" xmi:id="_C8180E13-10D7-41FA-A730-B08BFDE264BD" name="Metres"/>
+    <measureElements xsi:type="SMM:Characteristic" xmi:id="_1D87B4A4-D7E1-44A0-91A0-8ABE10A95A18trait" name="NumberOfWalls" measure="_1D87B4A4-D7E1-44A0-91A0-8ABE10A95A18"/>
+    <measureElements xsi:type="SMM:Characteristic" xmi:id="_8F7C0DC8-AE01-4044-A1D3-0D8467DF8076trait" name="DurationOfConstruction" measure="_8F7C0DC8-AE01-4044-A1D3-0D8467DF8076"/>
+    <measureElements xsi:type="SMM:Characteristic" xmi:id="_21A8A892-5252-4668-A836-63EB2B00D172trait" name="NumberOfWallsPerDay" measure="_21A8A892-5252-4668-A836-63EB2B00D172"/>
+    <measureElements xsi:type="SMM:Characteristic" xmi:id="_DA335DC2-92B7-421A-92DB-373EAE3DDBF2trait" name="StraightnessOfWall" measure="_DA335DC2-92B7-421A-92DB-373EAE3DDBF2"/>
+    <measureElements xsi:type="SMM:Characteristic" xmi:id="_F1474FC6-B773-4D1C-8068-0689F7CF658Ftrait" name="WallDistance" measure="_F1474FC6-B773-4D1C-8068-0689F7CF658F"/>
+    <ownedDiagram xsi:type="smmdi:SMMDiagram" xmi:id="_JWNWMOjWEeSWfZ_4xae2EQ" smmElement="mebx.ConstructionMeasures">
+      <ownedSmmDiagramElement xsi:type="smmdi:SMMShape" xmi:id="_lfO2Y-jWEeSWfZ_4xae2EQ" smmElement="_1D87B4A4-D7E1-44A0-91A0-8ABE10A95A18">
+        <localStyle xsi:type="smmdi:SMMStyle" xmi:id="_G2rt1OjYEeSWfZ_4xae2EQ">
+          <fillColor xsi:type="DC:Color" xmi:id="_G2rt2OjYEeSWfZ_4xae2EQ" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_G2rt1ujYEeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_G2rt1-jYEeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" xmi:id="_G2rt1ejYEeSWfZ_4xae2EQ" x="165.0" y="45.0" width="100.0" height="80.0"/>
+      </ownedSmmDiagramElement>
+      <ownedSmmDiagramElement xsi:type="smmdi:SMMShape" xmi:id="_lfO2aujWEeSWfZ_4xae2EQ" smmElement="_58043313-07AA-475D-A25B-51E972C795AB">
+        <localStyle xsi:type="smmdi:SMMStyle" xmi:id="_G2rt2ujYEeSWfZ_4xae2EQ">
+          <fillColor xsi:type="DC:Color" xmi:id="_G2rt3ujYEeSWfZ_4xae2EQ" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_G2rt3OjYEeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_G2rt3ejYEeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" xmi:id="_G2rt2-jYEeSWfZ_4xae2EQ" x="390.0" y="58.0" width="100.0" height="80.0"/>
+      </ownedSmmDiagramElement>
+      <ownedSmmDiagramElement xsi:type="smmdi:SMMEdge" xmi:id="_lfO2cOjWEeSWfZ_4xae2EQ" sourceShape="_lfO2Y-jWEeSWfZ_4xae2EQ" targetShape="_lfO2aujWEeSWfZ_4xae2EQ">
+        <localStyle xsi:type="smmdi:SMMStyle" xmi:id="_G2rt4OjYEeSWfZ_4xae2EQ">
+          <fillColor xsi:type="DC:Color" xmi:id="_G2sU4ejYEeSWfZ_4xae2EQ" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_G2rt4ejYEeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_G2sU4OjYEeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+        </localStyle>
+        <waypoint xsi:type="DC:Point" xmi:id="_G2uKEOjYEeSWfZ_4xae2EQ" x="215.0" y="85.0"/>
+        <waypoint xsi:type="DC:Point" xmi:id="_G2uKEejYEeSWfZ_4xae2EQ" x="327.5" y="85.0"/>
+        <waypoint xsi:type="DC:Point" xmi:id="_G2uKEujYEeSWfZ_4xae2EQ" x="327.5" y="98.0"/>
+        <waypoint xsi:type="DC:Point" xmi:id="_G2uKE-jYEeSWfZ_4xae2EQ" x="440.0" y="98.0"/>
+      </ownedSmmDiagramElement>
+      <ownedSmmDiagramElement xsi:type="smmdi:SMMShape" xmi:id="_lfO2d-jWEeSWfZ_4xae2EQ" smmElement="_8F7C0DC8-AE01-4044-A1D3-0D8467DF8076">
+        <localStyle xsi:type="smmdi:SMMStyle" xmi:id="_G2sU4-jYEeSWfZ_4xae2EQ">
+          <fillColor xsi:type="DC:Color" xmi:id="_G2sU5-jYEeSWfZ_4xae2EQ" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_G2sU5ejYEeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_G2sU5ujYEeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" xmi:id="_G2sU5OjYEeSWfZ_4xae2EQ" x="303.0" y="255.0" width="100.0" height="80.0"/>
+      </ownedSmmDiagramElement>
+      <ownedSmmDiagramElement xsi:type="smmdi:SMMShape" xmi:id="_lfPdc-jWEeSWfZ_4xae2EQ" smmElement="_2B646AF9-4C89-4711-A20C-EB8C94A81A24">
+        <localStyle xsi:type="smmdi:SMMStyle" xmi:id="_G2sU6ejYEeSWfZ_4xae2EQ">
+          <fillColor xsi:type="DC:Color" xmi:id="_G2sU7ejYEeSWfZ_4xae2EQ" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_G2sU6-jYEeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_G2sU7OjYEeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" xmi:id="_G2sU6ujYEeSWfZ_4xae2EQ" x="465.0" y="169.0" width="100.0" height="80.0"/>
+      </ownedSmmDiagramElement>
+      <ownedSmmDiagramElement xsi:type="smmdi:SMMEdge" xmi:id="_lfPdeejWEeSWfZ_4xae2EQ" sourceShape="_lfO2d-jWEeSWfZ_4xae2EQ" targetShape="_lfPdc-jWEeSWfZ_4xae2EQ">
+        <localStyle xsi:type="smmdi:SMMStyle" xmi:id="_G2sU7-jYEeSWfZ_4xae2EQ">
+          <fillColor xsi:type="DC:Color" xmi:id="_G2sU8ujYEeSWfZ_4xae2EQ" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_G2sU8OjYEeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_G2sU8ejYEeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+        </localStyle>
+        <waypoint xsi:type="DC:Point" xmi:id="_G2uKFejYEeSWfZ_4xae2EQ" x="353.0" y="295.0"/>
+        <waypoint xsi:type="DC:Point" xmi:id="_G2uKFujYEeSWfZ_4xae2EQ" x="515.0" y="295.0"/>
+        <waypoint xsi:type="DC:Point" xmi:id="_G2uKF-jYEeSWfZ_4xae2EQ" x="515.0" y="209.0"/>
+      </ownedSmmDiagramElement>
+      <ownedSmmDiagramElement xsi:type="smmdi:SMMShape" xmi:id="_lfPdgOjWEeSWfZ_4xae2EQ" smmElement="_21A8A892-5252-4668-A836-63EB2B00D172">
+        <localStyle xsi:type="smmdi:SMMStyle" xmi:id="_G2sU9OjYEeSWfZ_4xae2EQ">
+          <fillColor xsi:type="DC:Color" xmi:id="_G2sU-OjYEeSWfZ_4xae2EQ" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_G2sU9ujYEeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_G2sU9-jYEeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" xmi:id="_G2sU9ejYEeSWfZ_4xae2EQ" y="150.0" width="100.0" height="80.0"/>
+      </ownedSmmDiagramElement>
+      <ownedSmmDiagramElement xsi:type="smmdi:SMMEdge" xmi:id="_lfPdhujWEeSWfZ_4xae2EQ" smmElement="_BD3B44FF-4A85-4E3B-9A6E-C6C9EED226D4" sourceShape="_lfPdgOjWEeSWfZ_4xae2EQ" targetShape="_lfO2d-jWEeSWfZ_4xae2EQ">
+        <localStyle xsi:type="smmdi:SMMStyle" xmi:id="_G2sU-ujYEeSWfZ_4xae2EQ">
+          <fillColor xsi:type="DC:Color" xmi:id="_G2sU_ejYEeSWfZ_4xae2EQ" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_G2sU--jYEeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_G2sU_OjYEeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+        </localStyle>
+        <waypoint xsi:type="DC:Point" xmi:id="_G2uKGejYEeSWfZ_4xae2EQ" x="50.0" y="190.0"/>
+        <waypoint xsi:type="DC:Point" xmi:id="_G2uKGujYEeSWfZ_4xae2EQ" x="383.0" y="190.0"/>
+        <waypoint xsi:type="DC:Point" xmi:id="_G2uKG-jYEeSWfZ_4xae2EQ" x="353.0" y="295.0"/>
+      </ownedSmmDiagramElement>
+      <ownedSmmDiagramElement xsi:type="smmdi:SMMEdge" xmi:id="_lfQEg-jWEeSWfZ_4xae2EQ" smmElement="_714FE13A-3A4A-43D9-859E-A6F5072C2D43" sourceShape="_lfPdgOjWEeSWfZ_4xae2EQ" targetShape="_lfO2Y-jWEeSWfZ_4xae2EQ">
+        <localStyle xsi:type="smmdi:SMMStyle" xmi:id="_G2s78ejYEeSWfZ_4xae2EQ">
+          <fillColor xsi:type="DC:Color" xmi:id="_G2s79OjYEeSWfZ_4xae2EQ" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_G2s78ujYEeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_G2s78-jYEeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+        </localStyle>
+        <waypoint xsi:type="DC:Point" xmi:id="_G2uKHOjYEeSWfZ_4xae2EQ" x="50.0" y="190.0"/>
+        <waypoint xsi:type="DC:Point" xmi:id="_G2uKHejYEeSWfZ_4xae2EQ" x="150.0" y="148.0"/>
+        <waypoint xsi:type="DC:Point" xmi:id="_G2uKHujYEeSWfZ_4xae2EQ" x="215.0" y="85.0"/>
+      </ownedSmmDiagramElement>
+      <ownedSmmDiagramElement xsi:type="smmdi:SMMShape" xmi:id="_lfQEiujWEeSWfZ_4xae2EQ" smmElement="_DA335DC2-92B7-421A-92DB-373EAE3DDBF2" isExpanded="true" previousWidth="200.0" previousHeight="100.0">
+        <localStyle xsi:type="smmdi:SMMStyle" xmi:id="_G2s79ujYEeSWfZ_4xae2EQ">
+          <fillColor xsi:type="DC:Color" xmi:id="_G2s7-ujYEeSWfZ_4xae2EQ" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_G2s7-OjYEeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_G2s7-ejYEeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" xmi:id="_G2s79-jYEeSWfZ_4xae2EQ" x="75.0" y="255.0" width="152.0" height="117.0"/>
+        <ownedShape xsi:type="smmdi:SMMShape" xmi:id="_lfQEkejWEeSWfZ_4xae2EQ" smmElement="_C0D52001-0360-4C56-A187-968D393D6E0B">
+          <localStyle xsi:type="smmdi:SMMStyle" xmi:id="_G2s7_OjYEeSWfZ_4xae2EQ">
+            <fillColor xsi:type="DC:Color" xmi:id="_G2s8AOjYEeSWfZ_4xae2EQ" red="255" green="255" blue="255"/>
+            <strokeColor xsi:type="DC:Color" xmi:id="_G2s7_ujYEeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+            <fontColor xsi:type="DC:Color" xmi:id="_G2s7_-jYEeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+          </localStyle>
+          <bounds xsi:type="DC:Bounds" xmi:id="_G2s7_ejYEeSWfZ_4xae2EQ" x="1.0" y="40.0" width="149.0" height="20.0"/>
+        </ownedShape>
+        <ownedShape xsi:type="smmdi:SMMShape" xmi:id="_lfQEmOjWEeSWfZ_4xae2EQ" smmElement="_31BA22CC-30C8-4CB1-AE60-0395440B3C25">
+          <localStyle xsi:type="smmdi:SMMStyle" xmi:id="_G2s8AujYEeSWfZ_4xae2EQ">
+            <fillColor xsi:type="DC:Color" xmi:id="_G2s8BujYEeSWfZ_4xae2EQ" red="255" green="255" blue="255"/>
+            <strokeColor xsi:type="DC:Color" xmi:id="_G2s8BOjYEeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+            <fontColor xsi:type="DC:Color" xmi:id="_G2s8BejYEeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+          </localStyle>
+          <bounds xsi:type="DC:Bounds" xmi:id="_G2s8A-jYEeSWfZ_4xae2EQ" x="1.0" y="61.0" width="149.0" height="20.0"/>
+        </ownedShape>
+      </ownedSmmDiagramElement>
+      <ownedSmmDiagramElement xsi:type="smmdi:SMMShape" xmi:id="_G2s8CujYEeSWfZ_4xae2EQ" smmElement="_F1474FC6-B773-4D1C-8068-0689F7CF658F">
+        <localStyle xsi:type="smmdi:SMMStyle" xmi:id="_G2s8COjYEeSWfZ_4xae2EQ">
+          <fillColor xsi:type="DC:Color" xmi:id="_G2s8DejYEeSWfZ_4xae2EQ" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_G2s8C-jYEeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_G2s8DOjYEeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" xmi:id="_G2s8CejYEeSWfZ_4xae2EQ" y="415.0" width="100.0" height="80.0"/>
+      </ownedSmmDiagramElement>
+      <ownedSmmDiagramElement xsi:type="smmdi:SMMShape" xmi:id="_G2tjA-jYEeSWfZ_4xae2EQ" smmElement="_C8180E13-10D7-41FA-A730-B08BFDE264BD">
+        <localStyle xsi:type="smmdi:SMMStyle" xmi:id="_G2tjAejYEeSWfZ_4xae2EQ">
+          <fillColor xsi:type="DC:Color" xmi:id="_G2tjBujYEeSWfZ_4xae2EQ" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_G2tjBOjYEeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_G2tjBejYEeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" xmi:id="_G2tjAujYEeSWfZ_4xae2EQ" x="266.0" y="392.0" width="100.0" height="80.0"/>
+      </ownedSmmDiagramElement>
+      <ownedSmmDiagramElement xsi:type="smmdi:SMMEdge" xmi:id="_G2tjCejYEeSWfZ_4xae2EQ" sourceShape="_G2s8CujYEeSWfZ_4xae2EQ" targetShape="_G2tjA-jYEeSWfZ_4xae2EQ">
+        <localStyle xsi:type="smmdi:SMMStyle" xmi:id="_G2tjCOjYEeSWfZ_4xae2EQ">
+          <fillColor xsi:type="DC:Color" xmi:id="_G2tjDOjYEeSWfZ_4xae2EQ" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_G2tjCujYEeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_G2tjC-jYEeSWfZ_4xae2EQ" red="0" green="0" blue="0"/>
+        </localStyle>
+        <waypoint xsi:type="DC:Point" xmi:id="_G2xNZOjYEeSWfZ_4xae2EQ" x="50.0" y="455.0"/>
+        <waypoint xsi:type="DC:Point" xmi:id="_G2xNZejYEeSWfZ_4xae2EQ" x="183.0" y="455.0"/>
+        <waypoint xsi:type="DC:Point" xmi:id="_G2xNZujYEeSWfZ_4xae2EQ" x="183.0" y="432.0"/>
+        <waypoint xsi:type="DC:Point" xmi:id="_G2xNZ-jYEeSWfZ_4xae2EQ" x="316.0" y="432.0"/>
+      </ownedSmmDiagramElement>
+    </ownedDiagram>
+  </SMM:MeasureLibrary>
+  <uml:Package xmi:id="_G2rt0ujYEeSWfZ_4xae2EQ" name="mebx.ConstructionMeasures">
+    <packagedElement xsi:type="uml:Enumeration" xmi:id="_DA335DC2-92B7-421A-92DB-373EAE3DDBF2MEAS" name="StraightnessOfWall">
+      <eAnnotations xsi:type="ecore:EAnnotation" xmi:id="_G2vYMOjYEeSWfZ_4xae2EQ" source="http://www.omg.org/spec/SMM/20150201/SMM.cmof" references="_DA335DC2-92B7-421A-92DB-373EAE3DDBF2"/>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_G2vYMejYEeSWfZ_4xae2EQ" name="minimumOpen">
+        <type xsi:type="uml:PrimitiveType" href="pathmap://jbpm-cmmn/libraries/cmmntypes.uml#_LI59gMGzEeSOM_pby657_g"/>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_G2vYMujYEeSWfZ_4xae2EQ" name="maximumOpen">
+        <type xsi:type="uml:PrimitiveType" href="pathmap://jbpm-cmmn/libraries/cmmntypes.uml#_LI59gMGzEeSOM_pby657_g"/>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_G2vYM-jYEeSWfZ_4xae2EQ" name="maximumEndpoint">
+        <type xsi:type="uml:PrimitiveType" href="pathmap://jbpm-cmmn/libraries/cmmntypes.uml#_Lr8ZIMGzEeSOM_pby657_g"/>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_G2vYNOjYEeSWfZ_4xae2EQ" name="minimumEndpoint">
+        <type xsi:type="uml:PrimitiveType" href="pathmap://jbpm-cmmn/libraries/cmmntypes.uml#_Lr8ZIMGzEeSOM_pby657_g"/>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_G2vYNejYEeSWfZ_4xae2EQ" name="value">
+        <type xsi:type="uml:PrimitiveType" href="pathmap://jbpm-cmmn/libraries/cmmntypes.uml#_Lr8ZIMGzEeSOM_pby657_g"/>
+      </ownedAttribute>
+      <ownedLiteral xsi:type="uml:EnumerationLiteral" xmi:id="_C0D52001-0360-4C56-A187-968D393D6E0BMEAS" name="Straight">
+        <eAnnotations xsi:type="ecore:EAnnotation" xmi:id="_G2v_QOjYEeSWfZ_4xae2EQ" source="http://www.omg.org/spec/SMM/20150201/SMM.cmof" references="_C0D52001-0360-4C56-A187-968D393D6E0B"/>
+        <slot xsi:type="uml:Slot" xmi:id="_G2v_QejYEeSWfZ_4xae2EQ" definingFeature="_G2vYMejYEeSWfZ_4xae2EQ">
+          <value xsi:type="uml:LiteralBoolean" xmi:id="_G2v_QujYEeSWfZ_4xae2EQ"/>
+        </slot>
+        <slot xsi:type="uml:Slot" xmi:id="_G2v_Q-jYEeSWfZ_4xae2EQ" definingFeature="_G2vYMujYEeSWfZ_4xae2EQ">
+          <value xsi:type="uml:LiteralBoolean" xmi:id="_G2v_ROjYEeSWfZ_4xae2EQ"/>
+        </slot>
+        <slot xsi:type="uml:Slot" xmi:id="_G2v_RejYEeSWfZ_4xae2EQ" definingFeature="_G2vYM-jYEeSWfZ_4xae2EQ">
+          <value xsi:type="uml:LiteralNull" xmi:id="_G2v_RujYEeSWfZ_4xae2EQ"/>
+        </slot>
+        <slot xsi:type="uml:Slot" xmi:id="_G2v_R-jYEeSWfZ_4xae2EQ" definingFeature="_G2vYNOjYEeSWfZ_4xae2EQ">
+          <value xsi:type="uml:LiteralNull" xmi:id="_G2v_SOjYEeSWfZ_4xae2EQ"/>
+        </slot>
+        <slot xsi:type="uml:Slot" xmi:id="_G2v_SejYEeSWfZ_4xae2EQ" definingFeature="_G2vYNejYEeSWfZ_4xae2EQ">
+          <value xsi:type="uml:OpaqueExpression" xmi:id="_G2wmUOjYEeSWfZ_4xae2EQ">
+            <language>java</language>
+            <body>1.0</body>
+          </value>
+        </slot>
+      </ownedLiteral>
+      <ownedLiteral xsi:type="uml:EnumerationLiteral" xmi:id="_31BA22CC-30C8-4CB1-AE60-0395440B3C25MEAS" name="Skew">
+        <eAnnotations xsi:type="ecore:EAnnotation" xmi:id="_G2wmUejYEeSWfZ_4xae2EQ" source="http://www.omg.org/spec/SMM/20150201/SMM.cmof" references="_31BA22CC-30C8-4CB1-AE60-0395440B3C25"/>
+        <slot xsi:type="uml:Slot" xmi:id="_G2wmUujYEeSWfZ_4xae2EQ" definingFeature="_G2vYMejYEeSWfZ_4xae2EQ">
+          <value xsi:type="uml:LiteralBoolean" xmi:id="_G2wmU-jYEeSWfZ_4xae2EQ"/>
+        </slot>
+        <slot xsi:type="uml:Slot" xmi:id="_G2wmVOjYEeSWfZ_4xae2EQ" definingFeature="_G2vYMujYEeSWfZ_4xae2EQ">
+          <value xsi:type="uml:LiteralBoolean" xmi:id="_G2wmVejYEeSWfZ_4xae2EQ"/>
+        </slot>
+        <slot xsi:type="uml:Slot" xmi:id="_G2wmVujYEeSWfZ_4xae2EQ" definingFeature="_G2vYM-jYEeSWfZ_4xae2EQ">
+          <value xsi:type="uml:LiteralNull" xmi:id="_G2wmV-jYEeSWfZ_4xae2EQ"/>
+        </slot>
+        <slot xsi:type="uml:Slot" xmi:id="_G2wmWOjYEeSWfZ_4xae2EQ" definingFeature="_G2vYNOjYEeSWfZ_4xae2EQ">
+          <value xsi:type="uml:LiteralNull" xmi:id="_G2xNYOjYEeSWfZ_4xae2EQ"/>
+        </slot>
+        <slot xsi:type="uml:Slot" xmi:id="_G2xNYejYEeSWfZ_4xae2EQ" definingFeature="_G2vYNejYEeSWfZ_4xae2EQ">
+          <value xsi:type="uml:OpaqueExpression" xmi:id="_G2xNYujYEeSWfZ_4xae2EQ">
+            <language>java</language>
+            <body>2.0</body>
+          </value>
+        </slot>
+      </ownedLiteral>
+    </packagedElement>
+  </uml:Package>
+</xmi:XMI>

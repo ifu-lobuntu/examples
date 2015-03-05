@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmmn:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://asdf.com/" xmlns:DC="http://www.omg.org/spec/DD/20131001/DC" xmlns:KanduClassDiagram.ucd="platform:/resource/kandu/src/main/resources/KanduClassDiagram.ucd" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" xmlns:cmmn="http://www.omg.org/spec/CMMN/20131201/MODEL" xmlns:cmmndi="http://www.omg.org/spec/CMMN/20131201/DI" xmlns:jbpmext="http://www.jbpm.org/cmmn/jbpmext" xsi:type="cmmn:tDefinitions" id="_VN4LkOEyEeSscbl9KLghFQ" targetNamespace="http://asdf.com/">
+  <diagram xsi:type="cmmndi:CMMNDiagram" id="_VN4yoeEyEeSscbl9KLghFQ" cmmnElement="#_VN4LkOEyEeSscbl9KLghFQ">
+    <localStyle xsi:type="cmmndi:CMMNStyle"/>
+    <ownedCmmnDiagramElement xsi:type="cmmndi:CMMNShape" id="_VN4youEyEeSscbl9KLghFQ" cmmnElement="#kandu.Order">
+      <localStyle xsi:type="cmmndi:CMMNStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="225.0" y="10.0" width="600.0" height="300.0"/>
+      <ownedShape xsi:type="cmmndi:CMMNShape" id="_BMGC0OEzEeSscbl9KLghFQ" cmmnElement="#_9F993555-C6EC-421B-82C5-651A8B65DF4C">
+        <localStyle xsi:type="cmmndi:CMMNStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="8.0" y="31.0" width="200.0" height="160.0"/>
+      </ownedShape>
+      <ownedShape xsi:type="cmmndi:CMMNShape" id="_EMGQIOEzEeSscbl9KLghFQ" isPlanningTableExpanded="true" cmmnElement="#_360A817C-F86B-4C2C-9F88-7DB4D02E47EB">
+        <localStyle xsi:type="cmmndi:CMMNStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="255.0" y="71.0" width="100.0" height="80.0"/>
+      </ownedShape>
+    </ownedCmmnDiagramElement>
+  </diagram>
+  <cmmn:caseFileItemDefinition xsi:type="cmmn:tCaseFileItemDefinition" id="_BMOlsOEzEeSscbl9KLghFQ" structureRef="KanduClassDiagram.ucd:_960C1CB3-8657-42CA-9A5C-6BD4781611CF"/>
+  <cmmn:case xsi:type="cmmn:tCase" id="kandu.Order" jbpmext:vdmlElement="VDML:CapabilityMethod OrderFreshProduce.vdcol#kandu.OrderFreshProduce" name="kandu.Order">
+    <cmmn:caseFileModel xsi:type="cmmn:tCaseFile">
+      <cmmn:caseFileItem xsi:type="cmmn:tCaseFileItem" id="_9F993555-C6EC-421B-82C5-651A8B65DF4C" definitionRef="#_BMOlsOEzEeSscbl9KLghFQ" multiplicity="Unspecified" name="ShoppingBasket"/>
+    </cmmn:caseFileModel>
+    <cmmn:casePlanModel xsi:type="cmmn:tStage" id="_VN4yoOEyEeSscbl9KLghFQ" autoComplete="true">
+      <cmmn:planItem xsi:type="cmmn:tPlanItem" id="_360A817C-F86B-4C2C-9F88-7DB4D02E47EB" jbpmext:vdmlElement="VDML:Activity OrderFreshProduce.vdcol#_33241307-6F3B-4499-9CCE-2D450885F381" definitionRef="#_EMG3MOEzEeSscbl9KLghFQ" name="Place Order">
+        <cmmn:itemControl xsi:type="cmmn:tPlanItemControl">
+          <cmmn:repetitionRule xsi:type="cmmn:tRepetitionRule">
+            <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"/>
+          </cmmn:repetitionRule>
+          <cmmn:requiredRule xsi:type="cmmn:tRequiredRule">
+            <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"/>
+          </cmmn:requiredRule>
+          <cmmn:manualActivationRule xsi:type="cmmn:tManualActivationRule">
+            <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"/>
+          </cmmn:manualActivationRule>
+        </cmmn:itemControl>
+      </cmmn:planItem>
+      <cmmn:planItemDefinition xsi:type="cmmn:tHumanTask" id="_EMG3MOEzEeSscbl9KLghFQ" name="Place Order" isBlocking="true">
+        <cmmn:inputs xsi:type="cmmn:tCaseParameter" id="_LQMlAOEzEeSscbl9KLghFQ" name="basket" bindingRef="#_9F993555-C6EC-421B-82C5-651A8B65DF4C">
+          <cmmn:bindingRefinement xsi:type="cmmn:tExpression" language=""><cmmn:body></cmmn:body></cmmn:bindingRefinement>
+        </cmmn:inputs>
+        <cmmn:inputs xsi:type="cmmn:tCaseParameter" id="_LQMlAOEzEeSscbl9KLghFQ" name="basket" bindingRef="#_9F993555-C6EC-421B-82C5-651A8B65DF4C">
+          <cmmn:bindingRefinement xsi:type="cmmn:tExpression" language=""><cmmn:body></cmmn:body></cmmn:bindingRefinement>
+        </cmmn:inputs>
+      </cmmn:planItemDefinition>
+    </cmmn:casePlanModel>
+  </cmmn:case>
+</cmmn:definitions>

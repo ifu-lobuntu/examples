@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VDML:ValueDeliveryModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DC="http://www.omg.org/spec/DD/20131001/DC" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" xmlns:vdmldi="http://www.omg.org/spec/VDML/20131201/DI">
+  <diagram xsi:type="vdmldi:VDMLDiagram" id="_lSWQIOQkEeS4HskRqikVKw">
+    <localStyle xsi:type="vdmldi:VDMLStyle"/>
+    <vdmlElement xsi:type="VDML:OrgUnit" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#agriculture.FarmingBusiness"/>
+    <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_lpgy8OQkEeS4HskRqikVKw">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="10.0" y="10.0" width="500.0" height="500.0"/>
+      <ownedShape xsi:type="vdmldi:VDMLShape" id="_sHMoEOQkEeS4HskRqikVKw">
+        <localStyle xsi:type="vdmldi:VDMLStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="256.0" y="91.0" width="42.0" height="62.0"/>
+        <vdmlElement xsi:type="VDML:Pool" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#_728FC325-DFE2-4C66-9275-8267A00BBFB8"/>
+      </ownedShape>
+      <ownedShape xsi:type="vdmldi:VDMLShape" id="_sHNPIOQkEeS4HskRqikVKw">
+        <localStyle xsi:type="vdmldi:VDMLStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="237.0" y="196.0" width="42.0" height="62.0"/>
+        <vdmlElement xsi:type="VDML:Store" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#_6F458540-89FD-4B31-BE93-FE2A63A9AB77"/>
+      </ownedShape>
+      <ownedShape xsi:type="vdmldi:VDMLShape" id="_sHN2MOQkEeS4HskRqikVKw">
+        <localStyle xsi:type="vdmldi:VDMLStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="275.0" y="326.0" width="42.0" height="62.0"/>
+        <vdmlElement xsi:type="VDML:Store" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#_67E11F2D-2149-4EFB-BE2A-311BF04D7CA8"/>
+      </ownedShape>
+      <ownedShape xsi:type="vdmldi:VDMLShape" id="_Woz2EOQzEeS4HskRqikVKw">
+        <localStyle xsi:type="vdmldi:VDMLStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="100.0" y="200.0" width="42.0" height="62.0"/>
+        <vdmlElement xsi:type="VDML:Store" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#_8095D274-912C-4CE3-A7DD-134AE3C659BB"/>
+      </ownedShape>
+    </ownedVdmlDiagramElement>
+  </diagram>
+</VDML:ValueDeliveryModel>

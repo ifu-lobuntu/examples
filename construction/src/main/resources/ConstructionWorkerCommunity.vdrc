@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vdmldi:VDMLDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DC="http://www.omg.org/spec/DD/20131001/DC" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" xmlns:vdmldi="http://www.omg.org/spec/VDML/20131201/DI" id="ConstructionWorkerCommunityvdrcDiagram">
+  <localStyle xsi:type="vdmldi:VDMLStyle">
+    <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+    <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+  </localStyle>
+  <vdmlElement xsi:type="VDML:Community" href="platform:/resource/construction/src/main/resources/ConstructionWorkerCommunity.vdcol#ConstructionWorkerCommunity"/>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_Z2dUwOo8EeSmEovWXJk3gw">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <bounds xsi:type="DC:Bounds" x="111.0" y="27.0" width="200.0" height="100.0"/>
+    <vdmlElement xsi:type="VDML:Member" href="platform:/resource/construction/src/main/resources/ConstructionWorkerCommunity.vdcol#_6E9BDA07-6C4B-4360-8738-143F93B1CA11"/>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_Z2d70Oo8EeSmEovWXJk3gw">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <bounds xsi:type="DC:Bounds" x="405.0" y="45.0" width="200.0" height="100.0"/>
+    <vdmlElement xsi:type="VDML:Member" href="platform:/resource/construction/src/main/resources/ConstructionWorkerCommunity.vdcol#_899FAEFF-AEB5-46AE-801C-F714315D742D"/>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_Z2d70eo8EeSmEovWXJk3gw">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <bounds xsi:type="DC:Bounds" x="690.0" y="226.0" width="200.0" height="100.0"/>
+    <vdmlElement xsi:type="VDML:Member" href="platform:/resource/construction/src/main/resources/ConstructionWorkerCommunity.vdcol#_5C6260EB-8C53-4EB0-959C-C7FE17D49EE5"/>
+  </ownedVdmlDiagramElement>
+</vdmldi:VDMLDiagram>

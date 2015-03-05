@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmmn:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://asdf.com/" xmlns:ConstructionNetwork.vdcol="platform:/resource/mebx/src/main/resources/ConstructionNetwork.vdcol" xmlns:DC="http://www.omg.org/spec/DD/20131001/DC" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" xmlns:cmmn="http://www.omg.org/spec/CMMN/20131201/MODEL" xmlns:cmmndi="http://www.omg.org/spec/CMMN/20131201/DI" xmlns:jbpmext="http://www.jbpm.org/cmmn/jbpmext" xsi:type="cmmn:tDefinitions" id="_7-OzAOjWEeSWfZ_4xae2EQ" targetNamespace="http://asdf.com/">
+  <diagram xsi:type="cmmndi:CMMNDiagram" id="_7-OzAujWEeSWfZ_4xae2EQ" cmmnElement="#_7-OzAOjWEeSWfZ_4xae2EQ">
+    <localStyle xsi:type="cmmndi:CMMNStyle"/>
+    <ownedCmmnDiagramElement xsi:type="cmmndi:CMMNShape" id="_7-OzA-jWEeSWfZ_4xae2EQ" cmmnElement="#mebx.ConstructionProject">
+      <localStyle xsi:type="cmmndi:CMMNStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="10.0" y="10.0" width="600.0" height="300.0"/>
+      <ownedShape xsi:type="cmmndi:CMMNShape" id="_zwnb4OjXEeSWfZ_4xae2EQ" isPlanningTableExpanded="true" cmmnElement="#_B02220F2-5061-443A-9EEC-603814EF7AE9">
+        <localStyle xsi:type="cmmndi:CMMNStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="170.0" y="80.0" width="100.0" height="80.0"/>
+      </ownedShape>
+      <ownedShape xsi:type="cmmndi:CMMNShape" id="_zwoC8OjXEeSWfZ_4xae2EQ" cmmnElement="#_E2FDAE71-B609-466D-A95A-AFDDAB0ACB55">
+        <localStyle xsi:type="cmmndi:CMMNStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="20.0" y="125.0" width="50.0" height="80.0"/>
+      </ownedShape>
+      <ownedShape xsi:type="cmmndi:CMMNShape" id="_zw03QOjXEeSWfZ_4xae2EQ" boundaryShapes="#_zw1eUOjXEeSWfZ_4xae2EQ" isPlanningTableExpanded="true" cmmnElement="#_A88F42F0-91DF-423E-B418-03E5F8127674">
+        <localStyle xsi:type="cmmndi:CMMNStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="215.0" y="179.0" width="100.0" height="80.0"/>
+      </ownedShape>
+      <ownedShape xsi:type="cmmndi:CMMNShape" id="_zw1eUOjXEeSWfZ_4xae2EQ" cmmnElement="#_D370C1C6-2568-4400-A7DC-1DE24841C1A7">
+        <localStyle xsi:type="cmmndi:CMMNStyle">
+          <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" x="208.44114560228877" y="212.52736193472404" width="12.0" height="20.0"/>
+      </ownedShape>
+    </ownedCmmnDiagramElement>
+    <ownedCmmnDiagramElement xsi:type="cmmndi:CMMNEdge" id="_zw1eUejXEeSWfZ_4xae2EQ" sourceShape="#_zwoC8OjXEeSWfZ_4xae2EQ" targetShape="#_zw1eUOjXEeSWfZ_4xae2EQ" cmmnElement="#_979F6EE6-586F-4B7F-AC74-6725ADA4D0D5">
+      <localStyle xsi:type="cmmndi:CMMNStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <waypoint xsi:type="DC:Point" x="45.0" y="165.0"/>
+      <waypoint xsi:type="DC:Point" x="141.0" y="173.0"/>
+      <waypoint xsi:type="DC:Point" x="214.44114560228877" y="222.52736193472404"/>
+    </ownedCmmnDiagramElement>
+  </diagram>
+  <cmmn:caseFileItemDefinition xsi:type="cmmn:tCaseFileItemDefinition" id="_zw4hoOjXEeSWfZ_4xae2EQ" structureRef="ConstructionNetwork.vdcol:_AvIoK-jVEeSWfZ_4xae2EQ"/>
+  <cmmn:case xsi:type="cmmn:tCase" id="mebx.ConstructionProject" jbpmext:vdmlElement="VDML:CapabilityMethod ConstructionProject.vdcol#ConstructionProject" name="mebx.ConstructionProject">
+    <cmmn:caseFileModel xsi:type="cmmn:tCaseFile">
+      <cmmn:caseFileItem xsi:type="cmmn:tCaseFileItem" id="_E2FDAE71-B609-466D-A95A-AFDDAB0ACB55" definitionRef="#_zw4hoOjXEeSWfZ_4xae2EQ" multiplicity="ZeroOrOne" name="BrickWall"/>
+    </cmmn:caseFileModel>
+    <cmmn:casePlanModel xsi:type="cmmn:tStage" id="_7-OzAejWEeSWfZ_4xae2EQ" autoComplete="true">
+      <cmmn:planItem xsi:type="cmmn:tPlanItem" id="_B02220F2-5061-443A-9EEC-603814EF7AE9" definitionRef="#_zw4hoejXEeSWfZ_4xae2EQ" name="BuildWall">
+        <cmmn:itemControl xsi:type="cmmn:tPlanItemControl">
+          <cmmn:repetitionRule xsi:type="cmmn:tRepetitionRule">
+            <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"/>
+          </cmmn:repetitionRule>
+          <cmmn:requiredRule xsi:type="cmmn:tRequiredRule">
+            <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"/>
+          </cmmn:requiredRule>
+          <cmmn:manualActivationRule xsi:type="cmmn:tManualActivationRule">
+            <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"/>
+          </cmmn:manualActivationRule>
+        </cmmn:itemControl>
+      </cmmn:planItem>
+      <cmmn:planItem xsi:type="cmmn:tPlanItem" id="_A88F42F0-91DF-423E-B418-03E5F8127674" jbpmext:vdmlElement="VDML:Activity ConstructionProject.vdcol#_0B8F47C1-EA23-4B29-954F-0138C8FB638E" definitionRef="#_zw4houjXEeSWfZ_4xae2EQ" entryCriteriaRefs="#_D370C1C6-2568-4400-A7DC-1DE24841C1A7" name="PlasterWall">
+        <cmmn:itemControl xsi:type="cmmn:tPlanItemControl">
+          <cmmn:repetitionRule xsi:type="cmmn:tRepetitionRule">
+            <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"/>
+          </cmmn:repetitionRule>
+          <cmmn:requiredRule xsi:type="cmmn:tRequiredRule">
+            <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"/>
+          </cmmn:requiredRule>
+          <cmmn:manualActivationRule xsi:type="cmmn:tManualActivationRule">
+            <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"/>
+          </cmmn:manualActivationRule>
+        </cmmn:itemControl>
+      </cmmn:planItem>
+      <cmmn:sentry xsi:type="cmmn:tSentry" id="_D370C1C6-2568-4400-A7DC-1DE24841C1A7">
+        <cmmn:onPart xsi:type="cmmn:tCaseFileItemOnPart" id="_979F6EE6-586F-4B7F-AC74-6725ADA4D0D5" sourceRef="#_E2FDAE71-B609-466D-A95A-AFDDAB0ACB55">
+          <cmmn:standardEvent>create</cmmn:standardEvent>
+        </cmmn:onPart>
+        <cmmn:ifPart xsi:type="cmmn:tIfPart">
+          <cmmn:condition xsi:type="cmmn:tExpression" language="http://www.oracle.com/java"/>
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:planItemDefinition xsi:type="cmmn:tHumanTask" id="_zw4hoejXEeSWfZ_4xae2EQ" name="BuildWall" isBlocking="true"/>
+      <cmmn:planItemDefinition xsi:type="cmmn:tHumanTask" id="_zw4houjXEeSWfZ_4xae2EQ" name="PlasterWall" isBlocking="true">
+        <cmmn:inputs xsi:type="cmmn:tCaseParameter" id="_zw4ho-jXEeSWfZ_4xae2EQ" name="wall" bindingRef="#_E2FDAE71-B609-466D-A95A-AFDDAB0ACB55">
+          <cmmn:bindingRefinement xsi:type="cmmn:tExpression" language=""><cmmn:body></cmmn:body></cmmn:bindingRefinement>
+        </cmmn:inputs>
+      </cmmn:planItemDefinition>
+    </cmmn:casePlanModel>
+  </cmmn:case>
+</cmmn:definitions>

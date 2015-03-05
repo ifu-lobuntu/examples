@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DC="http://www.omg.org/spec/DD/20131001/DC" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umldi="http://www.omg.org/spec/UML/20131201/DI">
+  <uml:Package xmi:id="_44aqEeQfEeSGyZSuUDTXwg" name="agriculture.AgricultureLibrary">
+    <packagedElement xsi:type="uml:Class" xmi:id="_E460FF3F-1812-4DD2-8397-D98F358ED0F1" name="MyCapability">
+      <eAnnotations xsi:type="ecore:EAnnotation" xmi:id="_7Z5zw-Q9EeS4HskRqikVKw" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_7Z5zwuQ9EeS4HskRqikVKw"/>
+    </packagedElement>
+  </uml:Package>
+  <umldi:UMLDiagram xmi:id="_44cfQOQfEeSGyZSuUDTXwg" umlElement="_44aqEeQfEeSGyZSuUDTXwg">
+    <ownedUmlDiagramElement xsi:type="umldi:UMLShape" xmi:id="_gup38eQjEeS4HskRqikVKw" umlElement="_E460FF3F-1812-4DD2-8397-D98F358ED0F1">
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_7ZT94eQ9EeS4HskRqikVKw">
+        <fillColor xsi:type="DC:Color" xmi:id="_7ZT95eQ9EeS4HskRqikVKw" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_7ZT94-Q9EeS4HskRqikVKw" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_7ZT95OQ9EeS4HskRqikVKw" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" xmi:id="_7ZT94uQ9EeS4HskRqikVKw" x="255.0" y="120.0" width="120.0" height="45.0"/>
+    </ownedUmlDiagramElement>
+    <ownedUmlDiagramElement xsi:type="umldi:UMLShape" xmi:id="_DlbNHeQlEeS4HskRqikVKw">
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_7ZT95-Q9EeS4HskRqikVKw">
+        <fillColor xsi:type="DC:Color" xmi:id="_7Zj1geQ9EeS4HskRqikVKw" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_7ZT96eQ9EeS4HskRqikVKw" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_7Zj1gOQ9EeS4HskRqikVKw" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" xmi:id="_7ZT96OQ9EeS4HskRqikVKw" x="255.0" y="270.0" width="255.0" height="91.0"/>
+      <umlElement xsi:type="uml:Class" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#_728FC325-DFE2-4C66-9275-8267A00BBFB8Class"/>
+      <ownedCompartment xsi:type="umldi:UMLCompartment" xmi:id="_DlllJeQlEeS4HskRqikVKw" isExpanded="true" previousWidth="200.0" previousHeight="40.0" featureName="characteristicDefinition">
+        <localStyle xsi:type="umldi:UMLStyle" xmi:id="_7Zj1g-Q9EeS4HskRqikVKw">
+          <fillColor xsi:type="DC:Color" xmi:id="_7Zj1h-Q9EeS4HskRqikVKw" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_7Zj1heQ9EeS4HskRqikVKw" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_7Zj1huQ9EeS4HskRqikVKw" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" xmi:id="_7Zj1hOQ9EeS4HskRqikVKw" x="1.0" y="30.0" width="253.0" height="46.0"/>
+        <ownedShape xsi:type="umldi:UMLShape" xmi:id="_DlllLOQlEeS4HskRqikVKw">
+          <localStyle xsi:type="umldi:UMLStyle" xmi:id="_7Zj1ieQ9EeS4HskRqikVKw">
+            <fillColor xsi:type="DC:Color" xmi:id="_7Z5zweQ9EeS4HskRqikVKw" red="255" green="255" blue="255"/>
+            <strokeColor xsi:type="DC:Color" xmi:id="_7Zj1i-Q9EeS4HskRqikVKw" red="0" green="0" blue="0"/>
+            <fontColor xsi:type="DC:Color" xmi:id="_7Z5zwOQ9EeS4HskRqikVKw" red="0" green="0" blue="0"/>
+          </localStyle>
+          <bounds xsi:type="DC:Bounds" xmi:id="_7Zj1iuQ9EeS4HskRqikVKw" x="1.0" y="15.0" width="250.0" height="20.0"/>
+          <umlElement xsi:type="uml:Property" href="platform:/resource/agriculture/src/main/resources/FarmingBusiness.vdcol#_CF8E8B7C-E7EB-41DC-908A-8B4D6E53485Cprop"/>
+        </ownedShape>
+      </ownedCompartment>
+    </ownedUmlDiagramElement>
+  </umldi:UMLDiagram>
+  <VDML:ValueDeliveryModel xmi:id="_7ZTW0eQ9EeS4HskRqikVKw" id="_44aqEeQfEeSGyZSuUDTXwgvdm">
+    <capabilitylibrary xsi:type="VDML:CapabilityLibrary" xmi:id="_7ZTW0uQ9EeS4HskRqikVKw" name="agriculture.AgricultureLibrary" id="_44aqEeQfEeSGyZSuUDTXwgcl">
+      <capability xsi:type="VDML:CapabilityDefinition" xmi:id="_7Z5zwuQ9EeS4HskRqikVKw" name="MyCapability" id="_E460FF3F-1812-4DD2-8397-D98F358ED0F1bid"/>
+    </capabilitylibrary>
+    <businessItemLibrary xsi:type="VDML:BusinessItemLibrary" xmi:id="_7ZTW0-Q9EeS4HskRqikVKw" name="agriculture.AgricultureLibrary" id="_44aqEeQfEeSGyZSuUDTXwgbil"/>
+  </VDML:ValueDeliveryModel>
+</xmi:XMI>

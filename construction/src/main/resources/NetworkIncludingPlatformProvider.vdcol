@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML">
+  <VDML:ValueDeliveryModel name="NetworkIncludingPlatformProviderValueDeliveryModel">
+    <collaboration xsi:type="VDML:BusinessNetwork" name="NetworkIncludingPlatformProvider" id="NetworkIncludingPlatformProvider">
+      <party xsi:type="VDML:Party" name="InformalConstructionEnterprise" id="_BC2F885E-22B6-4409-BA78-2E9D1E9FD94B" receivedProposition="_42CFF161-7F8D-4EF0-9BBA-741E371404F7 _EA2CED6B-F8FA-4BF3-8087-BDC2455B67AA _5791AEC1-B305-4B73-BBE2-9EB88128637C"/>
+      <party xsi:type="VDML:Party" name="Customer" id="_5CF9B7F6-20F7-4A2B-B516-4723F9FB48AD" receivedProposition="_054BDE0D-FAB1-4EC2-B839-6E84DA1AED15 _054ADE27-210F-487F-A6DF-551153DA19D2">
+        <providedProposition xsi:type="VDML:ValueProposition" name="CustomerToPlatformProvider" id="_9E8AAD3A-249B-46A4-BAB1-BBEE25012FFD" recipient="_01187708-400F-4164-91A8-31C1C88C2AC3">
+          <component xsi:type="VDML:ValuePropositionComponent" name="Commission" id="_977CBAD8-8342-4DD1-8DCD-E0220F114025"/>
+        </providedProposition>
+      </party>
+      <party xsi:type="VDML:Party" name="PlatformProvider" id="_01187708-400F-4164-91A8-31C1C88C2AC3" receivedProposition="_9E8AAD3A-249B-46A4-BAB1-BBEE25012FFD _D4E7DE2A-8589-430D-B985-A43ADC31B163">
+        <providedProposition xsi:type="VDML:ValueProposition" name="PlatformProviderToCustomer" id="_054BDE0D-FAB1-4EC2-B839-6E84DA1AED15" recipient="_5CF9B7F6-20F7-4A2B-B516-4723F9FB48AD">
+          <component xsi:type="VDML:ValuePropositionComponent" name="WideSelectionOfConstructionWorkers" description="The Platform will allow customers to do a search by many different criteria to find the construction labour that they need specifically for their project. Some criteria may be hard and tangible, such as price, location, availability. Other criteria may be soft and intangible, such as reliability, skill level and responsible attitude towards coworkers and subcontractors." id="_BABD7902-8569-49F0-8F9F-184E1E27C2A1"/>
+          <component xsi:type="VDML:ValuePropositionComponent" name="AccurateSkillLevelAssessment" description="The platform will also ensure that skill levels reflect actual work done by the workers. Skill level will be provided by others that have already dealt with the worker, including fellow workers." id="_B06C9E3B-890F-4B57-BB23-43BFA68455AA"/>
+          <component xsi:type="VDML:ValuePropositionComponent" name="CostEfficiency" description="The platform attempts to eliminate a lot of the overheads that would typically require time from a contracting company and/or a project manager. It seems unlikely that the need for a project manager could be eliminated altogether, but at the very least it should vastly reduce the amount of work a project manager would need to do." id="_644E396B-7782-485A-85A0-05EA4D58352B"/>
+        </providedProposition>
+        <providedProposition xsi:type="VDML:ValueProposition" name="PlatformToBuildingMaterialProvider" id="_D9AC8E0C-F995-4248-B890-EB1EBAE9C9B3" recipient="_5954B50C-5A06-448F-83F6-5FA4CAF48816">
+          <component xsi:type="VDML:ValuePropositionComponent" name="RepeatBusiness" id="_274666E5-3FC0-45CD-833A-F4E3BD27FD9A"/>
+          <component xsi:type="VDML:ValuePropositionComponent" name="PositivePublicImage" id="_FD6FFD37-04E3-4AF2-8000-74446F9D1FE8"/>
+        </providedProposition>
+        <providedProposition xsi:type="VDML:ValueProposition" name="PlatformToInformalConstructionEnterprise" id="_42CFF161-7F8D-4EF0-9BBA-741E371404F7" recipient="_BC2F885E-22B6-4409-BA78-2E9D1E9FD94B">
+          <component xsi:type="VDML:ValuePropositionComponent" name="AccessToMarkets" id="_06FE1553-21F8-4FBC-A74F-6B84BAD2DE3F"/>
+          <component xsi:type="VDML:ValuePropositionComponent" name="AccessToCredit" id="_2FEB60B8-DE86-4976-8C1C-B085D7D76E40"/>
+          <component xsi:type="VDML:ValuePropositionComponent" name="AccurateMarketTrends" id="_437D9292-A5D9-4D04-9BA0-4E98C6382AC2"/>
+        </providedProposition>
+        <providedProposition xsi:type="VDML:ValueProposition" name="PlatformToCreditProvider" id="_4EA71453-2E02-43B6-9FA4-CA1F12A7C840" recipient="_5BA87C96-F34C-4D43-BB21-04A578C06C08">
+          <component xsi:type="VDML:ValuePropositionComponent" name="RiskProfileAccuracy" description="The platform will provide an accurate, multidimensional perspective on each participant in the network. This will be incredibly useful to potential credit providers as they require new and innovative ways to reduce the lending risk." id="_F49A6944-F547-4175-AA5D-2A8CF28636C7"/>
+          <component xsi:type="VDML:ValuePropositionComponent" name="AccessToInformalSector" description="Currently, most financial institutions require a level of accounting formality from credit applicants which informal applicants find impossible to achieve. The platform will provide lenders with a full transaction history of the participants on the platform, along with metadata about those transaction that indicate how others perceived the participants work. This will give credit providers with a lot of information that could help reduce the lending risk in the informal sector, which in turn would allow lenders to penetrate previously impenitrable market segments." id="_2F31C601-FB1A-47CA-8079-E193AA0FBBC6"/>
+          <component xsi:type="VDML:ValuePropositionComponent" name="PositivePublicImage" id="_A8517426-BDC5-4014-8F7F-73415D613D19"/>
+        </providedProposition>
+      </party>
+      <party xsi:type="VDML:Party" name="BuildingMaterialProvider" id="_5954B50C-5A06-448F-83F6-5FA4CAF48816" receivedProposition="_D9AC8E0C-F995-4248-B890-EB1EBAE9C9B3">
+        <providedProposition xsi:type="VDML:ValueProposition" name="BuildingMaterialProviderToCustomer" id="_054ADE27-210F-487F-A6DF-551153DA19D2" recipient="_5CF9B7F6-20F7-4A2B-B516-4723F9FB48AD">
+          <component xsi:type="VDML:ValuePropositionComponent" name="CompetitivePrices" id="_F380A05A-2353-43F5-A8E1-D9B0174F0EDB"/>
+          <component xsi:type="VDML:ValuePropositionComponent" name="QualityOfMaterial" id="_3FA370FE-B693-4BAB-80B8-4C034D757793"/>
+          <component xsi:type="VDML:ValuePropositionComponent" name="UsefulAdvice" id="_2D58781D-EFE7-4B2F-BC05-34978329AA97"/>
+        </providedProposition>
+        <providedProposition xsi:type="VDML:ValueProposition" name="BuildingMaterialProviderToInformalBuilder" id="_EA2CED6B-F8FA-4BF3-8087-BDC2455B67AA" recipient="_BC2F885E-22B6-4409-BA78-2E9D1E9FD94B">
+          <component xsi:type="VDML:ValuePropositionComponent" name="SponsoredPlatform" id="_B97E7CDC-E5CD-4CCE-97B5-3EF24900AEE4"/>
+        </providedProposition>
+        <providedProposition xsi:type="VDML:ValueProposition" name="BuildingMaterialProvider" id="_D4E7DE2A-8589-430D-B985-A43ADC31B163" recipient="_01187708-400F-4164-91A8-31C1C88C2AC3">
+          <component xsi:type="VDML:ValuePropositionComponent" name="PlatformSponsorship" id="_BA9F64E3-D4A1-4876-A5E6-653ACB9CCCD8"/>
+        </providedProposition>
+      </party>
+      <party xsi:type="VDML:Party" name="CreditOrFinanceProvider" id="_5BA87C96-F34C-4D43-BB21-04A578C06C08" receivedProposition="_4EA71453-2E02-43B6-9FA4-CA1F12A7C840">
+        <providedProposition xsi:type="VDML:ValueProposition" name="CreditProviderToInformalBuilder" id="_5791AEC1-B305-4B73-BBE2-9EB88128637C" recipient="_BC2F885E-22B6-4409-BA78-2E9D1E9FD94B">
+          <component xsi:type="VDML:ValuePropositionComponent" name="Credit" id="_DF55D0C2-C2D6-46B6-8A92-A8DFB484F7BC"/>
+        </providedProposition>
+      </party>
+    </collaboration>
+  </VDML:ValueDeliveryModel>
+  <uml:Package xmi:id="_NhI94eo8EeSmEovWXJk3gw" name="networkincludingplatformprovider"/>
+</xmi:XMI>

@@ -1,0 +1,23 @@
+
+<form id="1416965369">
+<property name="name" value="PerformService_ServiceDeliverable.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="1" name="Quantity" type="InputTextDouble" id="991721992">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Quantityquot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="serviceDeliverableIn/Quantity"/>
+<property name="outputBinding" value="serviceDeliverableOut/Quantity"/>
+<property name="fieldClass" value="java.lang.Double"/>
+</field>
+<field position="0" name="ValueAdd1" type="InputTextDouble" id="1841842214">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ValueAdd1quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="serviceDeliverableIn/ValueAdd1"/>
+<property name="outputBinding" value="serviceDeliverableOut/ValueAdd1"/>
+<property name="fieldClass" value="java.lang.Double"/>
+</field>
+<dataHolder inputId="serviceDeliverableIn" name="#6699FF" type="vdmlPortEntry" outId="serviceDeliverableOut" value="platform:/resource/mebx/src/main/resources/ProvideService.vdcol#_CF0A3926-1436-4DA7-A25B-1F76E7B8162B" id="serviceDeliverable"/>
+</form>

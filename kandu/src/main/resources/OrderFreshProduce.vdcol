@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VDML:ValueDeliveryModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SMM="http://www.omg.org/spec/SMM/20150201/SMM.cmof" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" name="kandu.OrderFreshProduceValueDelivyModel">
+  <collaboration xsi:type="VDML:CapabilityMethod" name="kandu.OrderFreshProduce" id="kandu.OrderFreshProduce">
+    <activity xsi:type="VDML:Activity" name="PlaceOrder" id="_33241307-6F3B-4499-9CCE-2D450885F381" performingRole="_F4BEE172-1858-48C1-B218-CEE6492B84C9">
+      <containedPort xsi:type="VDML:OutputPort" name="Order" id="_3624BC83-DB37-40CC-AEB2-139D7A0297E8" output="_10A307C9-15F6-4D75-B0D5-432BD5808F8F">
+        <batchSize xsi:type="VDML:MeasuredCharacteristic">
+          <characteristicDefinition xsi:type="SMM:Characteristic" href="platform:/resource/scrum/src/main/resources/scrum/MeasLib.meas#_RJto8d95EeSuE5GbYXez2g"/>
+        </batchSize>
+        <valueAdd xsi:type="VDML:ValueAdd" name="EarlyPlacement" id="_5564E980-2F72-4055-BDBE-8888886328F7" aggregatedTo="_EF82D09E-3264-4787-A1EA-D16CF0449295">
+          <valueMeasurement xsi:type="VDML:MeasuredCharacteristic">
+            <characteristicDefinition xsi:type="SMM:Characteristic" href="platform:/resource/scrum/src/main/resources/scrum/MeasLib.meas#_RJto8d95EeSuE5GbYXez2g"/>
+          </valueMeasurement>
+        </valueAdd>
+        <valueAdd xsi:type="VDML:ValueAdd" name="RealisticQuantity" id="_A4744ECE-5704-4EA2-B496-4FC145292356" aggregatedTo="_B23694F1-1D78-4B21-8553-805C6AC0E2AB">
+          <valueMeasurement xsi:type="VDML:MeasuredCharacteristic">
+            <characteristicDefinition xsi:type="SMM:Characteristic" href="platform:/resource/scrum/src/main/resources/scrum/MeasLib.meas#_RJto8d95EeSuE5GbYXez2g"/>
+          </valueMeasurement>
+        </valueAdd>
+      </containedPort>
+    </activity>
+    <activity xsi:type="VDML:Activity" name="AssesOrder" id="_C185191F-6486-4033-8EDC-D2D36DC181F3" performingRole="_8E7C7038-7160-4B1C-8C5D-23A0BAC8E517">
+      <containedPort xsi:type="VDML:InputPort" name="Order" id="_40F27B02-EFF8-4BC7-AA20-5DD9708B93E6" input="_10A307C9-15F6-4D75-B0D5-432BD5808F8F">
+        <batchSize xsi:type="VDML:MeasuredCharacteristic">
+          <characteristicDefinition xsi:type="SMM:Characteristic" href="platform:/resource/kandu/src/main/resources/KanduMeasures.meas#_Eguoo-G9EeSfCLe7fJNumQ"/>
+        </batchSize>
+      </containedPort>
+    </activity>
+    <activity xsi:type="VDML:Activity" name="CollectAtDistributionPoint" id="_85018DA7-7B55-4594-93A7-0A2C7BD2365E" performingRole="_F4BEE172-1858-48C1-B218-CEE6492B84C9"/>
+    <activity xsi:type="VDML:Activity" name="Pay" id="_E7510153-F859-418A-9941-FBF7BA62A3DC" performingRole="_F4BEE172-1858-48C1-B218-CEE6492B84C9"/>
+    <activity xsi:type="VDML:Activity" name="Harvest" id="_0D2970A7-3AAB-4DA1-BFD1-E22D26A99788" performingRole="_8E7C7038-7160-4B1C-8C5D-23A0BAC8E517"/>
+    <activity xsi:type="VDML:Activity" name="DropOffAtHub" id="_4DC58CD8-81D8-464D-A46B-E854D4A597B9" performingRole="_8E7C7038-7160-4B1C-8C5D-23A0BAC8E517"/>
+    <activity xsi:type="VDML:Activity" name="ConfirmGrading" id="_5336EC1F-9A48-4569-AAD6-75265612D72E" performingRole="_EE65F56E-680B-45B5-999A-72DF7BEA0EE1"/>
+    <activity xsi:type="VDML:Activity" name="TransportFreshProduce" id="_B75936EF-AA16-49C6-9AE2-AB4A5E0A9379" performingRole="_48689569-5CEF-4D46-BBA2-5BCAA19E87A2"/>
+    <flow xsi:type="VDML:DeliverableFlow" name="Order" id="_10A307C9-15F6-4D75-B0D5-432BD5808F8F" recipient="_40F27B02-EFF8-4BC7-AA20-5DD9708B93E6" deliverable="//@collaboration.0/@businessItem.0" provider="_3624BC83-DB37-40CC-AEB2-139D7A0297E8"/>
+    <businessItem xsi:type="VDML:BusinessItem" flow="_10A307C9-15F6-4D75-B0D5-432BD5808F8F">
+      <definition xsi:type="VDML:BusinessItemDefinition" href="platform:/resource/kandu/src/main/resources/KanduValueLibrary.vdlib#_nrd0IOElEeSscbl9KLghFQ"/>
+    </businessItem>
+    <performer xsi:type="VDML:Performer" name="Consumer" id="_F4BEE172-1858-48C1-B218-CEE6492B84C9" performedWork="_33241307-6F3B-4499-9CCE-2D450885F381 _85018DA7-7B55-4594-93A7-0A2C7BD2365E _E7510153-F859-418A-9941-FBF7BA62A3DC">
+      <providedProposition xsi:type="VDML:ValueProposition" name="EarlyOrderPlacement" id="_5EE89A34-F392-4D26-8700-C27A6A9F486A" recipient="_8E7C7038-7160-4B1C-8C5D-23A0BAC8E517">
+        <component xsi:type="VDML:ValuePropositionComponent" name="EarlyOrderPlacement" id="_EF82D09E-3264-4787-A1EA-D16CF0449295" aggregatedFrom="_5564E980-2F72-4055-BDBE-8888886328F7">
+          <valueMeasurement xsi:type="VDML:MeasuredCharacteristic">
+            <characteristicDefinition xsi:type="SMM:Characteristic" href="platform:/resource/scrum/src/main/resources/scrum/MeasLib.meas#_RJto8d95EeSuE5GbYXez2g"/>
+          </valueMeasurement>
+        </component>
+        <component xsi:type="VDML:ValuePropositionComponent" name="RealisticOrderSize" id="_B23694F1-1D78-4B21-8553-805C6AC0E2AB" aggregatedFrom="_A4744ECE-5704-4EA2-B496-4FC145292356">
+          <valueMeasurement xsi:type="VDML:MeasuredCharacteristic">
+            <characteristicDefinition xsi:type="SMM:Characteristic" href="platform:/resource/scrum/src/main/resources/scrum/MeasLib.meas#_RJto8d95EeSuE5GbYXez2g"/>
+          </valueMeasurement>
+        </component>
+      </providedProposition>
+    </performer>
+    <performer xsi:type="VDML:Performer" name="Farmer" id="_8E7C7038-7160-4B1C-8C5D-23A0BAC8E517" performedWork="_C185191F-6486-4033-8EDC-D2D36DC181F3 _0D2970A7-3AAB-4DA1-BFD1-E22D26A99788 _4DC58CD8-81D8-464D-A46B-E854D4A597B9" receivedProposition="_5EE89A34-F392-4D26-8700-C27A6A9F486A"/>
+    <performer xsi:type="VDML:Performer" name="Hub" id="_EE65F56E-680B-45B5-999A-72DF7BEA0EE1" performedWork="_5336EC1F-9A48-4569-AAD6-75265612D72E"/>
+    <performer xsi:type="VDML:Performer" name="TransportProvider" id="_48689569-5CEF-4D46-BBA2-5BCAA19E87A2" performedWork="_B75936EF-AA16-49C6-9AE2-AB4A5E0A9379"/>
+  </collaboration>
+</VDML:ValueDeliveryModel>

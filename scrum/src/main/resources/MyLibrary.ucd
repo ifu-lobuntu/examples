@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DC="http://www.omg.org/spec/DD/20131001/DC" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umldi="http://www.omg.org/spec/UML/20131201/DI">
+  <uml:Package xmi:id="_sF0U4MfREeS2O8tHKrNzJQ" name="mylibrary">
+    <packagedElement xsi:type="uml:Class" xmi:id="_6101BD66-69F9-49E6-B067-2E81760F83CC" name="LibraryClass"/>
+    <packagedElement xsi:type="uml:Interface" xmi:id="_F02298AE-C210-40D9-852E-84522B337E6C" name="Role"/>
+    <packagedElement xsi:type="uml:Interface" xmi:id="_26D75BD6-DA83-4E0F-AF1A-13C738B5691C" name="Organization"/>
+  </uml:Package>
+  <umldi:UMLDiagram xmi:id="_sF0U4cfREeS2O8tHKrNzJQ" umlElement="_sF0U4MfREeS2O8tHKrNzJQ">
+    <ownedUmlDiagramElement xsi:type="umldi:UMLShape" xmi:id="_ukfWxMfREeS2O8tHKrNzJQ" umlElement="_6101BD66-69F9-49E6-B067-2E81760F83CC">
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_szkz8cpcEeSbtKwgWcq5tg">
+        <fillColor xsi:type="DC:Color" xmi:id="_szkz9cpcEeSbtKwgWcq5tg" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_szkz88pcEeSbtKwgWcq5tg" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_szkz9MpcEeSbtKwgWcq5tg" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" xmi:id="_szkz8spcEeSbtKwgWcq5tg" x="330.0" y="180.0" width="120.0" height="45.0"/>
+    </ownedUmlDiagramElement>
+    <ownedUmlDiagramElement xsi:type="umldi:UMLShape" xmi:id="_szn3Q8pcEeSbtKwgWcq5tg" umlElement="_F02298AE-C210-40D9-852E-84522B337E6C">
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_szn3QcpcEeSbtKwgWcq5tg">
+        <fillColor xsi:type="DC:Color" xmi:id="_szn3RspcEeSbtKwgWcq5tg" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_szn3RMpcEeSbtKwgWcq5tg" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_szn3RcpcEeSbtKwgWcq5tg" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" xmi:id="_szn3QspcEeSbtKwgWcq5tg" x="585.0" y="135.0" width="120.0" height="45.0"/>
+    </ownedUmlDiagramElement>
+    <ownedUmlDiagramElement xsi:type="umldi:UMLShape" xmi:id="_szn3SspcEeSbtKwgWcq5tg" umlElement="_26D75BD6-DA83-4E0F-AF1A-13C738B5691C">
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_szn3SMpcEeSbtKwgWcq5tg">
+        <fillColor xsi:type="DC:Color" xmi:id="_szn3TcpcEeSbtKwgWcq5tg" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_szn3S8pcEeSbtKwgWcq5tg" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_szn3TMpcEeSbtKwgWcq5tg" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" xmi:id="_szn3ScpcEeSbtKwgWcq5tg" x="135.0" y="120.0" width="120.0" height="45.0"/>
+    </ownedUmlDiagramElement>
+  </umldi:UMLDiagram>
+</xmi:XMI>

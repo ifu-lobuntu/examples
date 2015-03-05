@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<umldi:UMLDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DC="http://www.omg.org/spec/DD/20131001/DC" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umldi="http://www.omg.org/spec/UML/20131201/DI" xmi:id="_24HYUOjXEeSWfZ_4xae2EQ">
+  <umlElement xsi:type="uml:Package" href="platform:/resource/mebx/src/main/resources/ConstructionNetwork.vdcol#_wHcdIOjUEeSWfZ_4xae2EQ"/>
+  <ownedUmlDiagramElement xsi:type="umldi:UMLShape" xmi:id="_3sKEYOjXEeSWfZ_4xae2EQ">
+    <localStyle xsi:type="umldi:UMLStyle" xmi:id="_dqJzoemeEeSV9rF8V4ExFA">
+      <fillColor xsi:type="DC:Color" xmi:id="_dqJzpemeEeSV9rF8V4ExFA" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" xmi:id="_dqJzo-meEeSV9rF8V4ExFA" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" xmi:id="_dqJzpOmeEeSV9rF8V4ExFA" red="0" green="0" blue="0"/>
+    </localStyle>
+    <bounds xsi:type="DC:Bounds" xmi:id="_dqJzoumeEeSV9rF8V4ExFA" x="645.0" y="280.5" width="200.0" height="137.0"/>
+    <umlElement xsi:type="uml:Class" href="platform:/resource/mebx/src/main/resources/ConstructionNetwork.vdcol#_AvIoK-jVEeSWfZ_4xae2EQ"/>
+    <ownedCompartment xsi:type="umldi:UMLCompartment" xmi:id="_3sKEY-jXEeSWfZ_4xae2EQ" isExpanded="true" previousWidth="198.0" previousHeight="30.0" featureName="ownedAttribute">
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_dqJzp-meEeSV9rF8V4ExFA">
+        <fillColor xsi:type="DC:Color" xmi:id="_dqJzq-meEeSV9rF8V4ExFA" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_dqJzqemeEeSV9rF8V4ExFA" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_dqJzqumeEeSV9rF8V4ExFA" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" xmi:id="_dqJzqOmeEeSV9rF8V4ExFA" x="1.0" y="30.0" width="198.0" height="25.0"/>
+    </ownedCompartment>
+    <ownedCompartment xsi:type="umldi:UMLCompartment" xmi:id="_3sKEZejXEeSWfZ_4xae2EQ" isExpanded="true" previousWidth="198.0" previousHeight="30.0" featureName="characteristicDefinition">
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_dqJzremeEeSV9rF8V4ExFA">
+        <fillColor xsi:type="DC:Color" xmi:id="_dqJzsemeEeSV9rF8V4ExFA" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_dqJzr-meEeSV9rF8V4ExFA" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_dqJzsOmeEeSV9rF8V4ExFA" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" xmi:id="_dqJzrumeEeSV9rF8V4ExFA" x="1.0" y="55.0" width="198.0" height="67.0"/>
+      <ownedShape xsi:type="umldi:UMLShape" xmi:id="_DXjUg-jYEeSWfZ_4xae2EQ">
+        <localStyle xsi:type="umldi:UMLStyle" xmi:id="_dqKasemeEeSV9rF8V4ExFA">
+          <fillColor xsi:type="DC:Color" xmi:id="_dqdVoemeEeSV9rF8V4ExFA" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_dqKas-meEeSV9rF8V4ExFA" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_dqdVoOmeEeSV9rF8V4ExFA" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" xmi:id="_dqKasumeEeSV9rF8V4ExFA" x="1.0" y="15.0" width="195.0" height="20.0"/>
+        <umlElement xsi:type="uml:Property" href="platform:/resource/mebx/src/main/resources/ConstructionNetwork.vdcol#_DpziIOjYEeSWfZ_4xae2EQ"/>
+      </ownedShape>
+      <ownedShape xsi:type="umldi:UMLShape" xmi:id="_DXjUiujYEeSWfZ_4xae2EQ">
+        <localStyle xsi:type="umldi:UMLStyle" xmi:id="_dqdVo-meEeSV9rF8V4ExFA">
+          <fillColor xsi:type="DC:Color" xmi:id="_dqdVp-meEeSV9rF8V4ExFA" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_dqdVpemeEeSV9rF8V4ExFA" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_dqdVpumeEeSV9rF8V4ExFA" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" xmi:id="_dqdVpOmeEeSV9rF8V4ExFA" x="1.0" y="36.0" width="195.0" height="20.0"/>
+        <umlElement xsi:type="uml:Property" href="platform:/resource/mebx/src/main/resources/ConstructionNetwork.vdcol#_DpziIejYEeSWfZ_4xae2EQ"/>
+      </ownedShape>
+    </ownedCompartment>
+  </ownedUmlDiagramElement>
+  <ownedUmlDiagramElement xsi:type="umldi:UMLShape" xmi:id="_3sKEZ-jXEeSWfZ_4xae2EQ">
+    <localStyle xsi:type="umldi:UMLStyle" xmi:id="_dqdVqemeEeSV9rF8V4ExFA">
+      <fillColor xsi:type="DC:Color" xmi:id="_dqdVremeEeSV9rF8V4ExFA" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" xmi:id="_dqdVq-meEeSV9rF8V4ExFA" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" xmi:id="_dqdVrOmeEeSV9rF8V4ExFA" red="0" green="0" blue="0"/>
+    </localStyle>
+    <bounds xsi:type="DC:Bounds" xmi:id="_dqdVqumeEeSV9rF8V4ExFA" x="157.5" y="285.0" width="209.0" height="95.0"/>
+    <umlElement xsi:type="uml:Class" href="platform:/resource/mebx/src/main/resources/ConstructionNetwork.vdcol#_AvIoLOjVEeSWfZ_4xae2EQ"/>
+    <ownedCompartment xsi:type="umldi:UMLCompartment" xmi:id="_3sKEaujXEeSWfZ_4xae2EQ" isExpanded="true" featureName="ownedAttribute">
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_dqd8semeEeSV9rF8V4ExFA">
+        <fillColor xsi:type="DC:Color" xmi:id="_dqd8temeEeSV9rF8V4ExFA" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_dqd8s-meEeSV9rF8V4ExFA" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_dqd8tOmeEeSV9rF8V4ExFA" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" xmi:id="_dqd8sumeEeSV9rF8V4ExFA" x="1.0" y="30.0" width="207.0" height="25.0"/>
+    </ownedCompartment>
+    <ownedCompartment xsi:type="umldi:UMLCompartment" xmi:id="_3sKEbOjXEeSWfZ_4xae2EQ" isExpanded="true" featureName="characteristicDefinition">
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_dqd8t-meEeSV9rF8V4ExFA">
+        <fillColor xsi:type="DC:Color" xmi:id="_dqd8u-meEeSV9rF8V4ExFA" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_dqd8uemeEeSV9rF8V4ExFA" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_dqd8uumeEeSV9rF8V4ExFA" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" xmi:id="_dqd8uOmeEeSV9rF8V4ExFA" x="1.0" y="55.0" width="207.0" height="25.0"/>
+    </ownedCompartment>
+  </ownedUmlDiagramElement>
+  <ownedUmlDiagramElement xsi:type="umldi:UMLShape" xmi:id="_DXj7mujYEeSWfZ_4xae2EQ">
+    <localStyle xsi:type="umldi:UMLStyle" xmi:id="_dqd8vemeEeSV9rF8V4ExFA">
+      <fillColor xsi:type="DC:Color" xmi:id="_dqd8wemeEeSV9rF8V4ExFA" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" xmi:id="_dqd8v-meEeSV9rF8V4ExFA" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" xmi:id="_dqd8wOmeEeSV9rF8V4ExFA" red="0" green="0" blue="0"/>
+    </localStyle>
+    <bounds xsi:type="DC:Bounds" xmi:id="_dqd8vumeEeSV9rF8V4ExFA" x="165.0" y="30.0" width="194.0" height="95.0"/>
+    <umlElement xsi:type="uml:Class" href="platform:/resource/mebx/src/main/resources/ConstructionNetwork.vdcol#_DpziJ-jYEeSWfZ_4xae2EQ"/>
+    <ownedCompartment xsi:type="umldi:UMLCompartment" xmi:id="_cvvMEOmZEeSV9rF8V4ExFA" isExpanded="true" featureName="ownedAttribute">
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_dqd8w-meEeSV9rF8V4ExFA">
+        <fillColor xsi:type="DC:Color" xmi:id="_dqd8x-meEeSV9rF8V4ExFA" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_dqd8xemeEeSV9rF8V4ExFA" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_dqd8xumeEeSV9rF8V4ExFA" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" xmi:id="_dqd8xOmeEeSV9rF8V4ExFA" x="1.0" y="30.0" width="192.0" height="25.0"/>
+    </ownedCompartment>
+    <ownedCompartment xsi:type="umldi:UMLCompartment" xmi:id="_cvvMEumZEeSV9rF8V4ExFA" isExpanded="true" featureName="characteristicDefinition">
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_dqd8yemeEeSV9rF8V4ExFA">
+        <fillColor xsi:type="DC:Color" xmi:id="_dqd8zemeEeSV9rF8V4ExFA" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_dqd8y-meEeSV9rF8V4ExFA" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_dqd8zOmeEeSV9rF8V4ExFA" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" xmi:id="_dqd8yumeEeSV9rF8V4ExFA" x="1.0" y="55.0" width="192.0" height="25.0"/>
+    </ownedCompartment>
+  </ownedUmlDiagramElement>
+  <ownedUmlDiagramElement xsi:type="umldi:UMLEdge" xmi:id="_DXnl8ujYEeSWfZ_4xae2EQ" sourceShape="_DXj7mujYEeSWfZ_4xae2EQ" targetShape="_3sKEZ-jXEeSWfZ_4xae2EQ">
+    <localStyle xsi:type="umldi:UMLStyle" xmi:id="_dqejwemeEeSV9rF8V4ExFA">
+      <fillColor xsi:type="DC:Color" xmi:id="_dqejxOmeEeSV9rF8V4ExFA" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" xmi:id="_dqejwumeEeSV9rF8V4ExFA" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" xmi:id="_dqejw-meEeSV9rF8V4ExFA" red="0" green="0" blue="0"/>
+    </localStyle>
+    <waypoint xsi:type="DC:Point" xmi:id="_dqfK0OmeEeSV9rF8V4ExFA" x="262.0" y="77.5"/>
+    <waypoint xsi:type="DC:Point" xmi:id="_dqfK0emeEeSV9rF8V4ExFA" x="262.0" y="332.5"/>
+    <umlElement xsi:type="uml:Association" href="platform:/resource/mebx/src/main/resources/ConstructionNetwork.vdcol#_DpziK-jYEeSWfZ_4xae2EQ"/>
+  </ownedUmlDiagramElement>
+  <ownedUmlDiagramElement xsi:type="umldi:UMLEdge" xmi:id="_DXoNBOjYEeSWfZ_4xae2EQ" sourceShape="_3sKEZ-jXEeSWfZ_4xae2EQ" targetShape="_3sKEYOjXEeSWfZ_4xae2EQ">
+    <localStyle xsi:type="umldi:UMLStyle" xmi:id="_dqejxumeEeSV9rF8V4ExFA">
+      <fillColor xsi:type="DC:Color" xmi:id="_dqejyemeEeSV9rF8V4ExFA" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" xmi:id="_dqejx-meEeSV9rF8V4ExFA" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" xmi:id="_dqejyOmeEeSV9rF8V4ExFA" red="0" green="0" blue="0"/>
+    </localStyle>
+    <waypoint xsi:type="DC:Point" xmi:id="_dqfK0umeEeSV9rF8V4ExFA" x="262.0" y="332.5"/>
+    <waypoint xsi:type="DC:Point" xmi:id="_dqfK0-meEeSV9rF8V4ExFA" x="475.0" y="334.43243210328666"/>
+    <waypoint xsi:type="DC:Point" xmi:id="_dqfK1OmeEeSV9rF8V4ExFA" x="475.0" y="349.0"/>
+    <waypoint xsi:type="DC:Point" xmi:id="_dqfK1emeEeSV9rF8V4ExFA" x="745.0" y="349.0"/>
+    <umlElement xsi:type="uml:Association" href="platform:/resource/mebx/src/main/resources/ConstructionNetwork.vdcol#_DpziLOjYEeSWfZ_4xae2EQ"/>
+  </ownedUmlDiagramElement>
+</umldi:UMLDiagram>

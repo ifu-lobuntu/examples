@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VDML:ValueDeliveryModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DC="http://www.omg.org/spec/DD/20131001/DC" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" xmlns:vdmldi="http://www.omg.org/spec/VDML/20131201/DI">
+  <diagram xsi:type="vdmldi:VDMLDiagram" id="_kAJq4OEjEeSscbl9KLghFQ">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <vdmlElement xsi:type="VDML:BusinessNetwork" href="platform:/resource/kandu/src/main/resources/FoodNetwork.vdcol#kandu.FoodNetwork"/>
+    <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_fYMy4OEkEeSscbl9KLghFQ">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="90.0" y="22.0" width="200.0" height="100.0"/>
+      <vdmlElement xsi:type="VDML:Party" href="platform:/resource/kandu/src/main/resources/FoodNetwork.vdcol#_7C51C722-9E33-4AA1-ADE5-CA70DEC8089A"/>
+    </ownedVdmlDiagramElement>
+    <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_fYNZ8OEkEeSscbl9KLghFQ">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="540.0" y="135.0" width="200.0" height="100.0"/>
+      <vdmlElement xsi:type="VDML:Party" href="platform:/resource/kandu/src/main/resources/FoodNetwork.vdcol#_A5B7D237-9770-46AF-8898-79B5B06477F6"/>
+    </ownedVdmlDiagramElement>
+    <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_fYNZ8eEkEeSscbl9KLghFQ">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="90.0" y="285.0" width="200.0" height="100.0"/>
+      <vdmlElement xsi:type="VDML:Party" href="platform:/resource/kandu/src/main/resources/FoodNetwork.vdcol#_B817526C-18F4-4FDF-A4E3-BFBD81E9085B"/>
+    </ownedVdmlDiagramElement>
+    <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_fYOBAOEkEeSscbl9KLghFQ">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="810.0" y="135.0" width="200.0" height="100.0"/>
+      <vdmlElement xsi:type="VDML:Party" href="platform:/resource/kandu/src/main/resources/FoodNetwork.vdcol#_26B3BF1E-FA1A-44F5-80B4-48111B49E0F7"/>
+    </ownedVdmlDiagramElement>
+    <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLEdge" id="_fYRrYOEkEeSscbl9KLghFQ" sourceShape="_fYMy4OEkEeSscbl9KLghFQ" targetShape="_fYNZ8OEkEeSscbl9KLghFQ">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <waypoint xsi:type="DC:Point" x="190.0" y="72.0"/>
+      <waypoint xsi:type="DC:Point" x="407.5" y="72.0"/>
+      <waypoint xsi:type="DC:Point" x="407.5" y="185.0"/>
+      <waypoint xsi:type="DC:Point" x="640.0" y="185.0"/>
+      <vdmlElement xsi:type="VDML:DeliverableFlow" href="platform:/resource/kandu/src/main/resources/FoodNetwork.vdcol#_F7E16494-B047-4CF7-9471-663754B76745"/>
+    </ownedVdmlDiagramElement>
+    <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLEdge" id="_UbwrwOEqEeSscbl9KLghFQ" sourceShape="_fYMy4OEkEeSscbl9KLghFQ" targetShape="_fYNZ8OEkEeSscbl9KLghFQ">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <waypoint xsi:type="DC:Point" x="190.0" y="72.0"/>
+      <waypoint xsi:type="DC:Point" x="365.0" y="156.0"/>
+      <waypoint xsi:type="DC:Point" x="640.0" y="185.0"/>
+      <vdmlElement xsi:type="VDML:DeliverableFlow" href="platform:/resource/kandu/src/main/resources/FoodNetwork.vdcol#_54019D38-4A83-4241-B660-AEC23EFCACFB"/>
+    </ownedVdmlDiagramElement>
+    <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_2q8H0eJcEeSdmf5O0pF1Xg">
+      <localStyle xsi:type="vdmldi:VDMLStyle">
+        <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" x="465.0" y="405.0" width="200.0" height="100.0"/>
+      <vdmlElement xsi:type="VDML:Party" href="platform:/resource/kandu/src/main/resources/FoodNetwork.vdcol#_FDD100C9-4979-498A-BA84-948450EBC37F"/>
+    </ownedVdmlDiagramElement>
+  </diagram>
+</VDML:ValueDeliveryModel>
